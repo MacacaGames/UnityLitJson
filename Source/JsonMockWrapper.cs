@@ -10,7 +10,7 @@ using System.Collections;
 using System.Collections.Specialized;
 
 namespace LitJson {
-
+ 
 /// <summary>
 /// Mock object implementing IJsonWrapper, to facilitate actions like skipping data more efficiently.
 /// </summary>

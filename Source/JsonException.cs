@@ -7,26 +7,28 @@
 
 using System;
 
-namespace LitJson {
+namespace LitJson
+{
 
-	/// <summary>
-	/// Base class throwed by LitJSON when a parsing error occurs.
-	/// </summary>
-	public class JsonException : Exception {
+    /// <summary>
+    /// Base class throwed by LitJSON when a parsing error occurs.
+    /// </summary>
+    public class JsonException : Exception
+    {
 
-		public JsonException() : base() {}
+        public JsonException() : base() { }
 
-		internal JsonException(ParserToken token) : base(string.Format("Invalid token '{0}' in input string", token)){ }
+        internal JsonException(ParserToken token) : base(string.Format("Invalid token '{0}' in input string", token)) { }
 
-		internal JsonException(ParserToken token, Exception inner) : base(string.Format("Invalid token '{0}' in input string", token), inner){ }
+        internal JsonException(ParserToken token, Exception inner) : base(string.Format("Invalid token '{0}' in input string", token), inner) { }
 
-		internal JsonException(int c) : base(string.Format("Invalid character '{0}' in input string", (char)c)){ }
-		
-		internal JsonException(int c, Exception inner) : base(string.Format("Invalid character '{0}' in input string", (char)c), inner){ }
-		
-		public JsonException(string message) : base(message){ }
+        internal JsonException(int c) : base(string.Format("Invalid character '{0}' in input string", (char)c)) { }
 
-		public JsonException(string message, Exception inner) : base(message, inner){ }
-	}
+        internal JsonException(int c, Exception inner) : base(string.Format("Invalid character '{0}' in input string", (char)c), inner) { }
+
+        public JsonException(string message) : base(message) { }
+
+        public JsonException(string message, Exception inner) : base(message, inner) { }
+    }
 
 }

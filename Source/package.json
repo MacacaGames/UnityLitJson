@@ -1,0 +1,14 @@
+{
+    "name": "com.macacagames.unitylitjson",
+    "version": "1.0.0",
+    "displayName": "UnityLitJson",
+    "description": "Macaca Modified UnityLitJson, forked from Mervill/UnityLitJson",
+    "unity": "2019.4",
+    "dependencies": {},
+    "keywords": [],
+    "author": {
+        "name": "Macaca Games",
+        "email": "contact@macaca.games",
+        "url": "https://macaca.games"
+    }
+}
