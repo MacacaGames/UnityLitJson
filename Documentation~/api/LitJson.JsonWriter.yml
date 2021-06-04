@@ -1,0 +1,1786 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.JsonWriter
+  commentId: T:LitJson.JsonWriter
+  id: JsonWriter
+  parent: LitJson
+  children:
+  - LitJson.JsonWriter.#ctor
+  - LitJson.JsonWriter.#ctor(System.IO.TextWriter)
+  - LitJson.JsonWriter.#ctor(System.Text.StringBuilder)
+  - LitJson.JsonWriter.HintTypeName
+  - LitJson.JsonWriter.HintValueName
+  - LitJson.JsonWriter.IndentValue
+  - LitJson.JsonWriter.PrettyPrint
+  - LitJson.JsonWriter.Reset
+  - LitJson.JsonWriter.TextWriter
+  - LitJson.JsonWriter.ToString
+  - LitJson.JsonWriter.TypeHinting
+  - LitJson.JsonWriter.Validate
+  - LitJson.JsonWriter.Write(System.Boolean)
+  - LitJson.JsonWriter.Write(System.Decimal)
+  - LitJson.JsonWriter.Write(System.Double)
+  - LitJson.JsonWriter.Write(System.Int64)
+  - LitJson.JsonWriter.Write(System.String)
+  - LitJson.JsonWriter.Write(System.UInt64)
+  - LitJson.JsonWriter.WriteArrayEnd
+  - LitJson.JsonWriter.WriteArrayStart
+  - LitJson.JsonWriter.WriteObjectEnd
+  - LitJson.JsonWriter.WriteObjectStart
+  - LitJson.JsonWriter.WritePropertyName(System.String)
+  langs:
+  - csharp
+  - vb
+  name: JsonWriter
+  nameWithType: JsonWriter
+  fullName: LitJson.JsonWriter
+  type: Class
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: JsonWriter
+    path: ../Source/JsonWriter.cs
+    startLine: 32
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  summary: "\nStream-like facility to output JSON text.\n"
+  example: []
+  syntax:
+    content: public class JsonWriter
+    content.vb: Public Class JsonWriter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.Int64)
+  - LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.String)
+  - LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.Boolean)
+  - LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.Double)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LitJson.JsonWriter.IndentValue
+  commentId: P:LitJson.JsonWriter.IndentValue
+  id: IndentValue
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: IndentValue
+  nameWithType: JsonWriter.IndentValue
+  fullName: LitJson.JsonWriter.IndentValue
+  type: Property
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: IndentValue
+    path: ../Source/JsonWriter.cs
+    startLine: 42
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public int IndentValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property IndentValue As Integer
+  overload: LitJson.JsonWriter.IndentValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.PrettyPrint
+  commentId: P:LitJson.JsonWriter.PrettyPrint
+  id: PrettyPrint
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: PrettyPrint
+  nameWithType: JsonWriter.PrettyPrint
+  fullName: LitJson.JsonWriter.PrettyPrint
+  type: Property
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: PrettyPrint
+    path: ../Source/JsonWriter.cs
+    startLine: 50
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool PrettyPrint { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PrettyPrint As Boolean
+  overload: LitJson.JsonWriter.PrettyPrint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.Validate
+  commentId: P:LitJson.JsonWriter.Validate
+  id: Validate
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Validate
+  nameWithType: JsonWriter.Validate
+  fullName: LitJson.JsonWriter.Validate
+  type: Property
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Validate
+    path: ../Source/JsonWriter.cs
+    startLine: 51
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool Validate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Validate As Boolean
+  overload: LitJson.JsonWriter.Validate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.TypeHinting
+  commentId: P:LitJson.JsonWriter.TypeHinting
+  id: TypeHinting
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: TypeHinting
+  nameWithType: JsonWriter.TypeHinting
+  fullName: LitJson.JsonWriter.TypeHinting
+  type: Property
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: TypeHinting
+    path: ../Source/JsonWriter.cs
+    startLine: 52
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool TypeHinting { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TypeHinting As Boolean
+  overload: LitJson.JsonWriter.TypeHinting*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.HintTypeName
+  commentId: P:LitJson.JsonWriter.HintTypeName
+  id: HintTypeName
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: HintTypeName
+  nameWithType: JsonWriter.HintTypeName
+  fullName: LitJson.JsonWriter.HintTypeName
+  type: Property
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: HintTypeName
+    path: ../Source/JsonWriter.cs
+    startLine: 53
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public string HintTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HintTypeName As String
+  overload: LitJson.JsonWriter.HintTypeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.HintValueName
+  commentId: P:LitJson.JsonWriter.HintValueName
+  id: HintValueName
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: HintValueName
+  nameWithType: JsonWriter.HintValueName
+  fullName: LitJson.JsonWriter.HintValueName
+  type: Property
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: HintValueName
+    path: ../Source/JsonWriter.cs
+    startLine: 54
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public string HintValueName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HintValueName As String
+  overload: LitJson.JsonWriter.HintValueName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.TextWriter
+  commentId: P:LitJson.JsonWriter.TextWriter
+  id: TextWriter
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: TextWriter
+  nameWithType: JsonWriter.TextWriter
+  fullName: LitJson.JsonWriter.TextWriter
+  type: Property
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: TextWriter
+    path: ../Source/JsonWriter.cs
+    startLine: 56
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public TextWriter TextWriter { get; }
+    parameters: []
+    return:
+      type: System.IO.TextWriter
+    content.vb: Public ReadOnly Property TextWriter As TextWriter
+  overload: LitJson.JsonWriter.TextWriter*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonWriter.#ctor
+  commentId: M:LitJson.JsonWriter.#ctor
+  id: '#ctor'
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: JsonWriter()
+  nameWithType: JsonWriter.JsonWriter()
+  fullName: LitJson.JsonWriter.JsonWriter()
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonWriter.cs
+    startLine: 62
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonWriter()
+    content.vb: Public Sub New
+  overload: LitJson.JsonWriter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.#ctor(System.Text.StringBuilder)
+  commentId: M:LitJson.JsonWriter.#ctor(System.Text.StringBuilder)
+  id: '#ctor(System.Text.StringBuilder)'
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: JsonWriter(StringBuilder)
+  nameWithType: JsonWriter.JsonWriter(StringBuilder)
+  fullName: LitJson.JsonWriter.JsonWriter(System.Text.StringBuilder)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonWriter.cs
+    startLine: 68
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonWriter(StringBuilder sb)
+    parameters:
+    - id: sb
+      type: System.Text.StringBuilder
+    content.vb: Public Sub New(sb As StringBuilder)
+  overload: LitJson.JsonWriter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.#ctor(System.IO.TextWriter)
+  commentId: M:LitJson.JsonWriter.#ctor(System.IO.TextWriter)
+  id: '#ctor(System.IO.TextWriter)'
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: JsonWriter(TextWriter)
+  nameWithType: JsonWriter.JsonWriter(TextWriter)
+  fullName: LitJson.JsonWriter.JsonWriter(System.IO.TextWriter)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonWriter.cs
+    startLine: 71
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonWriter(TextWriter writer)
+    parameters:
+    - id: writer
+      type: System.IO.TextWriter
+    content.vb: Public Sub New(writer As TextWriter)
+  overload: LitJson.JsonWriter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.ToString
+  commentId: M:LitJson.JsonWriter.ToString
+  id: ToString
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: JsonWriter.ToString()
+  fullName: LitJson.JsonWriter.ToString()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToString
+    path: ../Source/JsonWriter.cs
+    startLine: 219
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: LitJson.JsonWriter.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: LitJson.JsonWriter.Reset
+  commentId: M:LitJson.JsonWriter.Reset
+  id: Reset
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: JsonWriter.Reset()
+  fullName: LitJson.JsonWriter.Reset()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Reset
+    path: ../Source/JsonWriter.cs
+    startLine: 226
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: LitJson.JsonWriter.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.Write(System.Boolean)
+  commentId: M:LitJson.JsonWriter.Write(System.Boolean)
+  id: Write(System.Boolean)
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Boolean)
+  nameWithType: JsonWriter.Write(Boolean)
+  fullName: LitJson.JsonWriter.Write(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Write
+    path: ../Source/JsonWriter.cs
+    startLine: 238
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Write(bool boolean)
+    parameters:
+    - id: boolean
+      type: System.Boolean
+    content.vb: Public Sub Write(boolean As Boolean)
+  overload: LitJson.JsonWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.Write(System.Double)
+  commentId: M:LitJson.JsonWriter.Write(System.Double)
+  id: Write(System.Double)
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Double)
+  nameWithType: JsonWriter.Write(Double)
+  fullName: LitJson.JsonWriter.Write(System.Double)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Write
+    path: ../Source/JsonWriter.cs
+    startLine: 245
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Write(double number)
+    parameters:
+    - id: number
+      type: System.Double
+    content.vb: Public Sub Write(number As Double)
+  overload: LitJson.JsonWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.Write(System.Decimal)
+  commentId: M:LitJson.JsonWriter.Write(System.Decimal)
+  id: Write(System.Decimal)
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Decimal)
+  nameWithType: JsonWriter.Write(Decimal)
+  fullName: LitJson.JsonWriter.Write(System.Decimal)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Write
+    path: ../Source/JsonWriter.cs
+    startLine: 256
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Write(decimal number)
+    parameters:
+    - id: number
+      type: System.Decimal
+    content.vb: Public Sub Write(number As Decimal)
+  overload: LitJson.JsonWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.Write(System.Int64)
+  commentId: M:LitJson.JsonWriter.Write(System.Int64)
+  id: Write(System.Int64)
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Int64)
+  nameWithType: JsonWriter.Write(Int64)
+  fullName: LitJson.JsonWriter.Write(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Write
+    path: ../Source/JsonWriter.cs
+    startLine: 263
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Write(long number)
+    parameters:
+    - id: number
+      type: System.Int64
+    content.vb: Public Sub Write(number As Long)
+  overload: LitJson.JsonWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.Write(System.UInt64)
+  commentId: M:LitJson.JsonWriter.Write(System.UInt64)
+  id: Write(System.UInt64)
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(UInt64)
+  nameWithType: JsonWriter.Write(UInt64)
+  fullName: LitJson.JsonWriter.Write(System.UInt64)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Write
+    path: ../Source/JsonWriter.cs
+    startLine: 270
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Write(ulong number)
+    parameters:
+    - id: number
+      type: System.UInt64
+    content.vb: Public Sub Write(number As ULong)
+  overload: LitJson.JsonWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.Write(System.String)
+  commentId: M:LitJson.JsonWriter.Write(System.String)
+  id: Write(System.String)
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(String)
+  nameWithType: JsonWriter.Write(String)
+  fullName: LitJson.JsonWriter.Write(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Write
+    path: ../Source/JsonWriter.cs
+    startLine: 277
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Write(string str)
+    parameters:
+    - id: str
+      type: System.String
+    content.vb: Public Sub Write(str As String)
+  overload: LitJson.JsonWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.WriteArrayEnd
+  commentId: M:LitJson.JsonWriter.WriteArrayEnd
+  id: WriteArrayEnd
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteArrayEnd()
+  nameWithType: JsonWriter.WriteArrayEnd()
+  fullName: LitJson.JsonWriter.WriteArrayEnd()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: WriteArrayEnd
+    path: ../Source/JsonWriter.cs
+    startLine: 288
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void WriteArrayEnd()
+    content.vb: Public Sub WriteArrayEnd
+  overload: LitJson.JsonWriter.WriteArrayEnd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.WriteArrayStart
+  commentId: M:LitJson.JsonWriter.WriteArrayStart
+  id: WriteArrayStart
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteArrayStart()
+  nameWithType: JsonWriter.WriteArrayStart()
+  fullName: LitJson.JsonWriter.WriteArrayStart()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: WriteArrayStart
+    path: ../Source/JsonWriter.cs
+    startLine: 302
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void WriteArrayStart()
+    content.vb: Public Sub WriteArrayStart
+  overload: LitJson.JsonWriter.WriteArrayStart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.WriteObjectEnd
+  commentId: M:LitJson.JsonWriter.WriteObjectEnd
+  id: WriteObjectEnd
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteObjectEnd()
+  nameWithType: JsonWriter.WriteObjectEnd()
+  fullName: LitJson.JsonWriter.WriteObjectEnd()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: WriteObjectEnd
+    path: ../Source/JsonWriter.cs
+    startLine: 312
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void WriteObjectEnd()
+    content.vb: Public Sub WriteObjectEnd
+  overload: LitJson.JsonWriter.WriteObjectEnd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.WriteObjectStart
+  commentId: M:LitJson.JsonWriter.WriteObjectStart
+  id: WriteObjectStart
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteObjectStart()
+  nameWithType: JsonWriter.WriteObjectStart()
+  fullName: LitJson.JsonWriter.WriteObjectStart()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: WriteObjectStart
+    path: ../Source/JsonWriter.cs
+    startLine: 326
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void WriteObjectStart()
+    content.vb: Public Sub WriteObjectStart
+  overload: LitJson.JsonWriter.WriteObjectStart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonWriter.WritePropertyName(System.String)
+  commentId: M:LitJson.JsonWriter.WritePropertyName(System.String)
+  id: WritePropertyName(System.String)
+  parent: LitJson.JsonWriter
+  langs:
+  - csharp
+  - vb
+  name: WritePropertyName(String)
+  nameWithType: JsonWriter.WritePropertyName(String)
+  fullName: LitJson.JsonWriter.WritePropertyName(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonWriter.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: WritePropertyName
+    path: ../Source/JsonWriter.cs
+    startLine: 336
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void WritePropertyName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub WritePropertyName(name As String)
+  overload: LitJson.JsonWriter.WritePropertyName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.Int64)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Int64)
+  parent: LitJson.Extensions.Extensions
+  definition: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Int64)
+  name: WriteProperty(String, Int64)
+  nameWithType: Extensions.WriteProperty(String, Int64)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(System.String, System.Int64)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.Int64)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.Int64)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.String)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.String)
+  parent: LitJson.Extensions.Extensions
+  definition: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.String)
+  name: WriteProperty(String, String)
+  nameWithType: Extensions.WriteProperty(String, String)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(System.String, System.String)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.String)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.String)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.Boolean)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Boolean)
+  parent: LitJson.Extensions.Extensions
+  definition: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Boolean)
+  name: WriteProperty(String, Boolean)
+  nameWithType: Extensions.WriteProperty(String, Boolean)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(System.String, System.Boolean)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.Boolean)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.Boolean)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonWriter.LitJson.Extensions.Extensions.WriteProperty(System.String,System.Double)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Double)
+  parent: LitJson.Extensions.Extensions
+  definition: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Double)
+  name: WriteProperty(String, Double)
+  nameWithType: Extensions.WriteProperty(String, Double)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(System.String, System.Double)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.Double)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(System.String,System.Double)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Int64)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Int64)
+  isExternal: true
+  name: WriteProperty(JsonWriter, String, Int64)
+  nameWithType: Extensions.WriteProperty(JsonWriter, String, Int64)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter, System.String, System.Int64)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Int64)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Int64)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.Extensions.Extensions
+  commentId: T:LitJson.Extensions.Extensions
+  parent: LitJson.Extensions
+  name: Extensions
+  nameWithType: Extensions
+  fullName: LitJson.Extensions.Extensions
+- uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.String)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.String)
+  isExternal: true
+  name: WriteProperty(JsonWriter, String, String)
+  nameWithType: Extensions.WriteProperty(JsonWriter, String, String)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter, System.String, System.String)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.String)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.String)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Boolean)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Boolean)
+  isExternal: true
+  name: WriteProperty(JsonWriter, String, Boolean)
+  nameWithType: Extensions.WriteProperty(JsonWriter, String, Boolean)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter, System.String, System.Boolean)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Boolean)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Boolean)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Double)
+  commentId: M:LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Double)
+  isExternal: true
+  name: WriteProperty(JsonWriter, String, Double)
+  nameWithType: Extensions.WriteProperty(JsonWriter, String, Double)
+  fullName: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter, System.String, System.Double)
+  spec.csharp:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Double)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.Extensions.Extensions.WriteProperty(LitJson.JsonWriter,System.String,System.Double)
+    name: WriteProperty
+    nameWithType: Extensions.WriteProperty
+    fullName: LitJson.Extensions.Extensions.WriteProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.Extensions
+  commentId: N:LitJson.Extensions
+  name: LitJson.Extensions
+  nameWithType: LitJson.Extensions
+  fullName: LitJson.Extensions
+- uid: LitJson.JsonWriter.IndentValue*
+  commentId: Overload:LitJson.JsonWriter.IndentValue
+  name: IndentValue
+  nameWithType: JsonWriter.IndentValue
+  fullName: LitJson.JsonWriter.IndentValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: LitJson.JsonWriter.PrettyPrint*
+  commentId: Overload:LitJson.JsonWriter.PrettyPrint
+  name: PrettyPrint
+  nameWithType: JsonWriter.PrettyPrint
+  fullName: LitJson.JsonWriter.PrettyPrint
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: LitJson.JsonWriter.Validate*
+  commentId: Overload:LitJson.JsonWriter.Validate
+  name: Validate
+  nameWithType: JsonWriter.Validate
+  fullName: LitJson.JsonWriter.Validate
+- uid: LitJson.JsonWriter.TypeHinting*
+  commentId: Overload:LitJson.JsonWriter.TypeHinting
+  name: TypeHinting
+  nameWithType: JsonWriter.TypeHinting
+  fullName: LitJson.JsonWriter.TypeHinting
+- uid: LitJson.JsonWriter.HintTypeName*
+  commentId: Overload:LitJson.JsonWriter.HintTypeName
+  name: HintTypeName
+  nameWithType: JsonWriter.HintTypeName
+  fullName: LitJson.JsonWriter.HintTypeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: LitJson.JsonWriter.HintValueName*
+  commentId: Overload:LitJson.JsonWriter.HintValueName
+  name: HintValueName
+  nameWithType: JsonWriter.HintValueName
+  fullName: LitJson.JsonWriter.HintValueName
+- uid: LitJson.JsonWriter.TextWriter*
+  commentId: Overload:LitJson.JsonWriter.TextWriter
+  name: TextWriter
+  nameWithType: JsonWriter.TextWriter
+  fullName: LitJson.JsonWriter.TextWriter
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: LitJson.JsonWriter.#ctor*
+  commentId: Overload:LitJson.JsonWriter.#ctor
+  name: JsonWriter
+  nameWithType: JsonWriter.JsonWriter
+  fullName: LitJson.JsonWriter.JsonWriter
+- uid: System.Text.StringBuilder
+  commentId: T:System.Text.StringBuilder
+  parent: System.Text
+  isExternal: true
+  name: StringBuilder
+  nameWithType: StringBuilder
+  fullName: System.Text.StringBuilder
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonWriter.ToString*
+  commentId: Overload:LitJson.JsonWriter.ToString
+  name: ToString
+  nameWithType: JsonWriter.ToString
+  fullName: LitJson.JsonWriter.ToString
+- uid: LitJson.JsonWriter.Reset*
+  commentId: Overload:LitJson.JsonWriter.Reset
+  name: Reset
+  nameWithType: JsonWriter.Reset
+  fullName: LitJson.JsonWriter.Reset
+- uid: LitJson.JsonWriter.Write*
+  commentId: Overload:LitJson.JsonWriter.Write
+  name: Write
+  nameWithType: JsonWriter.Write
+  fullName: LitJson.JsonWriter.Write
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: LitJson.JsonWriter.WriteArrayEnd*
+  commentId: Overload:LitJson.JsonWriter.WriteArrayEnd
+  name: WriteArrayEnd
+  nameWithType: JsonWriter.WriteArrayEnd
+  fullName: LitJson.JsonWriter.WriteArrayEnd
+- uid: LitJson.JsonWriter.WriteArrayStart*
+  commentId: Overload:LitJson.JsonWriter.WriteArrayStart
+  name: WriteArrayStart
+  nameWithType: JsonWriter.WriteArrayStart
+  fullName: LitJson.JsonWriter.WriteArrayStart
+- uid: LitJson.JsonWriter.WriteObjectEnd*
+  commentId: Overload:LitJson.JsonWriter.WriteObjectEnd
+  name: WriteObjectEnd
+  nameWithType: JsonWriter.WriteObjectEnd
+  fullName: LitJson.JsonWriter.WriteObjectEnd
+- uid: LitJson.JsonWriter.WriteObjectStart*
+  commentId: Overload:LitJson.JsonWriter.WriteObjectStart
+  name: WriteObjectStart
+  nameWithType: JsonWriter.WriteObjectStart
+  fullName: LitJson.JsonWriter.WriteObjectStart
+- uid: LitJson.JsonWriter.WritePropertyName*
+  commentId: Overload:LitJson.JsonWriter.WritePropertyName
+  name: WritePropertyName
+  nameWithType: JsonWriter.WritePropertyName
+  fullName: LitJson.JsonWriter.WritePropertyName

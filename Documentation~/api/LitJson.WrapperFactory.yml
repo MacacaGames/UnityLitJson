@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.WrapperFactory
+  commentId: T:LitJson.WrapperFactory
+  id: WrapperFactory
+  parent: LitJson
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: WrapperFactory
+  nameWithType: WrapperFactory
+  fullName: LitJson.WrapperFactory
+  type: Delegate
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: WrapperFactory
+    path: ../Source/JsonMapper.cs
+    startLine: 83
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public delegate IJsonWrapper WrapperFactory();
+    return:
+      type: LitJson.IJsonWrapper
+    content.vb: Public Delegate Function WrapperFactory As IJsonWrapper
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: LitJson.IJsonWrapper
+  commentId: T:LitJson.IJsonWrapper
+  parent: LitJson
+  name: IJsonWrapper
+  nameWithType: IJsonWrapper
+  fullName: LitJson.IJsonWrapper

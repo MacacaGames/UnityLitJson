@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.JsonIgnoreWhen
+  commentId: T:LitJson.JsonIgnoreWhen
+  id: JsonIgnoreWhen
+  parent: LitJson
+  children:
+  - LitJson.JsonIgnoreWhen.Deserializing
+  - LitJson.JsonIgnoreWhen.Never
+  - LitJson.JsonIgnoreWhen.Serializing
+  langs:
+  - csharp
+  - vb
+  name: JsonIgnoreWhen
+  nameWithType: JsonIgnoreWhen
+  fullName: LitJson.JsonIgnoreWhen
+  type: Enum
+  source:
+    remote:
+      path: Source/JsonAttribute.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: JsonIgnoreWhen
+    path: ../Source/JsonAttribute.cs
+    startLine: 6
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum JsonIgnoreWhen
+    content.vb: >-
+      <Flags>
+
+      Public Enum JsonIgnoreWhen
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LitJson.JsonIgnoreWhen.Never
+  commentId: F:LitJson.JsonIgnoreWhen.Never
+  id: Never
+  parent: LitJson.JsonIgnoreWhen
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: JsonIgnoreWhen.Never
+  fullName: LitJson.JsonIgnoreWhen.Never
+  type: Field
+  source:
+    remote:
+      path: Source/JsonAttribute.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Never
+    path: ../Source/JsonAttribute.cs
+    startLine: 9
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: Never = 0
+    return:
+      type: LitJson.JsonIgnoreWhen
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonIgnoreWhen.Serializing
+  commentId: F:LitJson.JsonIgnoreWhen.Serializing
+  id: Serializing
+  parent: LitJson.JsonIgnoreWhen
+  langs:
+  - csharp
+  - vb
+  name: Serializing
+  nameWithType: JsonIgnoreWhen.Serializing
+  fullName: LitJson.JsonIgnoreWhen.Serializing
+  type: Field
+  source:
+    remote:
+      path: Source/JsonAttribute.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Serializing
+    path: ../Source/JsonAttribute.cs
+    startLine: 10
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: Serializing = 1
+    return:
+      type: LitJson.JsonIgnoreWhen
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonIgnoreWhen.Deserializing
+  commentId: F:LitJson.JsonIgnoreWhen.Deserializing
+  id: Deserializing
+  parent: LitJson.JsonIgnoreWhen
+  langs:
+  - csharp
+  - vb
+  name: Deserializing
+  nameWithType: JsonIgnoreWhen.Deserializing
+  fullName: LitJson.JsonIgnoreWhen.Deserializing
+  type: Field
+  source:
+    remote:
+      path: Source/JsonAttribute.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Deserializing
+    path: ../Source/JsonAttribute.cs
+    startLine: 11
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: Deserializing = 2
+    return:
+      type: LitJson.JsonIgnoreWhen
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: LitJson.JsonIgnoreWhen
+  commentId: T:LitJson.JsonIgnoreWhen
+  parent: LitJson
+  name: JsonIgnoreWhen
+  nameWithType: JsonIgnoreWhen
+  fullName: LitJson.JsonIgnoreWhen

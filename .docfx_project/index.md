@@ -1,27 +1,15 @@
 LitJSON
 =======
-This is a forked version from [lbv](https://github.com/Mervill/UnityLitJson).
 
-A *.Net* library to handle conversions from and to JSON (JavaScript Object Notation) strings. This fork has been edited specificity for use with [Unity3D](http://unity3d.com/).
+A *.Net* library to handle conversions from and to JSON (JavaScript Object
+Notation) strings. This fork has been edited specificity for use with [Unity3D](http://unity3d.com/).
 
 Originally created by [lbv](http://lbv.github.io/litjson/).
 
 ## Installation
-### Option 1: Installation via OpenUPM (Recommend)
 
-```sh
-openupm add com.macacagames.unitylitjson
-```
+Simply pull the repo and open the .unitypackage to import the library.
 
-## Option 2: Unity Package file
-Add it to your editor's manifest.json file like this:
-```json
-{
-    "dependencies": {
-        "com.macacagames.unitylitjson": "https://github.com/MacacaGames/UnityLitJson.git?path=Source",
-    }
-}
-```
 ## Licence
 
 This is free and unencumbered software released into the public domain.
@@ -30,7 +18,7 @@ For more information, please refer to http://unlicense.org/.
 
 ## Examples
 
-For general examples, check out [/Docs/Quickstart](https://macacagames.github.io/UnityLitJson/quickstart/guide.html) 
+For general examples, check out [/Docs/Quickstart/guide.md](https://github.com/VictorySquare/UnityLitJson/blob/master/Docs/quickstart/guide.md) 
 in this repo, there is also a simple example included in the Unity package.
 
 ## Compiling

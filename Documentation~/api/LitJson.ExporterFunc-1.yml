@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.ExporterFunc`1
+  commentId: T:LitJson.ExporterFunc`1
+  id: ExporterFunc`1
+  parent: LitJson
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ExporterFunc<T>
+  nameWithType: ExporterFunc<T>
+  fullName: LitJson.ExporterFunc<T>
+  type: Delegate
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ExporterFunc
+    path: ../Source/JsonMapper.cs
+    startLine: 75
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public delegate void ExporterFunc<T>(T obj, JsonWriter writer);
+    parameters:
+    - id: obj
+      type: '{T}'
+    - id: writer
+      type: LitJson.JsonWriter
+    typeParameters:
+    - id: T
+    content.vb: Public Delegate Sub ExporterFunc(Of T)(obj As T, writer As JsonWriter)
+  nameWithType.vb: ExporterFunc(Of T)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: LitJson.ExporterFunc(Of T)
+  name.vb: ExporterFunc(Of T)
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: LitJson.JsonWriter
+  commentId: T:LitJson.JsonWriter
+  parent: LitJson
+  name: JsonWriter
+  nameWithType: JsonWriter
+  fullName: LitJson.JsonWriter
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

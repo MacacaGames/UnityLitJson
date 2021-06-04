@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Quick Start </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Quick Start ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="quick-start" sourcefile="quickstart/guide.md" sourcestartlinenumber="1">Quick Start</h1>
+
+<h2 id="mapping-json-to-objects-and-vice-versa" sourcefile="quickstart/guide.md" sourcestartlinenumber="3">Mapping JSON to objects and vice versa</h2>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="5">In order to consume data in JSON format inside .Net programs, the natural
+approach that comes to mind is to use JSON text to populate a new instance
+of a particular class; either a custom one, built to match the structure of
+the input JSON text, or a more general one which acts as a dictionary.</p>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="10">Conversely, in order to build new JSON strings from data stored in objects,
+a simple <em sourcefile="quickstart/guide.md" sourcestartlinenumber="11">export</em>--like operation sounds like a good idea.</p>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="13">For this purpose, <em sourcefile="quickstart/guide.md" sourcestartlinenumber="13">LitJSON</em> includes the <code sourcefile="quickstart/guide.md" sourcestartlinenumber="13">JsonMapper</code> class,
+which provides two main methods used to do JSON--to--object and
+object--to--JSON conversions.  These methods are
+<code sourcefile="quickstart/guide.md" sourcestartlinenumber="16">JsonMapper.ToObject</code> and <code sourcefile="quickstart/guide.md" sourcestartlinenumber="16">JsonMapper.ToJson</code>.</p>
+<h3 id="simple-jsonmapper-examples" sourcefile="quickstart/guide.md" sourcestartlinenumber="18">Simple <code sourcefile="quickstart/guide.md" sourcestartlinenumber="18">JsonMapper</code> examples</h3>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="20">As the following example demonstrates, the <code sourcefile="quickstart/guide.md" sourcestartlinenumber="20">ToObject</code> method has a generic
+variant, <code sourcefile="quickstart/guide.md" sourcestartlinenumber="21">JsonMapper.ToObject&lt;T&gt;</code>, that is used to specify the type of the
+object to be returned.</p>
+<pre><code class="lang-cs" sourcefile="quickstart/guide.md" sourcestartlinenumber="24">using LitJson;
+using System;
+
+public class Person
+{
+    // C# 3.0 auto-implemented properties
+    public string   Name     { get; set; }
+    public int      Age      { get; set; }
+    public DateTime Birthday { get; set; }
+}
+
+public class JsonSample
+{
+    public static void Main()
+    {
+        PersonToJson();
+        JsonToPerson();
+    }
+
+    public static void PersonToJson()
+    {
+        Person bill = new Person();
+
+        bill.Name = &quot;William Shakespeare&quot;;
+        bill.Age  = 51;
+        bill.Birthday = new DateTime(1564, 4, 26);
+
+        string json_bill = JsonMapper.ToJson(bill);
+
+        Console.WriteLine(json_bill);
+    }
+
+    public static void JsonToPerson()
+    {
+        string json = @&quot;
+            {
+                &quot;&quot;Name&quot;&quot;     : &quot;&quot;Thomas More&quot;&quot;,
+                &quot;&quot;Age&quot;&quot;      : 57,
+                &quot;&quot;Birthday&quot;&quot; : &quot;&quot;02/07/1478 00:00:00&quot;&quot;
+            }&quot;;
+
+        Person thomas = JsonMapper.ToObject&lt;Person&gt;(json);
+
+        Console.WriteLine(&quot;Thomas' age: {0}&quot;, thomas.Age);
+    }
+}
+</code></pre>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="73">Output from the example:</p>
+<pre><code class="lang-console" sourcefile="quickstart/guide.md" sourcestartlinenumber="75">{&quot;Name&quot;:&quot;William Shakespeare&quot;,&quot;Age&quot;:51,&quot;Birthday&quot;:&quot;04/26/1564 00:00:00&quot;}
+Thomas' age: 57
+</code></pre>
+<h3 id="using-the-non--generic-variant-of-jsonmappertoobject" sourcefile="quickstart/guide.md" sourcestartlinenumber="80">Using the non--generic variant of <code sourcefile="quickstart/guide.md" sourcestartlinenumber="80">JsonMapper.ToObject</code></h3>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="82">When JSON data is to be read and a custom class that matches a particular
+data structure is not available or desired, users can use the non--generic
+variant of <code sourcefile="quickstart/guide.md" sourcestartlinenumber="84">ToObject</code>, which returns a <code sourcefile="quickstart/guide.md" sourcestartlinenumber="84">JsonData</code> instance. <code sourcefile="quickstart/guide.md" sourcestartlinenumber="84">JsonData</code> is a
+general purpose type that can hold any of the data types supported by JSON,
+including lists and dictionaries.</p>
+<pre><code class="lang-cs" sourcefile="quickstart/guide.md" sourcestartlinenumber="88">using LitJson;
+using System;
+
+public class JsonSample
+{
+    public static void Main()
+    {
+        string json = @&quot;
+          {
+            &quot;&quot;album&quot;&quot; : {
+              &quot;&quot;name&quot;&quot;   : &quot;&quot;The Dark Side of the Moon&quot;&quot;,
+              &quot;&quot;artist&quot;&quot; : &quot;&quot;Pink Floyd&quot;&quot;,
+              &quot;&quot;year&quot;&quot;   : 1973,
+              &quot;&quot;tracks&quot;&quot; : [
+                &quot;&quot;Speak To Me&quot;&quot;,
+                &quot;&quot;Breathe&quot;&quot;,
+                &quot;&quot;On The Run&quot;&quot;
+              ]
+            }
+          }
+        &quot;;
+
+        LoadAlbumData(json);
+    }
+
+    public static void LoadAlbumData(string json_text)
+    {
+        Console.WriteLine(&quot;Reading data from the following JSON string: {0}&quot;,
+                          json_text);
+
+        JsonData data = JsonMapper.ToObject(json_text);
+
+        // Dictionaries are accessed like a hash-table
+        Console.WriteLine(&quot;Album's name: {0}&quot;, data[&quot;album&quot;][&quot;name&quot;]);
+
+        // Scalar elements stored in a JsonData instance can be cast to
+        // their natural types
+        string artist = (string) data[&quot;album&quot;][&quot;artist&quot;];
+        int    year   = (int) data[&quot;album&quot;][&quot;year&quot;];
+
+        Console.WriteLine(&quot;Recorded by {0} in {1}&quot;, artist, year);
+
+        // Arrays are accessed like regular lists as well
+        Console.WriteLine(&quot;First track: {0}&quot;, data[&quot;album&quot;][&quot;tracks&quot;][0]);
+    }
+}
+</code></pre>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="137">Output from the example:</p>
+<pre><code class="lang-console" sourcefile="quickstart/guide.md" sourcestartlinenumber="139">Reading data from the following JSON string:
+          {
+            &quot;album&quot; : {
+              &quot;name&quot;   : &quot;The Dark Side of the Moon&quot;,
+              &quot;artist&quot; : &quot;Pink Floyd&quot;,
+              &quot;year&quot;   : 1973,
+              &quot;tracks&quot; : [
+                &quot;Speak To Me&quot;,
+                &quot;Breathe&quot;,
+                &quot;On The Run&quot;
+              ]
+            }
+          }
+
+Album's name: The Dark Side of the Moon
+Recorded by Pink Floyd in 1973
+First track: Speak To Me
+</code></pre>
+<h2 id="readers-and-writers" sourcefile="quickstart/guide.md" sourcestartlinenumber="159">Readers and Writers</h2>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="161">An alternative interface to handling JSON data that might be familiar to
+some developers is through classes that make it possible to read and write
+data in a stream--like fashion. These classes are <code sourcefile="quickstart/guide.md" sourcestartlinenumber="163">JsonReader</code> and
+<code sourcefile="quickstart/guide.md" sourcestartlinenumber="164">JsonWriter</code>.</p>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="166">These two types are in fact the foundation of this library, and the
+<code sourcefile="quickstart/guide.md" sourcestartlinenumber="167">JsonMapper</code> type is built on top of them, so in a way, the developer can
+think of the reader and writer classes as the low--level programming
+interface for LitJSON.</p>
+<h3 id="using-jsonreader" sourcefile="quickstart/guide.md" sourcestartlinenumber="171">Using <code sourcefile="quickstart/guide.md" sourcestartlinenumber="171">JsonReader</code></h3>
+<pre><code class="lang-cs" sourcefile="quickstart/guide.md" sourcestartlinenumber="173">using LitJson;
+using System;
+
+public class DataReader
+{
+    public static void Main()
+    {
+        string sample = @&quot;{
+            &quot;&quot;name&quot;&quot;  : &quot;&quot;Bill&quot;&quot;,
+            &quot;&quot;age&quot;&quot;   : 32,
+            &quot;&quot;awake&quot;&quot; : true,
+            &quot;&quot;n&quot;&quot;     : 1994.0226,
+            &quot;&quot;note&quot;&quot;  : [ &quot;&quot;life&quot;&quot;, &quot;&quot;is&quot;&quot;, &quot;&quot;but&quot;&quot;, &quot;&quot;a&quot;&quot;, &quot;&quot;dream&quot;&quot; ]
+          }&quot;;
+
+        PrintJson(sample);
+    }
+
+    public static void PrintJson(string json)
+    {
+        JsonReader reader = new JsonReader(json);
+
+        Console.WriteLine (&quot;{0,14} {1,10} {2,16}&quot;, &quot;Token&quot;, &quot;Value&quot;, &quot;Type&quot;);
+        Console.WriteLine (new String ('-', 42));
+
+        // The Read() method returns false when there's nothing else to read
+        while (reader.Read()) {
+            string type = reader.Value != null ?
+                reader.Value.GetType().ToString() : &quot;&quot;;
+
+            Console.WriteLine(&quot;{0,14} {1,10} {2,16}&quot;,
+                              reader.Token, reader.Value, type);
+        }
+    }
+}
+</code></pre>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="211">This example would produce the following output:</p>
+<pre><code class="lang-console" sourcefile="quickstart/guide.md" sourcestartlinenumber="213">         Token      Value             Type
+------------------------------------------
+   ObjectStart                            
+  PropertyName       name    System.String
+        String       Bill    System.String
+  PropertyName        age    System.String
+           Int         32     System.Int32
+  PropertyName      awake    System.String
+       Boolean       True   System.Boolean
+  PropertyName          n    System.String
+        Double  1994.0226    System.Double
+  PropertyName       note    System.String
+    ArrayStart                            
+        String       life    System.String
+        String         is    System.String
+        String        but    System.String
+        String          a    System.String
+        String      dream    System.String
+      ArrayEnd                            
+     ObjectEnd                            
+</code></pre>
+<h3 id="using-jsonwriter" sourcefile="quickstart/guide.md" sourcestartlinenumber="236">Using <code sourcefile="quickstart/guide.md" sourcestartlinenumber="236">JsonWriter</code></h3>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="238">The <code sourcefile="quickstart/guide.md" sourcestartlinenumber="238">JsonWriter</code> class is quite simple. Keep in mind that if you want to
+convert some arbitrary object into a JSON string, you'd normally just use
+<code sourcefile="quickstart/guide.md" sourcestartlinenumber="240">JsonMapper.ToJson</code>.</p>
+<pre><code class="lang-cs" sourcefile="quickstart/guide.md" sourcestartlinenumber="242">using LitJson;
+using System;
+using System.Text;
+
+public class DataWriter
+{
+    public static void Main()
+    {
+        StringBuilder sb = new StringBuilder();
+        JsonWriter writer = new JsonWriter(sb);
+
+        writer.WriteArrayStart();
+        writer.Write(1);
+        writer.Write(2);
+        writer.Write(3);
+
+        writer.WriteObjectStart();
+        writer.WritePropertyName(&quot;color&quot;);
+        writer.Write(&quot;blue&quot;);
+        writer.WriteObjectEnd();
+
+        writer.WriteArrayEnd();
+
+        Console.WriteLine(sb.ToString());
+    }
+}
+</code></pre>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="271">Output from the example:</p>
+<pre><code class="lang-console" sourcefile="quickstart/guide.md" sourcestartlinenumber="273">[1,2,3,{&quot;color&quot;:&quot;blue&quot;}]
+</code></pre>
+<h2 id="configuring-the-librarys-behaviour" sourcefile="quickstart/guide.md" sourcestartlinenumber="277">Configuring the library's behaviour</h2>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="279">JSON is a very concise data--interchange format; nothing more, nothing less.
+For this reason, handling data in JSON format inside a program may require a
+deliberate decision on your part regarding some little detail that goes
+beyond the scope of JSON's specs.</p>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="284">Consider, for example, reading data from JSON strings where
+single--quotes are used to delimit strings, or Javascript--style
+comments are included as a form of documentation. Those things are not part
+of the JSON standard, but they are commonly used by some developers, so you
+may want to be forgiving or strict depending on the situation. Or what about
+if you want to convert a <em sourcefile="quickstart/guide.md" sourcestartlinenumber="289">.Net</em> object into a JSON string, but
+pretty--printed (using indentation)?</p>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="292">To declare the behaviour you want, you may change a few properties from your
+<code sourcefile="quickstart/guide.md" sourcestartlinenumber="293">JsonReader</code> and <code sourcefile="quickstart/guide.md" sourcestartlinenumber="293">JsonWriter</code> objects.</p>
+<h3 id="configuration-of-jsonreader" sourcefile="quickstart/guide.md" sourcestartlinenumber="295">Configuration of <code sourcefile="quickstart/guide.md" sourcestartlinenumber="295">JsonReader</code></h3>
+<pre><code class="lang-cs" sourcefile="quickstart/guide.md" sourcestartlinenumber="297">using LitJson;
+using System;
+
+public class JsonReaderConfigExample
+{
+    public static void Main()
+    {
+        string json;
+
+        json = &quot; /* these are some numbers */ [ 2, 3, 5, 7, 11 ] &quot;;
+        TestReadingArray(json);
+
+        json = &quot; [ \&quot;hello\&quot;, 'world' ] &quot;;
+        TestReadingArray(json);
+    }
+
+    static void TestReadingArray(string json_array)
+    {
+        JsonReader defaultReader, customReader;
+
+        defaultReader = new JsonReader(json_array);
+        customReader  = new JsonReader(json_array);
+
+        customReader.AllowComments            = false;
+        customReader.AllowSingleQuotedStrings = false;
+
+        ReadArray(defaultReader);
+        ReadArray(customReader);
+    }
+
+    static void ReadArray(JsonReader reader)
+    {
+        Console.WriteLine(&quot;Reading an array&quot;);
+
+        try {
+            JsonData data = JsonMapper.ToObject(reader);
+
+            foreach (JsonData elem in data)
+                Console.Write(&quot;  {0}&quot;, elem);
+
+            Console.WriteLine(&quot;  [end]&quot;);
+        }
+        catch (Exception e) {
+            Console.WriteLine(&quot;  Exception caught: {0}&quot;, e.Message);
+        }
+    }
+}
+</code></pre>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="347">The output would be:</p>
+<pre><code class="lang-console" sourcefile="quickstart/guide.md" sourcestartlinenumber="349">Reading an array
+  2  3  5  7  11  [end]
+Reading an array
+  Exception caught: Invalid character '/' in input string
+Reading an array
+  hello  world  [end]
+Reading an array
+  Exception caught: Invalid character ''' in input string
+</code></pre>
+<h3 id="configuration-of-jsonwriter" sourcefile="quickstart/guide.md" sourcestartlinenumber="360">Configuration of <code sourcefile="quickstart/guide.md" sourcestartlinenumber="360">JsonWriter</code></h3>
+<pre><code class="lang-cs" sourcefile="quickstart/guide.md" sourcestartlinenumber="362">using LitJson;
+using System;
+
+public enum AnimalType
+{
+    Dog,
+    Cat,
+    Parrot
+}
+
+public class Animal
+{
+    public string     Name { get; set; }
+    public AnimalType Type { get; set; }
+    public int        Age  { get; set; }
+    public string[]   Toys { get; set; }
+}
+
+public class JsonWriterConfigExample
+{
+    public static void Main()
+    {
+        var dog = new Animal {
+            Name = &quot;Noam Chompsky&quot;,
+            Type = AnimalType.Dog,
+            Age  = 3,
+            Toys = new string[] { &quot;rubber bone&quot;, &quot;tennis ball&quot; }
+        };
+
+        var cat = new Animal {
+            Name = &quot;Colonel Meow&quot;,
+            Type = AnimalType.Cat,
+            Age  = 5,
+            Toys = new string[] { &quot;cardboard box&quot; }
+        };
+
+        TestWritingAnimal(dog);
+        TestWritingAnimal(cat, 2);
+    }
+
+    static void TestWritingAnimal(Animal pet, int indentLevel = 0)
+    {
+        Console.WriteLine(&quot;\nConverting {0}'s data into JSON..&quot;, pet.Name);
+        JsonWriter writer1 = new JsonWriter(Console.Out);
+        JsonWriter writer2 = new JsonWriter(Console.Out);
+
+        writer2.PrettyPrint = true;
+        if (indentLevel != 0)
+            writer2.IndentValue = indentLevel;
+
+        Console.WriteLine(&quot;Default JSON string:&quot;);
+        JsonMapper.ToJson(pet, writer1);
+
+        Console.Write(&quot;\nPretty-printed:&quot;);
+        JsonMapper.ToJson(pet, writer2);
+        Console.WriteLine(&quot;&quot;);
+    }
+}
+</code></pre>
+<p sourcefile="quickstart/guide.md" sourcestartlinenumber="423">The output from this example is:</p>
+<pre><code class="lang-console" sourcefile="quickstart/guide.md" sourcestartlinenumber="425">
+Converting Noam Chompsky's data into JSON..
+Default JSON string:
+{&quot;Name&quot;:&quot;Noam Chompsky&quot;,&quot;Type&quot;:0,&quot;Age&quot;:3,&quot;Toys&quot;:[&quot;rubber bone&quot;,&quot;tennis ball&quot;]}
+Pretty-printed:
+{
+    &quot;Name&quot; : &quot;Noam Chompsky&quot;,
+    &quot;Type&quot; : 0,
+    &quot;Age&quot;  : 3,
+    &quot;Toys&quot; : [
+        &quot;rubber bone&quot;,
+        &quot;tennis ball&quot;
+    ]
+}
+
+Converting Colonel Meow's data into JSON..
+Default JSON string:
+{&quot;Name&quot;:&quot;Colonel Meow&quot;,&quot;Type&quot;:1,&quot;Age&quot;:5,&quot;Toys&quot;:[&quot;cardboard box&quot;]}
+Pretty-printed:
+{
+  &quot;Name&quot; : &quot;Colonel Meow&quot;,
+  &quot;Type&quot; : 1,
+  &quot;Age&quot;  : 5,
+  &quot;Toys&quot; : [
+    &quot;cardboard box&quot;
+  ]
+}
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MacacaGames/UnityLitJson/blob/master/.docfx_project/quickstart/guide.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

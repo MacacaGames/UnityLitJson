@@ -1,0 +1,934 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.JsonReader
+  commentId: T:LitJson.JsonReader
+  id: JsonReader
+  parent: LitJson
+  children:
+  - LitJson.JsonReader.#ctor(System.IO.TextReader)
+  - LitJson.JsonReader.#ctor(System.String)
+  - LitJson.JsonReader.AllowComments
+  - LitJson.JsonReader.AllowSingleQuotedStrings
+  - LitJson.JsonReader.Close
+  - LitJson.JsonReader.EndOfInput
+  - LitJson.JsonReader.EndOfJson
+  - LitJson.JsonReader.HintTypeName
+  - LitJson.JsonReader.HintValueName
+  - LitJson.JsonReader.Read
+  - LitJson.JsonReader.SkipNonMembers
+  - LitJson.JsonReader.Token
+  - LitJson.JsonReader.TypeHinting
+  - LitJson.JsonReader.Value
+  langs:
+  - csharp
+  - vb
+  name: JsonReader
+  nameWithType: JsonReader
+  fullName: LitJson.JsonReader
+  type: Class
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: JsonReader
+    path: ../Source/JsonReader.cs
+    startLine: 38
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  summary: "\nStream-like access to JSON text.\n"
+  example: []
+  syntax:
+    content: public class JsonReader
+    content.vb: Public Class JsonReader
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LitJson.JsonReader.AllowComments
+  commentId: P:LitJson.JsonReader.AllowComments
+  id: AllowComments
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: AllowComments
+  nameWithType: JsonReader.AllowComments
+  fullName: LitJson.JsonReader.AllowComments
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: AllowComments
+    path: ../Source/JsonReader.cs
+    startLine: 49
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool AllowComments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowComments As Boolean
+  overload: LitJson.JsonReader.AllowComments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.AllowSingleQuotedStrings
+  commentId: P:LitJson.JsonReader.AllowSingleQuotedStrings
+  id: AllowSingleQuotedStrings
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: AllowSingleQuotedStrings
+  nameWithType: JsonReader.AllowSingleQuotedStrings
+  fullName: LitJson.JsonReader.AllowSingleQuotedStrings
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: AllowSingleQuotedStrings
+    path: ../Source/JsonReader.cs
+    startLine: 55
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool AllowSingleQuotedStrings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowSingleQuotedStrings As Boolean
+  overload: LitJson.JsonReader.AllowSingleQuotedStrings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.SkipNonMembers
+  commentId: P:LitJson.JsonReader.SkipNonMembers
+  id: SkipNonMembers
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: SkipNonMembers
+  nameWithType: JsonReader.SkipNonMembers
+  fullName: LitJson.JsonReader.SkipNonMembers
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: SkipNonMembers
+    path: ../Source/JsonReader.cs
+    startLine: 61
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool SkipNonMembers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SkipNonMembers As Boolean
+  overload: LitJson.JsonReader.SkipNonMembers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.TypeHinting
+  commentId: P:LitJson.JsonReader.TypeHinting
+  id: TypeHinting
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: TypeHinting
+  nameWithType: JsonReader.TypeHinting
+  fullName: LitJson.JsonReader.TypeHinting
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: TypeHinting
+    path: ../Source/JsonReader.cs
+    startLine: 62
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool TypeHinting { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TypeHinting As Boolean
+  overload: LitJson.JsonReader.TypeHinting*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.HintTypeName
+  commentId: P:LitJson.JsonReader.HintTypeName
+  id: HintTypeName
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: HintTypeName
+  nameWithType: JsonReader.HintTypeName
+  fullName: LitJson.JsonReader.HintTypeName
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: HintTypeName
+    path: ../Source/JsonReader.cs
+    startLine: 63
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public string HintTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HintTypeName As String
+  overload: LitJson.JsonReader.HintTypeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.HintValueName
+  commentId: P:LitJson.JsonReader.HintValueName
+  id: HintValueName
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: HintValueName
+  nameWithType: JsonReader.HintValueName
+  fullName: LitJson.JsonReader.HintValueName
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: HintValueName
+    path: ../Source/JsonReader.cs
+    startLine: 64
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public string HintValueName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HintValueName As String
+  overload: LitJson.JsonReader.HintValueName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.EndOfInput
+  commentId: P:LitJson.JsonReader.EndOfInput
+  id: EndOfInput
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: EndOfInput
+  nameWithType: JsonReader.EndOfInput
+  fullName: LitJson.JsonReader.EndOfInput
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: EndOfInput
+    path: ../Source/JsonReader.cs
+    startLine: 66
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool EndOfInput { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property EndOfInput As Boolean
+  overload: LitJson.JsonReader.EndOfInput*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonReader.EndOfJson
+  commentId: P:LitJson.JsonReader.EndOfJson
+  id: EndOfJson
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: EndOfJson
+  nameWithType: JsonReader.EndOfJson
+  fullName: LitJson.JsonReader.EndOfJson
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: EndOfJson
+    path: ../Source/JsonReader.cs
+    startLine: 67
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool EndOfJson { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property EndOfJson As Boolean
+  overload: LitJson.JsonReader.EndOfJson*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonReader.Token
+  commentId: P:LitJson.JsonReader.Token
+  id: Token
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: JsonReader.Token
+  fullName: LitJson.JsonReader.Token
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Token
+    path: ../Source/JsonReader.cs
+    startLine: 68
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonToken Token { get; }
+    parameters: []
+    return:
+      type: LitJson.JsonToken
+    content.vb: Public ReadOnly Property Token As JsonToken
+  overload: LitJson.JsonReader.Token*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonReader.Value
+  commentId: P:LitJson.JsonReader.Value
+  id: Value
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: JsonReader.Value
+  fullName: LitJson.JsonReader.Value
+  type: Property
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Value
+    path: ../Source/JsonReader.cs
+    startLine: 69
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public object Value { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Value As Object
+  overload: LitJson.JsonReader.Value*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonReader.#ctor(System.String)
+  commentId: M:LitJson.JsonReader.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: JsonReader(String)
+  nameWithType: JsonReader.JsonReader(String)
+  fullName: LitJson.JsonReader.JsonReader(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonReader.cs
+    startLine: 71
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonReader(string json)
+    parameters:
+    - id: json
+      type: System.String
+    content.vb: Public Sub New(json As String)
+  overload: LitJson.JsonReader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.#ctor(System.IO.TextReader)
+  commentId: M:LitJson.JsonReader.#ctor(System.IO.TextReader)
+  id: '#ctor(System.IO.TextReader)'
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: JsonReader(TextReader)
+  nameWithType: JsonReader.JsonReader(TextReader)
+  fullName: LitJson.JsonReader.JsonReader(System.IO.TextReader)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonReader.cs
+    startLine: 75
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonReader(TextReader reader)
+    parameters:
+    - id: reader
+      type: System.IO.TextReader
+    content.vb: Public Sub New(reader As TextReader)
+  overload: LitJson.JsonReader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.Close
+  commentId: M:LitJson.JsonReader.Close
+  id: Close
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: JsonReader.Close()
+  fullName: LitJson.JsonReader.Close()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Close
+    path: ../Source/JsonReader.cs
+    startLine: 365
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: LitJson.JsonReader.Close*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonReader.Read
+  commentId: M:LitJson.JsonReader.Read
+  id: Read
+  parent: LitJson.JsonReader
+  langs:
+  - csharp
+  - vb
+  name: Read()
+  nameWithType: JsonReader.Read()
+  fullName: LitJson.JsonReader.Read()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Read
+    path: ../Source/JsonReader.cs
+    startLine: 380
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool Read()
+    return:
+      type: System.Boolean
+    content.vb: Public Function Read As Boolean
+  overload: LitJson.JsonReader.Read*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LitJson.JsonReader.AllowComments*
+  commentId: Overload:LitJson.JsonReader.AllowComments
+  name: AllowComments
+  nameWithType: JsonReader.AllowComments
+  fullName: LitJson.JsonReader.AllowComments
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: LitJson.JsonReader.AllowSingleQuotedStrings*
+  commentId: Overload:LitJson.JsonReader.AllowSingleQuotedStrings
+  name: AllowSingleQuotedStrings
+  nameWithType: JsonReader.AllowSingleQuotedStrings
+  fullName: LitJson.JsonReader.AllowSingleQuotedStrings
+- uid: LitJson.JsonReader.SkipNonMembers*
+  commentId: Overload:LitJson.JsonReader.SkipNonMembers
+  name: SkipNonMembers
+  nameWithType: JsonReader.SkipNonMembers
+  fullName: LitJson.JsonReader.SkipNonMembers
+- uid: LitJson.JsonReader.TypeHinting*
+  commentId: Overload:LitJson.JsonReader.TypeHinting
+  name: TypeHinting
+  nameWithType: JsonReader.TypeHinting
+  fullName: LitJson.JsonReader.TypeHinting
+- uid: LitJson.JsonReader.HintTypeName*
+  commentId: Overload:LitJson.JsonReader.HintTypeName
+  name: HintTypeName
+  nameWithType: JsonReader.HintTypeName
+  fullName: LitJson.JsonReader.HintTypeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: LitJson.JsonReader.HintValueName*
+  commentId: Overload:LitJson.JsonReader.HintValueName
+  name: HintValueName
+  nameWithType: JsonReader.HintValueName
+  fullName: LitJson.JsonReader.HintValueName
+- uid: LitJson.JsonReader.EndOfInput*
+  commentId: Overload:LitJson.JsonReader.EndOfInput
+  name: EndOfInput
+  nameWithType: JsonReader.EndOfInput
+  fullName: LitJson.JsonReader.EndOfInput
+- uid: LitJson.JsonReader.EndOfJson*
+  commentId: Overload:LitJson.JsonReader.EndOfJson
+  name: EndOfJson
+  nameWithType: JsonReader.EndOfJson
+  fullName: LitJson.JsonReader.EndOfJson
+- uid: LitJson.JsonReader.Token*
+  commentId: Overload:LitJson.JsonReader.Token
+  name: Token
+  nameWithType: JsonReader.Token
+  fullName: LitJson.JsonReader.Token
+- uid: LitJson.JsonToken
+  commentId: T:LitJson.JsonToken
+  parent: LitJson
+  name: JsonToken
+  nameWithType: JsonToken
+  fullName: LitJson.JsonToken
+- uid: LitJson.JsonReader.Value*
+  commentId: Overload:LitJson.JsonReader.Value
+  name: Value
+  nameWithType: JsonReader.Value
+  fullName: LitJson.JsonReader.Value
+- uid: LitJson.JsonReader.#ctor*
+  commentId: Overload:LitJson.JsonReader.#ctor
+  name: JsonReader
+  nameWithType: JsonReader.JsonReader
+  fullName: LitJson.JsonReader.JsonReader
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: LitJson.JsonReader.Close*
+  commentId: Overload:LitJson.JsonReader.Close
+  name: Close
+  nameWithType: JsonReader.Close
+  fullName: LitJson.JsonReader.Close
+- uid: LitJson.JsonReader.Read*
+  commentId: Overload:LitJson.JsonReader.Read
+  name: Read
+  nameWithType: JsonReader.Read
+  fullName: LitJson.JsonReader.Read

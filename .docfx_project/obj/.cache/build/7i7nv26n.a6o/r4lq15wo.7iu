@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>LitJSON </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="LitJSON ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="litjson" sourcefile="index.md" sourcestartlinenumber="2">LitJSON</h1>
+
+<p sourcefile="index.md" sourcestartlinenumber="4">A <em sourcefile="index.md" sourcestartlinenumber="4">.Net</em> library to handle conversions from and to JSON (JavaScript Object
+Notation) strings. This fork has been edited specificity for use with <a href="http://unity3d.com/" sourcefile="index.md" sourcestartlinenumber="5">Unity3D</a>.</p>
+<p sourcefile="index.md" sourcestartlinenumber="7">Originally created by <a href="http://lbv.github.io/litjson/" sourcefile="index.md" sourcestartlinenumber="7">lbv</a>.</p>
+<h2 id="installation" sourcefile="index.md" sourcestartlinenumber="9">Installation</h2>
+<p sourcefile="index.md" sourcestartlinenumber="11">Simply pull the repo and open the .unitypackage to import the library.</p>
+<h2 id="licence" sourcefile="index.md" sourcestartlinenumber="13">Licence</h2>
+<p sourcefile="index.md" sourcestartlinenumber="15">This is free and unencumbered software released into the public domain.</p>
+<p sourcefile="index.md" sourcestartlinenumber="17">For more information, please refer to <a href="http://unlicense.org/" sourcefile="index.md" sourcestartlinenumber="17">http://unlicense.org/</a>.</p>
+<h2 id="examples" sourcefile="index.md" sourcestartlinenumber="19">Examples</h2>
+<p sourcefile="index.md" sourcestartlinenumber="21">For general examples, check out <a href="https://github.com/VictorySquare/UnityLitJson/blob/master/Docs/quickstart/guide.md" sourcefile="index.md" sourcestartlinenumber="21">/Docs/Quickstart/guide.md</a>
+in this repo, there is also a simple example included in the Unity package.</p>
+<h2 id="compiling" sourcefile="index.md" sourcestartlinenumber="24">Compiling</h2>
+<p sourcefile="index.md" sourcestartlinenumber="26">The LitJson csproj can be used to compile a dll and run the tests.
+If you intend to use the library in your Unity3D project I recommend
+you import the uncompiled source as there are some #if directives in
+Platform.cs that help make the library work on WinRT (and possibly
+other platforms in the future).</p>
+<pre><code sourcefile="index.md" sourcestartlinenumber="32">Compiler Directives
+
+JSON_STANDALONE		// Compile without Unity3D dependencies.
+
+JSON_WINRT			// Compile with WinRT compatibility fix. This will
+					// force compilation in Unity3D even if UNITY_METRO
+					// is false. It is recommended you only use this if
+					// you are using JSON_STANDALONE and are building
+					// for WindowsRT
+
+</code></pre>
+<h2 id="tests" sourcefile="index.md" sourcestartlinenumber="45">Tests</h2>
+<p sourcefile="index.md" sourcestartlinenumber="47">This library comes with a set of unit tests using the <a href="http://www.nunit.org/" sourcefile="index.md" sourcestartlinenumber="47">NUnit</a> framework.</p>
+<h2 id="todo" sourcefile="index.md" sourcestartlinenumber="49">TODO</h2>
+<ol sourcefile="index.md" sourcestartlinenumber="51">
+<li sourcefile="index.md" sourcestartlinenumber="51">Remove the static writer and just create a new private one each time instead (eliminates need for global lock).</li>
+<li sourcefile="index.md" sourcestartlinenumber="52">Add more error checks for type hinting.</li>
+<li sourcefile="index.md" sourcestartlinenumber="53">Add full XMLDocs to public interfaces.</li>
+<li sourcefile="index.md" sourcestartlinenumber="54">Try to get custom importers/exporters working recursively.</li>
+<li sourcefile="index.md" sourcestartlinenumber="55">README.md needs more information and examples.</li>
+<li sourcefile="index.md" sourcestartlinenumber="56">Fix unit tests that cause mono to crash (something with Enums I think).</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MacacaGames/UnityLitJson/blob/master/.docfx_project/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

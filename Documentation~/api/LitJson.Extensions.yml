@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.Extensions
+  commentId: N:LitJson.Extensions
+  id: LitJson.Extensions
+  children:
+  - LitJson.Extensions.Extensions
+  langs:
+  - csharp
+  - vb
+  name: LitJson.Extensions
+  nameWithType: LitJson.Extensions
+  fullName: LitJson.Extensions
+  type: Namespace
+  assemblies:
+  - UnityLitJson
+references:
+- uid: LitJson.Extensions.Extensions
+  commentId: T:LitJson.Extensions.Extensions
+  parent: LitJson.Extensions
+  name: Extensions
+  nameWithType: Extensions
+  fullName: LitJson.Extensions.Extensions
+- uid: LitJson.Extensions
+  commentId: N:LitJson.Extensions
+  name: LitJson.Extensions
+  nameWithType: LitJson.Extensions
+  fullName: LitJson.Extensions

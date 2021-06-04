@@ -1,0 +1,1317 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.JsonMapper
+  commentId: T:LitJson.JsonMapper
+  id: JsonMapper
+  parent: LitJson
+  children:
+  - LitJson.JsonMapper.RegisterExporter``1(LitJson.ExporterFunc{``0})
+  - LitJson.JsonMapper.RegisterFactory``1(LitJson.FactoryFunc{``0})
+  - LitJson.JsonMapper.RegisterImporter``2(LitJson.ImporterFunc{``0,``1})
+  - LitJson.JsonMapper.ToJson(System.Object)
+  - LitJson.JsonMapper.ToJson(System.Object,LitJson.JsonWriter)
+  - LitJson.JsonMapper.ToObject(LitJson.JsonReader)
+  - LitJson.JsonMapper.ToObject(System.IO.TextReader)
+  - LitJson.JsonMapper.ToObject(System.String)
+  - LitJson.JsonMapper.ToObject``1(LitJson.JsonReader)
+  - LitJson.JsonMapper.ToObject``1(System.IO.TextReader)
+  - LitJson.JsonMapper.ToObject``1(System.String)
+  - LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory,LitJson.JsonReader)
+  - LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory,System.String)
+  - LitJson.JsonMapper.UnregisterExporters
+  - LitJson.JsonMapper.UnregisterFactories
+  - LitJson.JsonMapper.UnregisterImporters
+  langs:
+  - csharp
+  - vb
+  name: JsonMapper
+  nameWithType: JsonMapper
+  fullName: LitJson.JsonMapper
+  type: Class
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: JsonMapper
+    path: ../Source/JsonMapper.cs
+    startLine: 88
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  summary: "\nJSON to .Net object and object to JSON conversions.\n"
+  example: []
+  syntax:
+    content: public class JsonMapper
+    content.vb: Public Class JsonMapper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LitJson.JsonMapper.ToJson(System.Object)
+  commentId: M:LitJson.JsonMapper.ToJson(System.Object)
+  id: ToJson(System.Object)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToJson(Object)
+  nameWithType: JsonMapper.ToJson(Object)
+  fullName: LitJson.JsonMapper.ToJson(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToJson
+    path: ../Source/JsonMapper.cs
+    startLine: 1010
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static string ToJson(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToJson(obj As Object) As String
+  overload: LitJson.JsonMapper.ToJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.ToJson(System.Object,LitJson.JsonWriter)
+  commentId: M:LitJson.JsonMapper.ToJson(System.Object,LitJson.JsonWriter)
+  id: ToJson(System.Object,LitJson.JsonWriter)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToJson(Object, JsonWriter)
+  nameWithType: JsonMapper.ToJson(Object, JsonWriter)
+  fullName: LitJson.JsonMapper.ToJson(System.Object, LitJson.JsonWriter)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToJson
+    path: ../Source/JsonMapper.cs
+    startLine: 1017
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static void ToJson(object obj, JsonWriter writer)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: writer
+      type: LitJson.JsonWriter
+    content.vb: Public Shared Sub ToJson(obj As Object, writer As JsonWriter)
+  overload: LitJson.JsonMapper.ToJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.ToObject(LitJson.JsonReader)
+  commentId: M:LitJson.JsonMapper.ToObject(LitJson.JsonReader)
+  id: ToObject(LitJson.JsonReader)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToObject(JsonReader)
+  nameWithType: JsonMapper.ToObject(JsonReader)
+  fullName: LitJson.JsonMapper.ToObject(LitJson.JsonReader)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToObject
+    path: ../Source/JsonMapper.cs
+    startLine: 1022
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static JsonData ToObject(JsonReader reader)
+    parameters:
+    - id: reader
+      type: LitJson.JsonReader
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Shared Function ToObject(reader As JsonReader) As JsonData
+  overload: LitJson.JsonMapper.ToObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.ToObject(System.IO.TextReader)
+  commentId: M:LitJson.JsonMapper.ToObject(System.IO.TextReader)
+  id: ToObject(System.IO.TextReader)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToObject(TextReader)
+  nameWithType: JsonMapper.ToObject(TextReader)
+  fullName: LitJson.JsonMapper.ToObject(System.IO.TextReader)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToObject
+    path: ../Source/JsonMapper.cs
+    startLine: 1030
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static JsonData ToObject(TextReader reader)
+    parameters:
+    - id: reader
+      type: System.IO.TextReader
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Shared Function ToObject(reader As TextReader) As JsonData
+  overload: LitJson.JsonMapper.ToObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.ToObject(System.String)
+  commentId: M:LitJson.JsonMapper.ToObject(System.String)
+  id: ToObject(System.String)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToObject(String)
+  nameWithType: JsonMapper.ToObject(String)
+  fullName: LitJson.JsonMapper.ToObject(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToObject
+    path: ../Source/JsonMapper.cs
+    startLine: 1039
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static JsonData ToObject(string json)
+    parameters:
+    - id: json
+      type: System.String
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Shared Function ToObject(json As String) As JsonData
+  overload: LitJson.JsonMapper.ToObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.ToObject``1(LitJson.JsonReader)
+  commentId: M:LitJson.JsonMapper.ToObject``1(LitJson.JsonReader)
+  id: ToObject``1(LitJson.JsonReader)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToObject<T>(JsonReader)
+  nameWithType: JsonMapper.ToObject<T>(JsonReader)
+  fullName: LitJson.JsonMapper.ToObject<T>(LitJson.JsonReader)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToObject
+    path: ../Source/JsonMapper.cs
+    startLine: 1047
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static T ToObject<T>(JsonReader reader)
+    parameters:
+    - id: reader
+      type: LitJson.JsonReader
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ToObject(Of T)(reader As JsonReader) As T
+  overload: LitJson.JsonMapper.ToObject*
+  nameWithType.vb: JsonMapper.ToObject(Of T)(JsonReader)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonMapper.ToObject(Of T)(LitJson.JsonReader)
+  name.vb: ToObject(Of T)(JsonReader)
+- uid: LitJson.JsonMapper.ToObject``1(System.IO.TextReader)
+  commentId: M:LitJson.JsonMapper.ToObject``1(System.IO.TextReader)
+  id: ToObject``1(System.IO.TextReader)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToObject<T>(TextReader)
+  nameWithType: JsonMapper.ToObject<T>(TextReader)
+  fullName: LitJson.JsonMapper.ToObject<T>(System.IO.TextReader)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToObject
+    path: ../Source/JsonMapper.cs
+    startLine: 1052
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static T ToObject<T>(TextReader reader)
+    parameters:
+    - id: reader
+      type: System.IO.TextReader
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ToObject(Of T)(reader As TextReader) As T
+  overload: LitJson.JsonMapper.ToObject*
+  nameWithType.vb: JsonMapper.ToObject(Of T)(TextReader)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonMapper.ToObject(Of T)(System.IO.TextReader)
+  name.vb: ToObject(Of T)(TextReader)
+- uid: LitJson.JsonMapper.ToObject``1(System.String)
+  commentId: M:LitJson.JsonMapper.ToObject``1(System.String)
+  id: ToObject``1(System.String)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToObject<T>(String)
+  nameWithType: JsonMapper.ToObject<T>(String)
+  fullName: LitJson.JsonMapper.ToObject<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToObject
+    path: ../Source/JsonMapper.cs
+    startLine: 1058
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static T ToObject<T>(string json)
+    parameters:
+    - id: json
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ToObject(Of T)(json As String) As T
+  overload: LitJson.JsonMapper.ToObject*
+  nameWithType.vb: JsonMapper.ToObject(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonMapper.ToObject(Of T)(System.String)
+  name.vb: ToObject(Of T)(String)
+- uid: LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory,LitJson.JsonReader)
+  commentId: M:LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory,LitJson.JsonReader)
+  id: ToWrapper(LitJson.WrapperFactory,LitJson.JsonReader)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToWrapper(WrapperFactory, JsonReader)
+  nameWithType: JsonMapper.ToWrapper(WrapperFactory, JsonReader)
+  fullName: LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory, LitJson.JsonReader)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToWrapper
+    path: ../Source/JsonMapper.cs
+    startLine: 1064
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static IJsonWrapper ToWrapper(WrapperFactory factory, JsonReader reader)
+    parameters:
+    - id: factory
+      type: LitJson.WrapperFactory
+    - id: reader
+      type: LitJson.JsonReader
+    return:
+      type: LitJson.IJsonWrapper
+    content.vb: Public Shared Function ToWrapper(factory As WrapperFactory, reader As JsonReader) As IJsonWrapper
+  overload: LitJson.JsonMapper.ToWrapper*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory,System.String)
+  commentId: M:LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory,System.String)
+  id: ToWrapper(LitJson.WrapperFactory,System.String)
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: ToWrapper(WrapperFactory, String)
+  nameWithType: JsonMapper.ToWrapper(WrapperFactory, String)
+  fullName: LitJson.JsonMapper.ToWrapper(LitJson.WrapperFactory, System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToWrapper
+    path: ../Source/JsonMapper.cs
+    startLine: 1069
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static IJsonWrapper ToWrapper(WrapperFactory factory, string json)
+    parameters:
+    - id: factory
+      type: LitJson.WrapperFactory
+    - id: json
+      type: System.String
+    return:
+      type: LitJson.IJsonWrapper
+    content.vb: Public Shared Function ToWrapper(factory As WrapperFactory, json As String) As IJsonWrapper
+  overload: LitJson.JsonMapper.ToWrapper*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.RegisterExporter``1(LitJson.ExporterFunc{``0})
+  commentId: M:LitJson.JsonMapper.RegisterExporter``1(LitJson.ExporterFunc{``0})
+  id: RegisterExporter``1(LitJson.ExporterFunc{``0})
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: RegisterExporter<T>(ExporterFunc<T>)
+  nameWithType: JsonMapper.RegisterExporter<T>(ExporterFunc<T>)
+  fullName: LitJson.JsonMapper.RegisterExporter<T>(LitJson.ExporterFunc<T>)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: RegisterExporter
+    path: ../Source/JsonMapper.cs
+    startLine: 1075
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static void RegisterExporter<T>(ExporterFunc<T> exporter)
+    parameters:
+    - id: exporter
+      type: LitJson.ExporterFunc{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub RegisterExporter(Of T)(exporter As ExporterFunc(Of T))
+  overload: LitJson.JsonMapper.RegisterExporter*
+  nameWithType.vb: JsonMapper.RegisterExporter(Of T)(ExporterFunc(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonMapper.RegisterExporter(Of T)(LitJson.ExporterFunc(Of T))
+  name.vb: RegisterExporter(Of T)(ExporterFunc(Of T))
+- uid: LitJson.JsonMapper.RegisterImporter``2(LitJson.ImporterFunc{``0,``1})
+  commentId: M:LitJson.JsonMapper.RegisterImporter``2(LitJson.ImporterFunc{``0,``1})
+  id: RegisterImporter``2(LitJson.ImporterFunc{``0,``1})
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: RegisterImporter<TJson, TValue>(ImporterFunc<TJson, TValue>)
+  nameWithType: JsonMapper.RegisterImporter<TJson, TValue>(ImporterFunc<TJson, TValue>)
+  fullName: LitJson.JsonMapper.RegisterImporter<TJson, TValue>(LitJson.ImporterFunc<TJson, TValue>)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: RegisterImporter
+    path: ../Source/JsonMapper.cs
+    startLine: 1084
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static void RegisterImporter<TJson, TValue>(ImporterFunc<TJson, TValue> importer)
+    parameters:
+    - id: importer
+      type: LitJson.ImporterFunc{{TJson},{TValue}}
+    typeParameters:
+    - id: TJson
+    - id: TValue
+    content.vb: Public Shared Sub RegisterImporter(Of TJson, TValue)(importer As ImporterFunc(Of TJson, TValue))
+  overload: LitJson.JsonMapper.RegisterImporter*
+  nameWithType.vb: JsonMapper.RegisterImporter(Of TJson, TValue)(ImporterFunc(Of TJson, TValue))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonMapper.RegisterImporter(Of TJson, TValue)(LitJson.ImporterFunc(Of TJson, TValue))
+  name.vb: RegisterImporter(Of TJson, TValue)(ImporterFunc(Of TJson, TValue))
+- uid: LitJson.JsonMapper.RegisterFactory``1(LitJson.FactoryFunc{``0})
+  commentId: M:LitJson.JsonMapper.RegisterFactory``1(LitJson.FactoryFunc{``0})
+  id: RegisterFactory``1(LitJson.FactoryFunc{``0})
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: RegisterFactory<T>(FactoryFunc<T>)
+  nameWithType: JsonMapper.RegisterFactory<T>(FactoryFunc<T>)
+  fullName: LitJson.JsonMapper.RegisterFactory<T>(LitJson.FactoryFunc<T>)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: RegisterFactory
+    path: ../Source/JsonMapper.cs
+    startLine: 1093
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static void RegisterFactory<T>(FactoryFunc<T> factory)
+    parameters:
+    - id: factory
+      type: LitJson.FactoryFunc{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub RegisterFactory(Of T)(factory As FactoryFunc(Of T))
+  overload: LitJson.JsonMapper.RegisterFactory*
+  nameWithType.vb: JsonMapper.RegisterFactory(Of T)(FactoryFunc(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonMapper.RegisterFactory(Of T)(LitJson.FactoryFunc(Of T))
+  name.vb: RegisterFactory(Of T)(FactoryFunc(Of T))
+- uid: LitJson.JsonMapper.UnregisterFactories
+  commentId: M:LitJson.JsonMapper.UnregisterFactories
+  id: UnregisterFactories
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: UnregisterFactories()
+  nameWithType: JsonMapper.UnregisterFactories()
+  fullName: LitJson.JsonMapper.UnregisterFactories()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: UnregisterFactories
+    path: ../Source/JsonMapper.cs
+    startLine: 1102
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static void UnregisterFactories()
+    content.vb: Public Shared Sub UnregisterFactories
+  overload: LitJson.JsonMapper.UnregisterFactories*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.UnregisterExporters
+  commentId: M:LitJson.JsonMapper.UnregisterExporters
+  id: UnregisterExporters
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: UnregisterExporters()
+  nameWithType: JsonMapper.UnregisterExporters()
+  fullName: LitJson.JsonMapper.UnregisterExporters()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: UnregisterExporters
+    path: ../Source/JsonMapper.cs
+    startLine: 1107
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static void UnregisterExporters()
+    content.vb: Public Shared Sub UnregisterExporters
+  overload: LitJson.JsonMapper.UnregisterExporters*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: LitJson.JsonMapper.UnregisterImporters
+  commentId: M:LitJson.JsonMapper.UnregisterImporters
+  id: UnregisterImporters
+  parent: LitJson.JsonMapper
+  langs:
+  - csharp
+  - vb
+  name: UnregisterImporters()
+  nameWithType: JsonMapper.UnregisterImporters()
+  fullName: LitJson.JsonMapper.UnregisterImporters()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: UnregisterImporters
+    path: ../Source/JsonMapper.cs
+    startLine: 1112
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static void UnregisterImporters()
+    content.vb: Public Shared Sub UnregisterImporters
+  overload: LitJson.JsonMapper.UnregisterImporters*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LitJson.JsonMapper.ToJson*
+  commentId: Overload:LitJson.JsonMapper.ToJson
+  name: ToJson
+  nameWithType: JsonMapper.ToJson
+  fullName: LitJson.JsonMapper.ToJson
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: LitJson.JsonWriter
+  commentId: T:LitJson.JsonWriter
+  parent: LitJson
+  name: JsonWriter
+  nameWithType: JsonWriter
+  fullName: LitJson.JsonWriter
+- uid: LitJson.JsonMapper.ToObject*
+  commentId: Overload:LitJson.JsonMapper.ToObject
+  name: ToObject
+  nameWithType: JsonMapper.ToObject
+  fullName: LitJson.JsonMapper.ToObject
+- uid: LitJson.JsonReader
+  commentId: T:LitJson.JsonReader
+  parent: LitJson
+  name: JsonReader
+  nameWithType: JsonReader
+  fullName: LitJson.JsonReader
+- uid: LitJson.JsonData
+  commentId: T:LitJson.JsonData
+  parent: LitJson
+  name: JsonData
+  nameWithType: JsonData
+  fullName: LitJson.JsonData
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: LitJson.JsonMapper.ToWrapper*
+  commentId: Overload:LitJson.JsonMapper.ToWrapper
+  name: ToWrapper
+  nameWithType: JsonMapper.ToWrapper
+  fullName: LitJson.JsonMapper.ToWrapper
+- uid: LitJson.WrapperFactory
+  commentId: T:LitJson.WrapperFactory
+  parent: LitJson
+  name: WrapperFactory
+  nameWithType: WrapperFactory
+  fullName: LitJson.WrapperFactory
+- uid: LitJson.IJsonWrapper
+  commentId: T:LitJson.IJsonWrapper
+  parent: LitJson
+  name: IJsonWrapper
+  nameWithType: IJsonWrapper
+  fullName: LitJson.IJsonWrapper
+- uid: LitJson.JsonMapper.RegisterExporter*
+  commentId: Overload:LitJson.JsonMapper.RegisterExporter
+  name: RegisterExporter
+  nameWithType: JsonMapper.RegisterExporter
+  fullName: LitJson.JsonMapper.RegisterExporter
+- uid: LitJson.ExporterFunc{{T}}
+  commentId: T:LitJson.ExporterFunc{``0}
+  parent: LitJson
+  definition: LitJson.ExporterFunc`1
+  name: ExporterFunc<T>
+  nameWithType: ExporterFunc<T>
+  fullName: LitJson.ExporterFunc<T>
+  nameWithType.vb: ExporterFunc(Of T)
+  fullName.vb: LitJson.ExporterFunc(Of T)
+  name.vb: ExporterFunc(Of T)
+  spec.csharp:
+  - uid: LitJson.ExporterFunc`1
+    name: ExporterFunc
+    nameWithType: ExporterFunc
+    fullName: LitJson.ExporterFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.ExporterFunc`1
+    name: ExporterFunc
+    nameWithType: ExporterFunc
+    fullName: LitJson.ExporterFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.ExporterFunc`1
+  commentId: T:LitJson.ExporterFunc`1
+  name: ExporterFunc<T>
+  nameWithType: ExporterFunc<T>
+  fullName: LitJson.ExporterFunc<T>
+  nameWithType.vb: ExporterFunc(Of T)
+  fullName.vb: LitJson.ExporterFunc(Of T)
+  name.vb: ExporterFunc(Of T)
+  spec.csharp:
+  - uid: LitJson.ExporterFunc`1
+    name: ExporterFunc
+    nameWithType: ExporterFunc
+    fullName: LitJson.ExporterFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.ExporterFunc`1
+    name: ExporterFunc
+    nameWithType: ExporterFunc
+    fullName: LitJson.ExporterFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonMapper.RegisterImporter*
+  commentId: Overload:LitJson.JsonMapper.RegisterImporter
+  name: RegisterImporter
+  nameWithType: JsonMapper.RegisterImporter
+  fullName: LitJson.JsonMapper.RegisterImporter
+- uid: LitJson.ImporterFunc{{TJson},{TValue}}
+  commentId: T:LitJson.ImporterFunc{``0,``1}
+  parent: LitJson
+  definition: LitJson.ImporterFunc`2
+  name: ImporterFunc<TJson, TValue>
+  nameWithType: ImporterFunc<TJson, TValue>
+  fullName: LitJson.ImporterFunc<TJson, TValue>
+  nameWithType.vb: ImporterFunc(Of TJson, TValue)
+  fullName.vb: LitJson.ImporterFunc(Of TJson, TValue)
+  name.vb: ImporterFunc(Of TJson, TValue)
+  spec.csharp:
+  - uid: LitJson.ImporterFunc`2
+    name: ImporterFunc
+    nameWithType: ImporterFunc
+    fullName: LitJson.ImporterFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJson
+    nameWithType: TJson
+    fullName: TJson
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.ImporterFunc`2
+    name: ImporterFunc
+    nameWithType: ImporterFunc
+    fullName: LitJson.ImporterFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJson
+    nameWithType: TJson
+    fullName: TJson
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.ImporterFunc`2
+  commentId: T:LitJson.ImporterFunc`2
+  name: ImporterFunc<TJson, TValue>
+  nameWithType: ImporterFunc<TJson, TValue>
+  fullName: LitJson.ImporterFunc<TJson, TValue>
+  nameWithType.vb: ImporterFunc(Of TJson, TValue)
+  fullName.vb: LitJson.ImporterFunc(Of TJson, TValue)
+  name.vb: ImporterFunc(Of TJson, TValue)
+  spec.csharp:
+  - uid: LitJson.ImporterFunc`2
+    name: ImporterFunc
+    nameWithType: ImporterFunc
+    fullName: LitJson.ImporterFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJson
+    nameWithType: TJson
+    fullName: TJson
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.ImporterFunc`2
+    name: ImporterFunc
+    nameWithType: ImporterFunc
+    fullName: LitJson.ImporterFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJson
+    nameWithType: TJson
+    fullName: TJson
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonMapper.RegisterFactory*
+  commentId: Overload:LitJson.JsonMapper.RegisterFactory
+  name: RegisterFactory
+  nameWithType: JsonMapper.RegisterFactory
+  fullName: LitJson.JsonMapper.RegisterFactory
+- uid: LitJson.FactoryFunc{{T}}
+  commentId: T:LitJson.FactoryFunc{``0}
+  parent: LitJson
+  definition: LitJson.FactoryFunc`1
+  name: FactoryFunc<T>
+  nameWithType: FactoryFunc<T>
+  fullName: LitJson.FactoryFunc<T>
+  nameWithType.vb: FactoryFunc(Of T)
+  fullName.vb: LitJson.FactoryFunc(Of T)
+  name.vb: FactoryFunc(Of T)
+  spec.csharp:
+  - uid: LitJson.FactoryFunc`1
+    name: FactoryFunc
+    nameWithType: FactoryFunc
+    fullName: LitJson.FactoryFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.FactoryFunc`1
+    name: FactoryFunc
+    nameWithType: FactoryFunc
+    fullName: LitJson.FactoryFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.FactoryFunc`1
+  commentId: T:LitJson.FactoryFunc`1
+  name: FactoryFunc<T>
+  nameWithType: FactoryFunc<T>
+  fullName: LitJson.FactoryFunc<T>
+  nameWithType.vb: FactoryFunc(Of T)
+  fullName.vb: LitJson.FactoryFunc(Of T)
+  name.vb: FactoryFunc(Of T)
+  spec.csharp:
+  - uid: LitJson.FactoryFunc`1
+    name: FactoryFunc
+    nameWithType: FactoryFunc
+    fullName: LitJson.FactoryFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.FactoryFunc`1
+    name: FactoryFunc
+    nameWithType: FactoryFunc
+    fullName: LitJson.FactoryFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonMapper.UnregisterFactories*
+  commentId: Overload:LitJson.JsonMapper.UnregisterFactories
+  name: UnregisterFactories
+  nameWithType: JsonMapper.UnregisterFactories
+  fullName: LitJson.JsonMapper.UnregisterFactories
+- uid: LitJson.JsonMapper.UnregisterExporters*
+  commentId: Overload:LitJson.JsonMapper.UnregisterExporters
+  name: UnregisterExporters
+  nameWithType: JsonMapper.UnregisterExporters
+  fullName: LitJson.JsonMapper.UnregisterExporters
+- uid: LitJson.JsonMapper.UnregisterImporters*
+  commentId: Overload:LitJson.JsonMapper.UnregisterImporters
+  name: UnregisterImporters
+  nameWithType: JsonMapper.UnregisterImporters
+  fullName: LitJson.JsonMapper.UnregisterImporters

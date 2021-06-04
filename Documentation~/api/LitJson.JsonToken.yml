@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.JsonToken
+  commentId: T:LitJson.JsonToken
+  id: JsonToken
+  parent: LitJson
+  children:
+  - LitJson.JsonToken.ArrayEnd
+  - LitJson.JsonToken.ArrayStart
+  - LitJson.JsonToken.Boolean
+  - LitJson.JsonToken.Natural
+  - LitJson.JsonToken.None
+  - LitJson.JsonToken.Null
+  - LitJson.JsonToken.ObjectEnd
+  - LitJson.JsonToken.ObjectStart
+  - LitJson.JsonToken.PropertyName
+  - LitJson.JsonToken.Real
+  - LitJson.JsonToken.String
+  langs:
+  - csharp
+  - vb
+  name: JsonToken
+  nameWithType: JsonToken
+  fullName: LitJson.JsonToken
+  type: Enum
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: JsonToken
+    path: ../Source/JsonReader.cs
+    startLine: 15
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public enum JsonToken
+    content.vb: Public Enum JsonToken
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: LitJson.JsonToken.None
+  commentId: F:LitJson.JsonToken.None
+  id: None
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: JsonToken.None
+  fullName: LitJson.JsonToken.None
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: None
+    path: ../Source/JsonReader.cs
+    startLine: 17
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: None = 0
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.Null
+  commentId: F:LitJson.JsonToken.Null
+  id: "Null"
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: "Null"
+  nameWithType: JsonToken.Null
+  fullName: LitJson.JsonToken.Null
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: "Null"
+    path: ../Source/JsonReader.cs
+    startLine: 18
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: Null = 1
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.ObjectStart
+  commentId: F:LitJson.JsonToken.ObjectStart
+  id: ObjectStart
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: ObjectStart
+  nameWithType: JsonToken.ObjectStart
+  fullName: LitJson.JsonToken.ObjectStart
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ObjectStart
+    path: ../Source/JsonReader.cs
+    startLine: 20
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: ObjectStart = 2
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.PropertyName
+  commentId: F:LitJson.JsonToken.PropertyName
+  id: PropertyName
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: PropertyName
+  nameWithType: JsonToken.PropertyName
+  fullName: LitJson.JsonToken.PropertyName
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: PropertyName
+    path: ../Source/JsonReader.cs
+    startLine: 21
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: PropertyName = 3
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.ObjectEnd
+  commentId: F:LitJson.JsonToken.ObjectEnd
+  id: ObjectEnd
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: ObjectEnd
+  nameWithType: JsonToken.ObjectEnd
+  fullName: LitJson.JsonToken.ObjectEnd
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ObjectEnd
+    path: ../Source/JsonReader.cs
+    startLine: 22
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: ObjectEnd = 4
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.ArrayStart
+  commentId: F:LitJson.JsonToken.ArrayStart
+  id: ArrayStart
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: ArrayStart
+  nameWithType: JsonToken.ArrayStart
+  fullName: LitJson.JsonToken.ArrayStart
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ArrayStart
+    path: ../Source/JsonReader.cs
+    startLine: 24
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: ArrayStart = 5
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.ArrayEnd
+  commentId: F:LitJson.JsonToken.ArrayEnd
+  id: ArrayEnd
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: ArrayEnd
+  nameWithType: JsonToken.ArrayEnd
+  fullName: LitJson.JsonToken.ArrayEnd
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ArrayEnd
+    path: ../Source/JsonReader.cs
+    startLine: 25
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: ArrayEnd = 6
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.Real
+  commentId: F:LitJson.JsonToken.Real
+  id: Real
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: Real
+  nameWithType: JsonToken.Real
+  fullName: LitJson.JsonToken.Real
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Real
+    path: ../Source/JsonReader.cs
+    startLine: 27
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: Real = 7
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.Natural
+  commentId: F:LitJson.JsonToken.Natural
+  id: Natural
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: Natural
+  nameWithType: JsonToken.Natural
+  fullName: LitJson.JsonToken.Natural
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Natural
+    path: ../Source/JsonReader.cs
+    startLine: 28
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: Natural = 8
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.String
+  commentId: F:LitJson.JsonToken.String
+  id: String
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: JsonToken.String
+  fullName: LitJson.JsonToken.String
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: String
+    path: ../Source/JsonReader.cs
+    startLine: 30
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: String = 9
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: LitJson.JsonToken.Boolean
+  commentId: F:LitJson.JsonToken.Boolean
+  id: Boolean
+  parent: LitJson.JsonToken
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: JsonToken.Boolean
+  fullName: LitJson.JsonToken.Boolean
+  type: Field
+  source:
+    remote:
+      path: Source/JsonReader.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Boolean
+    path: ../Source/JsonReader.cs
+    startLine: 32
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: Boolean = 10
+    return:
+      type: LitJson.JsonToken
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: LitJson.JsonToken
+  commentId: T:LitJson.JsonToken
+  parent: LitJson
+  name: JsonToken
+  nameWithType: JsonToken
+  fullName: LitJson.JsonToken

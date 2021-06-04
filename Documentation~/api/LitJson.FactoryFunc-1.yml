@@ -1,0 +1,57 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.FactoryFunc`1
+  commentId: T:LitJson.FactoryFunc`1
+  id: FactoryFunc`1
+  parent: LitJson
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FactoryFunc<T>
+  nameWithType: FactoryFunc<T>
+  fullName: LitJson.FactoryFunc<T>
+  type: Delegate
+  source:
+    remote:
+      path: Source/JsonMapper.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: FactoryFunc
+    path: ../Source/JsonMapper.cs
+    startLine: 81
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public delegate T FactoryFunc<T>();
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Delegate Function FactoryFunc(Of T) As T
+  nameWithType.vb: FactoryFunc(Of T)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: LitJson.FactoryFunc(Of T)
+  name.vb: FactoryFunc(Of T)
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

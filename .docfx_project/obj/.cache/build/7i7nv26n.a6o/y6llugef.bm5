@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>LitJSON 1.1.1 (UnityLitJson) </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="LitJSON 1.1.1 (UnityLitJson) ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="litjson-111-unitylitjson">LitJSON 1.1.1 (UnityLitJson)</h1>
+
+<p>Merged <a href="https://github.com/HyperHippo/litjson">HyperHippo's</a> v2 branch onto the main branch.
+Added some Unity3D specific type bindings &amp; platform compatibility patches.</p>
+<p><em>Note about building</em></p>
+<p>I've left the LitJson csproj intact so you can run the tests. When your
+ready to use the library in Unity3D I recommend you import the uncompleted
+source, there are some #if directives in UnityPlatform.cs that help make the
+library work on WinRT (and possibly other platforms in the future).</p>
+<h1 id="litjson-110">LitJSON 1.1.0</h1>
+<p>Implemented type-hinting.
+To enable type-hinting set the JsonReader/JsonWriter's <code>TypeHinting</code> property to <code>true</code>.
+Optionally, set the <code>HintTypeName</code> and <code>HintValueName</code> properties.
+These properties are the JSON key names for the type and the data objects.
+The defaults are &quot;<strong>type</strong>&quot; and &quot;<strong>value</strong>&quot; respectivly.</p>
+<p>If enabled, the type-hinting system will only include type information for polymorphic fields/properties or collections which contains polymorphic elements.</p>
+<pre><code class="lang-C#">// As an example, if we had the following schema:
+
+// Contained in MyAssembly
+namespace MyNamespace {
+
+class Base {
+	public int x = 1;
+}
+
+class Derived : Base {
+	public int y = 2;
+}
+
+class Root {
+	public Base field;
+}
+
+}
+
+// And we had a root object which contained the following:
+var root = new Root();
+root.field = new Derived();
+
+// Then serializing the object will include type hinting, since the field type does not match the given type exactly.
+JsonWriter writer = new JsonWriter();
+writer.TypeHinting = true;
+string json = JsonMapper.ToJson(root, writer);
+</code></pre>
+<p>The resultant JSON will be as follows:</p>
+<pre><code class="lang-JSON">{
+	&quot;field&quot;: {
+		&quot;__type__&quot;: &quot;MyNamespace.Derived, MyAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null&quot;,
+		&quot;__value__&quot;: {
+			&quot;x&quot;: 1,
+			&quot;y&quot;: 2
+		}
+	}
+}
+</code></pre>
+<p>To property locate the correct type, the <a href="http://msdn.microsoft.com/en-us/library/system.type.assemblyqualifiedname.aspx">Assembly Qualified Name</a> is serialized along with the object.
+It is the most amount of information that can be given about a particular type.
+Although verbose, it is needed to property determine the exact namespace and assembly the type is located in to find it.
+In the future, it may be possibly to only specify a namespace and type name as the hint.
+This would mean the library would have to search through each assembly for the correct type, which could significantly degrade performance.</p>
+<p>Type-hinting also works for generic collections like <code>List&lt;T&gt;</code> and <code>IDictionary&lt;K, V&gt;</code>, and will only include hints for elements that do not match the generic argument exactly.
+Type-hinting will also work for non-generic collections, in which case all elements are given serialized with a hint.</p>
+<h1 id="litjson-100">LitJSON 1.0.0</h1>
+<p>JsonIgnore attribute added.
+With this attribute, you can specify if an attribute read/written when serializaing or deserializing.
+If you specify <code>[JsonIgnore(JsonIgnoreWhen.Serializing)]</code> the attribute will be deserialized to, but not serialized.
+On the contrary, <code>[JsonIgnore(JsonIgnoreWhen.Deserializing)]</code> will serialize the attribute but will ignore it when deserializing.
+The default, <code>[JsonIgnore]</code> will ignore the attribute completely.</p>
+<h1 id="litjson-090">LitJSON 0.9.0</h1>
+<p><em>To Be Announced</em></p>
+<p>Additions:</p>
+<ul>
+<li>Added <code>JsonData.Keys</code> property, with type <code>ICollection&lt;string&gt;</code>.</li>
+</ul>
+<h1 id="litjson-070">LitJSON 0.7.0</h1>
+<p>2013-04-26</p>
+<p>General changes and improvements:</p>
+<ul>
+<li><p>Simplified the building mechanism. Dropped the entire autotools
+infrastructure, and instead added a single Makefile to compile the project
+and run the tests with <em>GNU make</em>.</p>
+</li>
+<li><p>Added <code>SkipNonMembers</code> property to <code>JsonReader</code>. When active, it allows to
+parse JSON data using <code>JsonMapper.ToObject&lt;T&gt;</code> and ignore any properties
+not available in the type <code>T</code>. Its default value is <code>true</code>.</p>
+</li>
+<li><p>Started moving the documentation into Markdown format.</p>
+</li>
+<li><p>Added a new section to the QuickStart Guide, regarding customisation of
+the library's behaviour.</p>
+</li>
+</ul>
+<p>Bug fixes:</p>
+<ul>
+<li><p>Convert <code>null</code> properties properly in <code>JsonData.ToJson</code>.</p>
+</li>
+<li><p>Read nested arrays in <code>JsonMapper.ToObject</code> and <code>JsonMapper.ToObject&lt;T&gt;</code>
+correctly.</p>
+</li>
+</ul>
+<p>Contributors for this release:</p>
+<pre><code>- whoo24
+- Christopher Dummy
+</code></pre>
+<h1 id="litjson-050">LitJSON 0.5.0</h1>
+<p>2007-10-04</p>
+<p>New features and improvements:</p>
+<ul>
+<li><p>The JsonRader class now has two properties to control the reading of data
+from an input stream: EndOfInput and EndOfJson. The latter becomes
+true whenever a complete piece of JSON text has been read, while the
+former is a flag that becomes true when the stream itself reaches the end.
+This way, reading multiple JSON texts from the same input stream is
+straightforward.</p>
+</li>
+<li><p>Added new base importers in JsonMapper for reading numeric values
+correctly into float and double members.</p>
+</li>
+<li><p>Now Enum's can be imported/exported as numeric values.</p>
+</li>
+<li><p>JsonData implements the IEquatable<t> interface now.<p>
+</t></li>
+</ul>
+<p>API changes:</p>
+<pre><code>The following types are new:
+	enum JsonType
+
+The following methods are new:
+	IJsonWrapper.GetJsonType()
+	IJsonWrapper.SetJsonType()
+
+The following properties are new:
+	JsonReader.EndOfInput
+</code></pre>
+<p>Bug fixes:</p>
+<ul>
+<li><p>Correctly import/export properties that are read-only or write-only.</p>
+</li>
+<li><p>Correctly convert null values when adding them as array elements or
+properties to a JsonData instance.</p>
+</li>
+<li><p>Fixed conversion of empty JSON objects and arrays.</p>
+</li>
+</ul>
+<p>Thanks to all the contributors that reported problems and suggested fixes
+for this release:
+Colin Alworth
+Ralf Callenberg
+andi</p>
+<h1 id="litjson-030">LitJSON 0.3.0</h1>
+<p>2007-08-15</p>
+<p>New features and improvements:</p>
+<ul>
+<li><p>Exporters and importers.
+Custom conversions using the JsonMapper class can be made through
+importers and exporters. These are delegates that tell the library how to
+perform conversions between non-basic types (i.e. not string, int, long,
+double or boolean) and JSON. There are base and custom
+exporters/importers. The base exporters and importers are built-in
+delegates that currently handle simple conversions between JSON and the
+following value types:</p>
+<pre><code>  byte
+  char
+  DateTime
+  decimal
+  sbyte
+  short
+  ushort
+  uint
+  ulong
+</code></pre>
+<p>Custom exporters and importers can be defined through
+JsonMapper.RegisterExporter and JsonMapper.RegisterImporter, and they
+override the built-in conversions.</p>
+</li>
+<li><p>Improved performance of JsonMapper.ToJson()
+A static JsonWriter is re-used to reduce the activity in the heap,
+improving performance for multiple conversions.</p>
+</li>
+<li><p>Allowing extended grammar
+The lexer can now accept single-quoted strings, and comments in the
+following forms:</p>
+<pre><code>  // Single-line comment
+
+  /*
+   * Multi-line comment
+   */
+</code></pre>
+<p>This way, certain forms of input coming from JavaScript that don't
+necessarily conform to the strict JSON grammar are allowed and succesfully
+parsed.</p>
+<p>A JsonReader can be configured to accept only the strict grammar or the
+extended one. These extensions are allowed by default.</p>
+</li>
+<li><p>API cleanups and additions.
+The following members are new:</p>
+<pre><code>  JsonData.Count
+  JsonMapper.RegisterExporter()
+  JsonMapper.RegisterImporter()
+  JsonMapper.UnregisterExporters()
+  JsonMapper.UnregisterImporters()
+  JsonReader.AllowComments
+  JsonReader.AllowSingleQuotedStrings
+  JsonWriter.Reset()
+</code></pre>
+<p>The following overloads have been added:</p>
+<pre><code>  JsonMapper.ToJson(object obj, JsonWriter writer)
+  JsonMapper.ToObject(JsonReader reader)
+</code></pre>
+<p>The following members have been renamed:</p>
+<pre><code>  JsonReader.HasReachedEnd is now JsonReader.EndOfJson
+</code></pre>
+</li>
+</ul>
+<p>Bugs fixed:</p>
+<ul>
+<li>JsonMapper.ToJson() avoids entering an infinite recursion by defining a
+max nesting depth.</li>
+<li>The JsonData int indexer now behaves correctly both when it acts as an
+array and as an object.</li>
+</ul>
+<h1 id="litjson-010">LitJSON 0.1.0</h1>
+<p>2007-08-09</p>
+<p>First release.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MacacaGames/UnityLitJson/blob/master/.docfx_project/news/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

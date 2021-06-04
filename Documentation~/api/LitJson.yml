@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson
+  commentId: N:LitJson
+  id: LitJson
+  children:
+  - LitJson.ExporterFunc`1
+  - LitJson.FactoryFunc`1
+  - LitJson.IJsonWrapper
+  - LitJson.ImporterFunc`2
+  - LitJson.JsonAlias
+  - LitJson.JsonData
+  - LitJson.JsonException
+  - LitJson.JsonIgnore
+  - LitJson.JsonIgnoreMember
+  - LitJson.JsonIgnoreWhen
+  - LitJson.JsonInclude
+  - LitJson.JsonMapper
+  - LitJson.JsonMockWrapper
+  - LitJson.JsonReader
+  - LitJson.JsonToken
+  - LitJson.JsonType
+  - LitJson.JsonWriter
+  - LitJson.UnityTypeBindings
+  - LitJson.WrapperFactory
+  langs:
+  - csharp
+  - vb
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+  type: Namespace
+  assemblies:
+  - UnityLitJson
+references:
+- uid: LitJson.JsonToken
+  commentId: T:LitJson.JsonToken
+  parent: LitJson
+  name: JsonToken
+  nameWithType: JsonToken
+  fullName: LitJson.JsonToken
+- uid: LitJson.JsonReader
+  commentId: T:LitJson.JsonReader
+  parent: LitJson
+  name: JsonReader
+  nameWithType: JsonReader
+  fullName: LitJson.JsonReader
+- uid: LitJson.JsonType
+  commentId: T:LitJson.JsonType
+  parent: LitJson
+  name: JsonType
+  nameWithType: JsonType
+  fullName: LitJson.JsonType
+- uid: LitJson.IJsonWrapper
+  commentId: T:LitJson.IJsonWrapper
+  parent: LitJson
+  name: IJsonWrapper
+  nameWithType: IJsonWrapper
+  fullName: LitJson.IJsonWrapper
+- uid: LitJson.JsonMockWrapper
+  commentId: T:LitJson.JsonMockWrapper
+  name: JsonMockWrapper
+  nameWithType: JsonMockWrapper
+  fullName: LitJson.JsonMockWrapper
+- uid: LitJson.JsonException
+  commentId: T:LitJson.JsonException
+  name: JsonException
+  nameWithType: JsonException
+  fullName: LitJson.JsonException
+- uid: LitJson.ExporterFunc`1
+  commentId: T:LitJson.ExporterFunc`1
+  name: ExporterFunc<T>
+  nameWithType: ExporterFunc<T>
+  fullName: LitJson.ExporterFunc<T>
+  nameWithType.vb: ExporterFunc(Of T)
+  fullName.vb: LitJson.ExporterFunc(Of T)
+  name.vb: ExporterFunc(Of T)
+  spec.csharp:
+  - uid: LitJson.ExporterFunc`1
+    name: ExporterFunc
+    nameWithType: ExporterFunc
+    fullName: LitJson.ExporterFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.ExporterFunc`1
+    name: ExporterFunc
+    nameWithType: ExporterFunc
+    fullName: LitJson.ExporterFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.ImporterFunc`2
+  commentId: T:LitJson.ImporterFunc`2
+  name: ImporterFunc<TJson, TValue>
+  nameWithType: ImporterFunc<TJson, TValue>
+  fullName: LitJson.ImporterFunc<TJson, TValue>
+  nameWithType.vb: ImporterFunc(Of TJson, TValue)
+  fullName.vb: LitJson.ImporterFunc(Of TJson, TValue)
+  name.vb: ImporterFunc(Of TJson, TValue)
+  spec.csharp:
+  - uid: LitJson.ImporterFunc`2
+    name: ImporterFunc
+    nameWithType: ImporterFunc
+    fullName: LitJson.ImporterFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJson
+    nameWithType: TJson
+    fullName: TJson
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.ImporterFunc`2
+    name: ImporterFunc
+    nameWithType: ImporterFunc
+    fullName: LitJson.ImporterFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJson
+    nameWithType: TJson
+    fullName: TJson
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.FactoryFunc`1
+  commentId: T:LitJson.FactoryFunc`1
+  name: FactoryFunc<T>
+  nameWithType: FactoryFunc<T>
+  fullName: LitJson.FactoryFunc<T>
+  nameWithType.vb: FactoryFunc(Of T)
+  fullName.vb: LitJson.FactoryFunc(Of T)
+  name.vb: FactoryFunc(Of T)
+  spec.csharp:
+  - uid: LitJson.FactoryFunc`1
+    name: FactoryFunc
+    nameWithType: FactoryFunc
+    fullName: LitJson.FactoryFunc
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: LitJson.FactoryFunc`1
+    name: FactoryFunc
+    nameWithType: FactoryFunc
+    fullName: LitJson.FactoryFunc
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.WrapperFactory
+  commentId: T:LitJson.WrapperFactory
+  parent: LitJson
+  name: WrapperFactory
+  nameWithType: WrapperFactory
+  fullName: LitJson.WrapperFactory
+- uid: LitJson.JsonMapper
+  commentId: T:LitJson.JsonMapper
+  name: JsonMapper
+  nameWithType: JsonMapper
+  fullName: LitJson.JsonMapper
+- uid: LitJson.UnityTypeBindings
+  commentId: T:LitJson.UnityTypeBindings
+  name: UnityTypeBindings
+  nameWithType: UnityTypeBindings
+  fullName: LitJson.UnityTypeBindings
+- uid: LitJson.JsonIgnoreWhen
+  commentId: T:LitJson.JsonIgnoreWhen
+  parent: LitJson
+  name: JsonIgnoreWhen
+  nameWithType: JsonIgnoreWhen
+  fullName: LitJson.JsonIgnoreWhen
+- uid: LitJson.JsonIgnore
+  commentId: T:LitJson.JsonIgnore
+  name: JsonIgnore
+  nameWithType: JsonIgnore
+  fullName: LitJson.JsonIgnore
+- uid: LitJson.JsonIgnoreMember
+  commentId: T:LitJson.JsonIgnoreMember
+  name: JsonIgnoreMember
+  nameWithType: JsonIgnoreMember
+  fullName: LitJson.JsonIgnoreMember
+- uid: LitJson.JsonInclude
+  commentId: T:LitJson.JsonInclude
+  name: JsonInclude
+  nameWithType: JsonInclude
+  fullName: LitJson.JsonInclude
+- uid: LitJson.JsonAlias
+  commentId: T:LitJson.JsonAlias
+  name: JsonAlias
+  nameWithType: JsonAlias
+  fullName: LitJson.JsonAlias
+- uid: LitJson.JsonWriter
+  commentId: T:LitJson.JsonWriter
+  parent: LitJson
+  name: JsonWriter
+  nameWithType: JsonWriter
+  fullName: LitJson.JsonWriter
+- uid: LitJson.JsonData
+  commentId: T:LitJson.JsonData
+  parent: LitJson
+  name: JsonData
+  nameWithType: JsonData
+  fullName: LitJson.JsonData
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson

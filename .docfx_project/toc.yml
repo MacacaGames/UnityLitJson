@@ -1,0 +1,5 @@
+- name: Quick Start
+  href: quickstart/
+- name: Scripting API
+  href: api/
+  homepage: api/index.md

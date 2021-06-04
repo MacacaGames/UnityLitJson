@@ -1,0 +1,5833 @@
+### YamlMime:ManagedReference
+items:
+- uid: LitJson.JsonData
+  commentId: T:LitJson.JsonData
+  id: JsonData
+  parent: LitJson
+  children:
+  - LitJson.JsonData.#ctor
+  - LitJson.JsonData.#ctor(System.Boolean)
+  - LitJson.JsonData.#ctor(System.Byte)
+  - LitJson.JsonData.#ctor(System.Decimal)
+  - LitJson.JsonData.#ctor(System.Double)
+  - LitJson.JsonData.#ctor(System.Int16)
+  - LitJson.JsonData.#ctor(System.Int32)
+  - LitJson.JsonData.#ctor(System.Int64)
+  - LitJson.JsonData.#ctor(System.Object)
+  - LitJson.JsonData.#ctor(System.SByte)
+  - LitJson.JsonData.#ctor(System.Single)
+  - LitJson.JsonData.#ctor(System.String)
+  - LitJson.JsonData.#ctor(System.UInt16)
+  - LitJson.JsonData.#ctor(System.UInt32)
+  - LitJson.JsonData.#ctor(System.UInt64)
+  - LitJson.JsonData.Add(System.Object)
+  - LitJson.JsonData.Clear
+  - LitJson.JsonData.Count
+  - LitJson.JsonData.Equals(LitJson.JsonData)
+  - LitJson.JsonData.Equals(System.Object)
+  - LitJson.JsonData.GetBoolean
+  - LitJson.JsonData.GetHashCode
+  - LitJson.JsonData.GetJsonType
+  - LitJson.JsonData.GetNatural
+  - LitJson.JsonData.GetReal
+  - LitJson.JsonData.GetString
+  - LitJson.JsonData.IsArray
+  - LitJson.JsonData.IsBoolean
+  - LitJson.JsonData.IsNatural
+  - LitJson.JsonData.IsObject
+  - LitJson.JsonData.IsReal
+  - LitJson.JsonData.IsString
+  - LitJson.JsonData.Item(System.Int32)
+  - LitJson.JsonData.Item(System.String)
+  - LitJson.JsonData.Keys
+  - LitJson.JsonData.LitJson#IJsonWrapper#ToJson(LitJson.JsonWriter)
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Boolean
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Byte
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Decimal
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Double
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int16
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int32
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int64
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.SByte
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Single
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.String
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt16
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt32
+  - LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt64
+  - LitJson.JsonData.op_Implicit(System.Boolean)~LitJson.JsonData
+  - LitJson.JsonData.op_Implicit(System.Double)~LitJson.JsonData
+  - LitJson.JsonData.op_Implicit(System.Int64)~LitJson.JsonData
+  - LitJson.JsonData.op_Implicit(System.String)~LitJson.JsonData
+  - LitJson.JsonData.SetBoolean(System.Boolean)
+  - LitJson.JsonData.SetJsonType(LitJson.JsonType)
+  - LitJson.JsonData.SetNatural(System.Int64)
+  - LitJson.JsonData.SetReal(System.Double)
+  - LitJson.JsonData.SetString(System.String)
+  - LitJson.JsonData.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - LitJson.JsonData.System#Collections#ICollection#Count
+  - LitJson.JsonData.System#Collections#ICollection#IsSynchronized
+  - LitJson.JsonData.System#Collections#ICollection#SyncRoot
+  - LitJson.JsonData.System#Collections#IDictionary#Add(System.Object,System.Object)
+  - LitJson.JsonData.System#Collections#IDictionary#Clear
+  - LitJson.JsonData.System#Collections#IDictionary#Contains(System.Object)
+  - LitJson.JsonData.System#Collections#IDictionary#GetEnumerator
+  - LitJson.JsonData.System#Collections#IDictionary#IsFixedSize
+  - LitJson.JsonData.System#Collections#IDictionary#IsReadOnly
+  - LitJson.JsonData.System#Collections#IDictionary#Item(System.Object)
+  - LitJson.JsonData.System#Collections#IDictionary#Keys
+  - LitJson.JsonData.System#Collections#IDictionary#Remove(System.Object)
+  - LitJson.JsonData.System#Collections#IDictionary#Values
+  - LitJson.JsonData.System#Collections#IEnumerable#GetEnumerator
+  - LitJson.JsonData.System#Collections#IList#Add(System.Object)
+  - LitJson.JsonData.System#Collections#IList#Clear
+  - LitJson.JsonData.System#Collections#IList#Contains(System.Object)
+  - LitJson.JsonData.System#Collections#IList#IndexOf(System.Object)
+  - LitJson.JsonData.System#Collections#IList#Insert(System.Int32,System.Object)
+  - LitJson.JsonData.System#Collections#IList#IsFixedSize
+  - LitJson.JsonData.System#Collections#IList#IsReadOnly
+  - LitJson.JsonData.System#Collections#IList#Item(System.Int32)
+  - LitJson.JsonData.System#Collections#IList#Remove(System.Object)
+  - LitJson.JsonData.System#Collections#IList#RemoveAt(System.Int32)
+  - LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#GetEnumerator
+  - LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Insert(System.Int32,System.Object,System.Object)
+  - LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Item(System.Int32)
+  - LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#RemoveAt(System.Int32)
+  - LitJson.JsonData.ToJson
+  - LitJson.JsonData.ToJson(LitJson.JsonWriter)
+  - LitJson.JsonData.ToString
+  langs:
+  - csharp
+  - vb
+  name: JsonData
+  nameWithType: JsonData
+  fullName: LitJson.JsonData
+  type: Class
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: JsonData
+    path: ../Source/JsonData.cs
+    startLine: 20
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  summary: "\nGeneric type to hold JSON data (objects, arrays, and so on).\nThis isthe default type returned by JsonMapper.ToObject().\n"
+  example: []
+  syntax:
+    content: 'public class JsonData : IJsonWrapper, IList, IOrderedDictionary, IDictionary, ICollection, IEnumerable, IEquatable<JsonData>'
+    content.vb: >-
+      Public Class JsonData
+
+          Implements IJsonWrapper, IList, IOrderedDictionary, IDictionary, ICollection, IEnumerable, IEquatable(Of JsonData)
+  inheritance:
+  - System.Object
+  implements:
+  - LitJson.IJsonWrapper
+  - System.Collections.IList
+  - System.Collections.Specialized.IOrderedDictionary
+  - System.Collections.IDictionary
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  - System.IEquatable{LitJson.JsonData}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: LitJson.JsonData.Count
+  commentId: P:LitJson.JsonData.Count
+  id: Count
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: JsonData.Count
+  fullName: LitJson.JsonData.Count
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Count
+    path: ../Source/JsonData.cs
+    startLine: 31
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: LitJson.JsonData.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.IsArray
+  commentId: P:LitJson.JsonData.IsArray
+  id: IsArray
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IsArray
+  nameWithType: JsonData.IsArray
+  fullName: LitJson.JsonData.IsArray
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: IsArray
+    path: ../Source/JsonData.cs
+    startLine: 40
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool IsArray { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsArray As Boolean
+  overload: LitJson.JsonData.IsArray*
+  implements:
+  - LitJson.IJsonWrapper.IsArray
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.IsBoolean
+  commentId: P:LitJson.JsonData.IsBoolean
+  id: IsBoolean
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IsBoolean
+  nameWithType: JsonData.IsBoolean
+  fullName: LitJson.JsonData.IsBoolean
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: IsBoolean
+    path: ../Source/JsonData.cs
+    startLine: 45
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool IsBoolean { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBoolean As Boolean
+  overload: LitJson.JsonData.IsBoolean*
+  implements:
+  - LitJson.IJsonWrapper.IsBoolean
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.IsReal
+  commentId: P:LitJson.JsonData.IsReal
+  id: IsReal
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IsReal
+  nameWithType: JsonData.IsReal
+  fullName: LitJson.JsonData.IsReal
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: IsReal
+    path: ../Source/JsonData.cs
+    startLine: 50
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool IsReal { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsReal As Boolean
+  overload: LitJson.JsonData.IsReal*
+  implements:
+  - LitJson.IJsonWrapper.IsReal
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.IsNatural
+  commentId: P:LitJson.JsonData.IsNatural
+  id: IsNatural
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IsNatural
+  nameWithType: JsonData.IsNatural
+  fullName: LitJson.JsonData.IsNatural
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: IsNatural
+    path: ../Source/JsonData.cs
+    startLine: 55
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool IsNatural { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsNatural As Boolean
+  overload: LitJson.JsonData.IsNatural*
+  implements:
+  - LitJson.IJsonWrapper.IsNatural
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.IsObject
+  commentId: P:LitJson.JsonData.IsObject
+  id: IsObject
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IsObject
+  nameWithType: JsonData.IsObject
+  fullName: LitJson.JsonData.IsObject
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: IsObject
+    path: ../Source/JsonData.cs
+    startLine: 60
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool IsObject { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsObject As Boolean
+  overload: LitJson.JsonData.IsObject*
+  implements:
+  - LitJson.IJsonWrapper.IsObject
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.IsString
+  commentId: P:LitJson.JsonData.IsString
+  id: IsString
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IsString
+  nameWithType: JsonData.IsString
+  fullName: LitJson.JsonData.IsString
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: IsString
+    path: ../Source/JsonData.cs
+    startLine: 65
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool IsString { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsString As Boolean
+  overload: LitJson.JsonData.IsString*
+  implements:
+  - LitJson.IJsonWrapper.IsString
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.Keys
+  commentId: P:LitJson.JsonData.Keys
+  id: Keys
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: JsonData.Keys
+  fullName: LitJson.JsonData.Keys
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Keys
+    path: ../Source/JsonData.cs
+    startLine: 70
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public ICollection<string> Keys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+    content.vb: Public ReadOnly Property Keys As ICollection(Of String)
+  overload: LitJson.JsonData.Keys*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: LitJson.JsonData.System#Collections#ICollection#Count
+  commentId: P:LitJson.JsonData.System#Collections#ICollection#Count
+  id: System#Collections#ICollection#Count
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: ICollection.Count
+  nameWithType: JsonData.ICollection.Count
+  fullName: LitJson.JsonData.System.Collections.ICollection.Count
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.ICollection.Count
+    path: ../Source/JsonData.cs
+    startLine: 82
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: int ICollection.Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.Count As Integer Implements ICollection.Count
+  overload: LitJson.JsonData.System#Collections#ICollection#Count*
+  implements:
+  - System.Collections.ICollection.Count
+  nameWithType.vb: JsonData.System.Collections.ICollection.Count
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.ICollection.Count
+- uid: LitJson.JsonData.System#Collections#ICollection#IsSynchronized
+  commentId: P:LitJson.JsonData.System#Collections#ICollection#IsSynchronized
+  id: System#Collections#ICollection#IsSynchronized
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: ICollection.IsSynchronized
+  nameWithType: JsonData.ICollection.IsSynchronized
+  fullName: LitJson.JsonData.System.Collections.ICollection.IsSynchronized
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.ICollection.IsSynchronized
+    path: ../Source/JsonData.cs
+    startLine: 87
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: bool ICollection.IsSynchronized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.IsSynchronized As Boolean Implements ICollection.IsSynchronized
+  overload: LitJson.JsonData.System#Collections#ICollection#IsSynchronized*
+  implements:
+  - System.Collections.ICollection.IsSynchronized
+  nameWithType.vb: JsonData.System.Collections.ICollection.IsSynchronized
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.ICollection.IsSynchronized
+- uid: LitJson.JsonData.System#Collections#ICollection#SyncRoot
+  commentId: P:LitJson.JsonData.System#Collections#ICollection#SyncRoot
+  id: System#Collections#ICollection#SyncRoot
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: ICollection.SyncRoot
+  nameWithType: JsonData.ICollection.SyncRoot
+  fullName: LitJson.JsonData.System.Collections.ICollection.SyncRoot
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.ICollection.SyncRoot
+    path: ../Source/JsonData.cs
+    startLine: 92
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: object ICollection.SyncRoot { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.SyncRoot As Object Implements ICollection.SyncRoot
+  overload: LitJson.JsonData.System#Collections#ICollection#SyncRoot*
+  implements:
+  - System.Collections.ICollection.SyncRoot
+  nameWithType.vb: JsonData.System.Collections.ICollection.SyncRoot
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.ICollection.SyncRoot
+- uid: LitJson.JsonData.System#Collections#IDictionary#IsFixedSize
+  commentId: P:LitJson.JsonData.System#Collections#IDictionary#IsFixedSize
+  id: System#Collections#IDictionary#IsFixedSize
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.IsFixedSize
+  nameWithType: JsonData.IDictionary.IsFixedSize
+  fullName: LitJson.JsonData.System.Collections.IDictionary.IsFixedSize
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.IsFixedSize
+    path: ../Source/JsonData.cs
+    startLine: 101
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: bool IDictionary.IsFixedSize { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property System.Collections.IDictionary.IsFixedSize As Boolean Implements IDictionary.IsFixedSize
+  overload: LitJson.JsonData.System#Collections#IDictionary#IsFixedSize*
+  implements:
+  - System.Collections.IDictionary.IsFixedSize
+  nameWithType.vb: JsonData.System.Collections.IDictionary.IsFixedSize
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.IDictionary.IsFixedSize
+- uid: LitJson.JsonData.System#Collections#IDictionary#IsReadOnly
+  commentId: P:LitJson.JsonData.System#Collections#IDictionary#IsReadOnly
+  id: System#Collections#IDictionary#IsReadOnly
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.IsReadOnly
+  nameWithType: JsonData.IDictionary.IsReadOnly
+  fullName: LitJson.JsonData.System.Collections.IDictionary.IsReadOnly
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.IsReadOnly
+    path: ../Source/JsonData.cs
+    startLine: 106
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: bool IDictionary.IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property System.Collections.IDictionary.IsReadOnly As Boolean Implements IDictionary.IsReadOnly
+  overload: LitJson.JsonData.System#Collections#IDictionary#IsReadOnly*
+  implements:
+  - System.Collections.IDictionary.IsReadOnly
+  nameWithType.vb: JsonData.System.Collections.IDictionary.IsReadOnly
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.IDictionary.IsReadOnly
+- uid: LitJson.JsonData.System#Collections#IDictionary#Keys
+  commentId: P:LitJson.JsonData.System#Collections#IDictionary#Keys
+  id: System#Collections#IDictionary#Keys
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.Keys
+  nameWithType: JsonData.IDictionary.Keys
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Keys
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.Keys
+    path: ../Source/JsonData.cs
+    startLine: 111
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: ICollection IDictionary.Keys { get; }
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+    content.vb: ReadOnly WriteOnly Property System.Collections.IDictionary.Keys As ICollection Implements IDictionary.Keys
+  overload: LitJson.JsonData.System#Collections#IDictionary#Keys*
+  implements:
+  - System.Collections.IDictionary.Keys
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Keys
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.IDictionary.Keys
+- uid: LitJson.JsonData.System#Collections#IDictionary#Values
+  commentId: P:LitJson.JsonData.System#Collections#IDictionary#Values
+  id: System#Collections#IDictionary#Values
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.Values
+  nameWithType: JsonData.IDictionary.Values
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Values
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.Values
+    path: ../Source/JsonData.cs
+    startLine: 125
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: ICollection IDictionary.Values { get; }
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+    content.vb: ReadOnly WriteOnly Property System.Collections.IDictionary.Values As ICollection Implements IDictionary.Values
+  overload: LitJson.JsonData.System#Collections#IDictionary#Values*
+  implements:
+  - System.Collections.IDictionary.Values
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Values
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.IDictionary.Values
+- uid: LitJson.JsonData.System#Collections#IList#IsFixedSize
+  commentId: P:LitJson.JsonData.System#Collections#IList#IsFixedSize
+  id: System#Collections#IList#IsFixedSize
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.IsFixedSize
+  nameWithType: JsonData.IList.IsFixedSize
+  fullName: LitJson.JsonData.System.Collections.IList.IsFixedSize
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.IsFixedSize
+    path: ../Source/JsonData.cs
+    startLine: 143
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: bool IList.IsFixedSize { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.IsFixedSize As Boolean Implements IList.IsFixedSize
+  overload: LitJson.JsonData.System#Collections#IList#IsFixedSize*
+  implements:
+  - System.Collections.IList.IsFixedSize
+  nameWithType.vb: JsonData.System.Collections.IList.IsFixedSize
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.IList.IsFixedSize
+- uid: LitJson.JsonData.System#Collections#IList#IsReadOnly
+  commentId: P:LitJson.JsonData.System#Collections#IList#IsReadOnly
+  id: System#Collections#IList#IsReadOnly
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.IsReadOnly
+  nameWithType: JsonData.IList.IsReadOnly
+  fullName: LitJson.JsonData.System.Collections.IList.IsReadOnly
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.IsReadOnly
+    path: ../Source/JsonData.cs
+    startLine: 148
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: bool IList.IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.IsReadOnly As Boolean Implements IList.IsReadOnly
+  overload: LitJson.JsonData.System#Collections#IList#IsReadOnly*
+  implements:
+  - System.Collections.IList.IsReadOnly
+  nameWithType.vb: JsonData.System.Collections.IList.IsReadOnly
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.IList.IsReadOnly
+- uid: LitJson.JsonData.System#Collections#IDictionary#Item(System.Object)
+  commentId: P:LitJson.JsonData.System#Collections#IDictionary#Item(System.Object)
+  id: System#Collections#IDictionary#Item(System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.Item[Object]
+  nameWithType: JsonData.IDictionary.Item[Object]
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Item[System.Object]
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.this[]
+    path: ../Source/JsonData.cs
+    startLine: 157
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: object IDictionary.this[object key] { get; set; }
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: ReadOnly WriteOnly Property System.Collections.IDictionary.Item(key As Object) As Object Implements IDictionary.this[]
+  overload: LitJson.JsonData.System#Collections#IDictionary#Item*
+  implements:
+  - System.Collections.IDictionary.Item(System.Object)
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Item(Object)
+  modifiers.csharp:
+  - get
+  - set
+  fullName.vb: LitJson.JsonData.System.Collections.IDictionary.Item(System.Object)
+  name.vb: System.Collections.IDictionary.Item(Object)
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Item(System.Int32)
+  commentId: P:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Item(System.Int32)
+  id: System#Collections#Specialized#IOrderedDictionary#Item(System.Int32)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IOrderedDictionary.Item[Int32]
+  nameWithType: JsonData.IOrderedDictionary.Item[Int32]
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.Item[System.Int32]
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.Specialized.IOrderedDictionary.this[]
+    path: ../Source/JsonData.cs
+    startLine: 175
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: object IOrderedDictionary.this[int idx] { get; set; }
+    parameters:
+    - id: idx
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: ReadOnly WriteOnly Property System.Collections.Specialized.IOrderedDictionary.Item(idx As Integer) As Object Implements IOrderedDictionary.this[]
+  overload: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Item*
+  implements:
+  - System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.Item(Int32)
+  modifiers.csharp:
+  - get
+  - set
+  fullName.vb: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
+  name.vb: System.Collections.Specialized.IOrderedDictionary.Item(Int32)
+- uid: LitJson.JsonData.System#Collections#IList#Item(System.Int32)
+  commentId: P:LitJson.JsonData.System#Collections#IList#Item(System.Int32)
+  id: System#Collections#IList#Item(System.Int32)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.Item[Int32]
+  nameWithType: JsonData.IList.Item[Int32]
+  fullName: LitJson.JsonData.System.Collections.IList.Item[System.Int32]
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.this[]
+    path: ../Source/JsonData.cs
+    startLine: 197
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: object IList.this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.Item(index As Integer) As Object Implements IList.this[]
+  overload: LitJson.JsonData.System#Collections#IList#Item*
+  implements:
+  - System.Collections.IList.Item(System.Int32)
+  nameWithType.vb: JsonData.System.Collections.IList.Item(Int32)
+  modifiers.csharp:
+  - get
+  - set
+  fullName.vb: LitJson.JsonData.System.Collections.IList.Item(System.Int32)
+  name.vb: System.Collections.IList.Item(Int32)
+- uid: LitJson.JsonData.Item(System.String)
+  commentId: P:LitJson.JsonData.Item(System.String)
+  id: Item(System.String)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: JsonData.Item[String]
+  fullName: LitJson.JsonData.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: this[]
+    path: ../Source/JsonData.cs
+    startLine: 212
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData this[string name] { get; set; }
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Property Item(name As String) As JsonData
+  overload: LitJson.JsonData.Item*
+  nameWithType.vb: JsonData.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: LitJson.JsonData.Item(System.String)
+  name.vb: Item(String)
+- uid: LitJson.JsonData.Item(System.Int32)
+  commentId: P:LitJson.JsonData.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: JsonData.Item[Int32]
+  fullName: LitJson.JsonData.Item[System.Int32]
+  type: Property
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: this[]
+    path: ../Source/JsonData.cs
+    startLine: 243
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Property Item(index As Integer) As JsonData
+  overload: LitJson.JsonData.Item*
+  nameWithType.vb: JsonData.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: LitJson.JsonData.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: LitJson.JsonData.#ctor(System.Boolean)
+  commentId: M:LitJson.JsonData.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Boolean)
+  nameWithType: JsonData.JsonData(Boolean)
+  fullName: LitJson.JsonData.JsonData(System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 276
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(bool boolean)
+    parameters:
+    - id: boolean
+      type: System.Boolean
+    content.vb: Public Sub New(boolean As Boolean)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Double)
+  commentId: M:LitJson.JsonData.#ctor(System.Double)
+  id: '#ctor(System.Double)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Double)
+  nameWithType: JsonData.JsonData(Double)
+  fullName: LitJson.JsonData.JsonData(System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 282
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(double number)
+    parameters:
+    - id: number
+      type: System.Double
+    content.vb: Public Sub New(number As Double)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Int64)
+  commentId: M:LitJson.JsonData.#ctor(System.Int64)
+  id: '#ctor(System.Int64)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Int64)
+  nameWithType: JsonData.JsonData(Int64)
+  fullName: LitJson.JsonData.JsonData(System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 288
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(long number)
+    parameters:
+    - id: number
+      type: System.Int64
+    content.vb: Public Sub New(number As Long)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.String)
+  commentId: M:LitJson.JsonData.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(String)
+  nameWithType: JsonData.JsonData(String)
+  fullName: LitJson.JsonData.JsonData(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 294
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(string str)
+    parameters:
+    - id: str
+      type: System.String
+    content.vb: Public Sub New(str As String)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Object)
+  commentId: M:LitJson.JsonData.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Object)
+  nameWithType: JsonData.JsonData(Object)
+  fullName: LitJson.JsonData.JsonData(System.Object)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 300
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    content.vb: Public Sub New(obj As Object)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor
+  commentId: M:LitJson.JsonData.#ctor
+  id: '#ctor'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData()
+  nameWithType: JsonData.JsonData()
+  fullName: LitJson.JsonData.JsonData()
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 370
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData()
+    content.vb: Public Sub New
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.SByte)
+  commentId: M:LitJson.JsonData.#ctor(System.SByte)
+  id: '#ctor(System.SByte)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(SByte)
+  nameWithType: JsonData.JsonData(SByte)
+  fullName: LitJson.JsonData.JsonData(System.SByte)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 374
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(sbyte number)
+    parameters:
+    - id: number
+      type: System.SByte
+    content.vb: Public Sub New(number As SByte)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Byte)
+  commentId: M:LitJson.JsonData.#ctor(System.Byte)
+  id: '#ctor(System.Byte)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Byte)
+  nameWithType: JsonData.JsonData(Byte)
+  fullName: LitJson.JsonData.JsonData(System.Byte)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 378
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(byte number)
+    parameters:
+    - id: number
+      type: System.Byte
+    content.vb: Public Sub New(number As Byte)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Int16)
+  commentId: M:LitJson.JsonData.#ctor(System.Int16)
+  id: '#ctor(System.Int16)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Int16)
+  nameWithType: JsonData.JsonData(Int16)
+  fullName: LitJson.JsonData.JsonData(System.Int16)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 382
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(short number)
+    parameters:
+    - id: number
+      type: System.Int16
+    content.vb: Public Sub New(number As Short)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.UInt16)
+  commentId: M:LitJson.JsonData.#ctor(System.UInt16)
+  id: '#ctor(System.UInt16)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(UInt16)
+  nameWithType: JsonData.JsonData(UInt16)
+  fullName: LitJson.JsonData.JsonData(System.UInt16)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 386
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(ushort number)
+    parameters:
+    - id: number
+      type: System.UInt16
+    content.vb: Public Sub New(number As UShort)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Int32)
+  commentId: M:LitJson.JsonData.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Int32)
+  nameWithType: JsonData.JsonData(Int32)
+  fullName: LitJson.JsonData.JsonData(System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 390
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(int number)
+    parameters:
+    - id: number
+      type: System.Int32
+    content.vb: Public Sub New(number As Integer)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.UInt32)
+  commentId: M:LitJson.JsonData.#ctor(System.UInt32)
+  id: '#ctor(System.UInt32)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(UInt32)
+  nameWithType: JsonData.JsonData(UInt32)
+  fullName: LitJson.JsonData.JsonData(System.UInt32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 394
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(uint number)
+    parameters:
+    - id: number
+      type: System.UInt32
+    content.vb: Public Sub New(number As UInteger)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.UInt64)
+  commentId: M:LitJson.JsonData.#ctor(System.UInt64)
+  id: '#ctor(System.UInt64)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(UInt64)
+  nameWithType: JsonData.JsonData(UInt64)
+  fullName: LitJson.JsonData.JsonData(System.UInt64)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 398
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(ulong number)
+    parameters:
+    - id: number
+      type: System.UInt64
+    content.vb: Public Sub New(number As ULong)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Single)
+  commentId: M:LitJson.JsonData.#ctor(System.Single)
+  id: '#ctor(System.Single)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Single)
+  nameWithType: JsonData.JsonData(Single)
+  fullName: LitJson.JsonData.JsonData(System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 402
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(float number)
+    parameters:
+    - id: number
+      type: System.Single
+    content.vb: Public Sub New(number As Single)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.#ctor(System.Decimal)
+  commentId: M:LitJson.JsonData.#ctor(System.Decimal)
+  id: '#ctor(System.Decimal)'
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: JsonData(Decimal)
+  nameWithType: JsonData.JsonData(Decimal)
+  fullName: LitJson.JsonData.JsonData(System.Decimal)
+  type: Constructor
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: .ctor
+    path: ../Source/JsonData.cs
+    startLine: 406
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonData(decimal number)
+    parameters:
+    - id: number
+      type: System.Decimal
+    content.vb: Public Sub New(number As Decimal)
+  overload: LitJson.JsonData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.op_Implicit(System.Boolean)~LitJson.JsonData
+  commentId: M:LitJson.JsonData.op_Implicit(System.Boolean)~LitJson.JsonData
+  id: op_Implicit(System.Boolean)~LitJson.JsonData
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Boolean to JsonData)
+  nameWithType: JsonData.Implicit(Boolean to JsonData)
+  fullName: LitJson.JsonData.Implicit(System.Boolean to LitJson.JsonData)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Implicit
+    path: ../Source/JsonData.cs
+    startLine: 417
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static implicit operator JsonData(bool data)
+    parameters:
+    - id: data
+      type: System.Boolean
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Shared Widening Operator CType(data As Boolean) As JsonData
+  overload: LitJson.JsonData.op_Implicit*
+  nameWithType.vb: JsonData.Widening(Boolean to JsonData)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Widening(System.Boolean to LitJson.JsonData)
+  name.vb: Widening(Boolean to JsonData)
+- uid: LitJson.JsonData.op_Implicit(System.Double)~LitJson.JsonData
+  commentId: M:LitJson.JsonData.op_Implicit(System.Double)~LitJson.JsonData
+  id: op_Implicit(System.Double)~LitJson.JsonData
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Double to JsonData)
+  nameWithType: JsonData.Implicit(Double to JsonData)
+  fullName: LitJson.JsonData.Implicit(System.Double to LitJson.JsonData)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Implicit
+    path: ../Source/JsonData.cs
+    startLine: 422
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static implicit operator JsonData(double data)
+    parameters:
+    - id: data
+      type: System.Double
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Shared Widening Operator CType(data As Double) As JsonData
+  overload: LitJson.JsonData.op_Implicit*
+  nameWithType.vb: JsonData.Widening(Double to JsonData)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Widening(System.Double to LitJson.JsonData)
+  name.vb: Widening(Double to JsonData)
+- uid: LitJson.JsonData.op_Implicit(System.Int64)~LitJson.JsonData
+  commentId: M:LitJson.JsonData.op_Implicit(System.Int64)~LitJson.JsonData
+  id: op_Implicit(System.Int64)~LitJson.JsonData
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Int64 to JsonData)
+  nameWithType: JsonData.Implicit(Int64 to JsonData)
+  fullName: LitJson.JsonData.Implicit(System.Int64 to LitJson.JsonData)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Implicit
+    path: ../Source/JsonData.cs
+    startLine: 427
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static implicit operator JsonData(long data)
+    parameters:
+    - id: data
+      type: System.Int64
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Shared Widening Operator CType(data As Long) As JsonData
+  overload: LitJson.JsonData.op_Implicit*
+  nameWithType.vb: JsonData.Widening(Int64 to JsonData)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Widening(System.Int64 to LitJson.JsonData)
+  name.vb: Widening(Int64 to JsonData)
+- uid: LitJson.JsonData.op_Implicit(System.String)~LitJson.JsonData
+  commentId: M:LitJson.JsonData.op_Implicit(System.String)~LitJson.JsonData
+  id: op_Implicit(System.String)~LitJson.JsonData
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Implicit(String to JsonData)
+  nameWithType: JsonData.Implicit(String to JsonData)
+  fullName: LitJson.JsonData.Implicit(System.String to LitJson.JsonData)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Implicit
+    path: ../Source/JsonData.cs
+    startLine: 432
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static implicit operator JsonData(string data)
+    parameters:
+    - id: data
+      type: System.String
+    return:
+      type: LitJson.JsonData
+    content.vb: Public Shared Widening Operator CType(data As String) As JsonData
+  overload: LitJson.JsonData.op_Implicit*
+  nameWithType.vb: JsonData.Widening(String to JsonData)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Widening(System.String to LitJson.JsonData)
+  name.vb: Widening(String to JsonData)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Boolean
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Boolean
+  id: op_Explicit(LitJson.JsonData)~System.Boolean
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Boolean)
+  nameWithType: JsonData.Explicit(JsonData to Boolean)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Boolean)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 444
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator bool (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Boolean
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Boolean)
+  name.vb: Narrowing(JsonData to Boolean)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Single
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Single
+  id: op_Explicit(LitJson.JsonData)~System.Single
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Single)
+  nameWithType: JsonData.Explicit(JsonData to Single)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Single)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 453
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator float (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Single
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Single
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Single)
+  name.vb: Narrowing(JsonData to Single)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Double
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Double
+  id: op_Explicit(LitJson.JsonData)~System.Double
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Double)
+  nameWithType: JsonData.Explicit(JsonData to Double)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Double)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 466
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator double (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Double
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Double
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Double)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Double)
+  name.vb: Narrowing(JsonData to Double)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Decimal
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Decimal
+  id: op_Explicit(LitJson.JsonData)~System.Decimal
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Decimal)
+  nameWithType: JsonData.Explicit(JsonData to Decimal)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Decimal)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 479
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator decimal (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Decimal
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Decimal
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Decimal)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Decimal)
+  name.vb: Narrowing(JsonData to Decimal)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.SByte
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.SByte
+  id: op_Explicit(LitJson.JsonData)~System.SByte
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to SByte)
+  nameWithType: JsonData.Explicit(JsonData to SByte)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.SByte)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 492
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator sbyte (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.SByte
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As SByte
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to SByte)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.SByte)
+  name.vb: Narrowing(JsonData to SByte)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Byte
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Byte
+  id: op_Explicit(LitJson.JsonData)~System.Byte
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Byte)
+  nameWithType: JsonData.Explicit(JsonData to Byte)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Byte)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 505
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator byte (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Byte
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Byte
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Byte)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Byte)
+  name.vb: Narrowing(JsonData to Byte)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int16
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int16
+  id: op_Explicit(LitJson.JsonData)~System.Int16
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Int16)
+  nameWithType: JsonData.Explicit(JsonData to Int16)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Int16)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 518
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator short (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Int16
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Short
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Int16)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Int16)
+  name.vb: Narrowing(JsonData to Int16)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt16
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt16
+  id: op_Explicit(LitJson.JsonData)~System.UInt16
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to UInt16)
+  nameWithType: JsonData.Explicit(JsonData to UInt16)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.UInt16)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 531
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator ushort (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.UInt16
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As UShort
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to UInt16)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.UInt16)
+  name.vb: Narrowing(JsonData to UInt16)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int32
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int32
+  id: op_Explicit(LitJson.JsonData)~System.Int32
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Int32)
+  nameWithType: JsonData.Explicit(JsonData to Int32)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Int32)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 544
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator int (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Int32
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Integer
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Int32)
+  name.vb: Narrowing(JsonData to Int32)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt32
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt32
+  id: op_Explicit(LitJson.JsonData)~System.UInt32
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to UInt32)
+  nameWithType: JsonData.Explicit(JsonData to UInt32)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.UInt32)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 557
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator uint (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As UInteger
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to UInt32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.UInt32)
+  name.vb: Narrowing(JsonData to UInt32)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int64
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.Int64
+  id: op_Explicit(LitJson.JsonData)~System.Int64
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to Int64)
+  nameWithType: JsonData.Explicit(JsonData to Int64)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.Int64)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 570
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator long (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Int64
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As Long
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to Int64)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.Int64)
+  name.vb: Narrowing(JsonData to Int64)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt64
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.UInt64
+  id: op_Explicit(LitJson.JsonData)~System.UInt64
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to UInt64)
+  nameWithType: JsonData.Explicit(JsonData to UInt64)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.UInt64)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 583
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator ulong (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As ULong
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to UInt64)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.UInt64)
+  name.vb: Narrowing(JsonData to UInt64)
+- uid: LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.String
+  commentId: M:LitJson.JsonData.op_Explicit(LitJson.JsonData)~System.String
+  id: op_Explicit(LitJson.JsonData)~System.String
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Explicit(JsonData to String)
+  nameWithType: JsonData.Explicit(JsonData to String)
+  fullName: LitJson.JsonData.Explicit(LitJson.JsonData to System.String)
+  type: Operator
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: op_Explicit
+    path: ../Source/JsonData.cs
+    startLine: 596
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public static explicit operator string (JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.String
+    content.vb: Public Shared Narrowing Operator CType(data As JsonData) As String
+  overload: LitJson.JsonData.op_Explicit*
+  nameWithType.vb: JsonData.Narrowing(JsonData to String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: LitJson.JsonData.Narrowing(LitJson.JsonData to System.String)
+  name.vb: Narrowing(JsonData to String)
+- uid: LitJson.JsonData.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  commentId: M:LitJson.JsonData.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: ICollection.CopyTo(Array, Int32)
+  nameWithType: JsonData.ICollection.CopyTo(Array, Int32)
+  fullName: LitJson.JsonData.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.ICollection.CopyTo
+    path: ../Source/JsonData.cs
+    startLine: 605
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void ICollection.CopyTo(Array array, int index)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+    content.vb: Sub System.Collections.ICollection.CopyTo(array As Array, index As Integer) Implements ICollection.CopyTo
+  overload: LitJson.JsonData.System#Collections#ICollection#CopyTo*
+  implements:
+  - System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  nameWithType.vb: JsonData.System.Collections.ICollection.CopyTo(Array, Int32)
+  name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
+- uid: LitJson.JsonData.System#Collections#IDictionary#Add(System.Object,System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IDictionary#Add(System.Object,System.Object)
+  id: System#Collections#IDictionary#Add(System.Object,System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.Add(Object, Object)
+  nameWithType: JsonData.IDictionary.Add(Object, Object)
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Add(System.Object, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.Add
+    path: ../Source/JsonData.cs
+    startLine: 614
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IDictionary.Add(object key, object value)
+    parameters:
+    - id: key
+      type: System.Object
+    - id: value
+      type: System.Object
+    content.vb: Sub System.Collections.IDictionary.Add(key As Object, value As Object) Implements IDictionary.Add
+  overload: LitJson.JsonData.System#Collections#IDictionary#Add*
+  implements:
+  - System.Collections.IDictionary.Add(System.Object,System.Object)
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Add(Object, Object)
+  name.vb: System.Collections.IDictionary.Add(Object, Object)
+- uid: LitJson.JsonData.System#Collections#IDictionary#Clear
+  commentId: M:LitJson.JsonData.System#Collections#IDictionary#Clear
+  id: System#Collections#IDictionary#Clear
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.Clear()
+  nameWithType: JsonData.IDictionary.Clear()
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Clear()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.Clear
+    path: ../Source/JsonData.cs
+    startLine: 623
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IDictionary.Clear()
+    content.vb: Sub System.Collections.IDictionary.Clear Implements IDictionary.Clear
+  overload: LitJson.JsonData.System#Collections#IDictionary#Clear*
+  implements:
+  - System.Collections.IDictionary.Clear
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Clear()
+  name.vb: System.Collections.IDictionary.Clear()
+- uid: LitJson.JsonData.System#Collections#IDictionary#Contains(System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IDictionary#Contains(System.Object)
+  id: System#Collections#IDictionary#Contains(System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.Contains(Object)
+  nameWithType: JsonData.IDictionary.Contains(Object)
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Contains(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.Contains
+    path: ../Source/JsonData.cs
+    startLine: 630
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: bool IDictionary.Contains(object key)
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Function System.Collections.IDictionary.Contains(key As Object) As Boolean Implements IDictionary.Contains
+  overload: LitJson.JsonData.System#Collections#IDictionary#Contains*
+  implements:
+  - System.Collections.IDictionary.Contains(System.Object)
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Contains(Object)
+  name.vb: System.Collections.IDictionary.Contains(Object)
+- uid: LitJson.JsonData.System#Collections#IDictionary#GetEnumerator
+  commentId: M:LitJson.JsonData.System#Collections#IDictionary#GetEnumerator
+  id: System#Collections#IDictionary#GetEnumerator
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.GetEnumerator()
+  nameWithType: JsonData.IDictionary.GetEnumerator()
+  fullName: LitJson.JsonData.System.Collections.IDictionary.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.GetEnumerator
+    path: ../Source/JsonData.cs
+    startLine: 635
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: IDictionaryEnumerator IDictionary.GetEnumerator()
+    return:
+      type: System.Collections.IDictionaryEnumerator
+    content.vb: Function System.Collections.IDictionary.GetEnumerator As IDictionaryEnumerator Implements IDictionary.GetEnumerator
+  overload: LitJson.JsonData.System#Collections#IDictionary#GetEnumerator*
+  implements:
+  - System.Collections.IDictionary.GetEnumerator
+  nameWithType.vb: JsonData.System.Collections.IDictionary.GetEnumerator()
+  name.vb: System.Collections.IDictionary.GetEnumerator()
+- uid: LitJson.JsonData.System#Collections#IDictionary#Remove(System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IDictionary#Remove(System.Object)
+  id: System#Collections#IDictionary#Remove(System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IDictionary.Remove(Object)
+  nameWithType: JsonData.IDictionary.Remove(Object)
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Remove(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IDictionary.Remove
+    path: ../Source/JsonData.cs
+    startLine: 640
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IDictionary.Remove(object key)
+    parameters:
+    - id: key
+      type: System.Object
+    content.vb: Sub System.Collections.IDictionary.Remove(key As Object) Implements IDictionary.Remove
+  overload: LitJson.JsonData.System#Collections#IDictionary#Remove*
+  implements:
+  - System.Collections.IDictionary.Remove(System.Object)
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Remove(Object)
+  name.vb: System.Collections.IDictionary.Remove(Object)
+- uid: LitJson.JsonData.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:LitJson.JsonData.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IEnumerable.GetEnumerator()
+  nameWithType: JsonData.IEnumerable.GetEnumerator()
+  fullName: LitJson.JsonData.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IEnumerable.GetEnumerator
+    path: ../Source/JsonData.cs
+    startLine: 658
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+  overload: LitJson.JsonData.System#Collections#IEnumerable#GetEnumerator*
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: JsonData.System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+- uid: LitJson.JsonData.GetBoolean
+  commentId: M:LitJson.JsonData.GetBoolean
+  id: GetBoolean
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: GetBoolean()
+  nameWithType: JsonData.GetBoolean()
+  fullName: LitJson.JsonData.GetBoolean()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: GetBoolean
+    path: ../Source/JsonData.cs
+    startLine: 667
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool GetBoolean()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetBoolean As Boolean
+  overload: LitJson.JsonData.GetBoolean*
+  implements:
+  - LitJson.IJsonWrapper.GetBoolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.GetReal
+  commentId: M:LitJson.JsonData.GetReal
+  id: GetReal
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: GetReal()
+  nameWithType: JsonData.GetReal()
+  fullName: LitJson.JsonData.GetReal()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: GetReal
+    path: ../Source/JsonData.cs
+    startLine: 676
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public double GetReal()
+    return:
+      type: System.Double
+    content.vb: Public Function GetReal As Double
+  overload: LitJson.JsonData.GetReal*
+  implements:
+  - LitJson.IJsonWrapper.GetReal
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.GetNatural
+  commentId: M:LitJson.JsonData.GetNatural
+  id: GetNatural
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: GetNatural()
+  nameWithType: JsonData.GetNatural()
+  fullName: LitJson.JsonData.GetNatural()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: GetNatural
+    path: ../Source/JsonData.cs
+    startLine: 685
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public long GetNatural()
+    return:
+      type: System.Int64
+    content.vb: Public Function GetNatural As Long
+  overload: LitJson.JsonData.GetNatural*
+  implements:
+  - LitJson.IJsonWrapper.GetNatural
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.GetString
+  commentId: M:LitJson.JsonData.GetString
+  id: GetString
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: GetString()
+  nameWithType: JsonData.GetString()
+  fullName: LitJson.JsonData.GetString()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: GetString
+    path: ../Source/JsonData.cs
+    startLine: 701
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public string GetString()
+    return:
+      type: System.String
+    content.vb: Public Function GetString As String
+  overload: LitJson.JsonData.GetString*
+  implements:
+  - LitJson.IJsonWrapper.GetString
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.SetBoolean(System.Boolean)
+  commentId: M:LitJson.JsonData.SetBoolean(System.Boolean)
+  id: SetBoolean(System.Boolean)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: SetBoolean(Boolean)
+  nameWithType: JsonData.SetBoolean(Boolean)
+  fullName: LitJson.JsonData.SetBoolean(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: SetBoolean
+    path: ../Source/JsonData.cs
+    startLine: 728
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void SetBoolean(bool val)
+    parameters:
+    - id: val
+      type: System.Boolean
+    content.vb: Public Sub SetBoolean(val As Boolean)
+  overload: LitJson.JsonData.SetBoolean*
+  implements:
+  - LitJson.IJsonWrapper.SetBoolean(System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.SetReal(System.Double)
+  commentId: M:LitJson.JsonData.SetReal(System.Double)
+  id: SetReal(System.Double)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: SetReal(Double)
+  nameWithType: JsonData.SetReal(Double)
+  fullName: LitJson.JsonData.SetReal(System.Double)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: SetReal
+    path: ../Source/JsonData.cs
+    startLine: 735
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void SetReal(double val)
+    parameters:
+    - id: val
+      type: System.Double
+    content.vb: Public Sub SetReal(val As Double)
+  overload: LitJson.JsonData.SetReal*
+  implements:
+  - LitJson.IJsonWrapper.SetReal(System.Double)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.SetNatural(System.Int64)
+  commentId: M:LitJson.JsonData.SetNatural(System.Int64)
+  id: SetNatural(System.Int64)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: SetNatural(Int64)
+  nameWithType: JsonData.SetNatural(Int64)
+  fullName: LitJson.JsonData.SetNatural(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: SetNatural
+    path: ../Source/JsonData.cs
+    startLine: 742
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void SetNatural(long val)
+    parameters:
+    - id: val
+      type: System.Int64
+    content.vb: Public Sub SetNatural(val As Long)
+  overload: LitJson.JsonData.SetNatural*
+  implements:
+  - LitJson.IJsonWrapper.SetNatural(System.Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.SetString(System.String)
+  commentId: M:LitJson.JsonData.SetString(System.String)
+  id: SetString(System.String)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: SetString(String)
+  nameWithType: JsonData.SetString(String)
+  fullName: LitJson.JsonData.SetString(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: SetString
+    path: ../Source/JsonData.cs
+    startLine: 749
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void SetString(string val)
+    parameters:
+    - id: val
+      type: System.String
+    content.vb: Public Sub SetString(val As String)
+  overload: LitJson.JsonData.SetString*
+  implements:
+  - LitJson.IJsonWrapper.SetString(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.LitJson#IJsonWrapper#ToJson(LitJson.JsonWriter)
+  commentId: M:LitJson.JsonData.LitJson#IJsonWrapper#ToJson(LitJson.JsonWriter)
+  id: LitJson#IJsonWrapper#ToJson(LitJson.JsonWriter)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IJsonWrapper.ToJson(JsonWriter)
+  nameWithType: JsonData.IJsonWrapper.ToJson(JsonWriter)
+  fullName: LitJson.JsonData.LitJson.IJsonWrapper.ToJson(LitJson.JsonWriter)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: LitJson.IJsonWrapper.ToJson
+    path: ../Source/JsonData.cs
+    startLine: 756
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IJsonWrapper.ToJson(JsonWriter writer)
+    parameters:
+    - id: writer
+      type: LitJson.JsonWriter
+    content.vb: Sub LitJson.IJsonWrapper.ToJson(writer As JsonWriter) Implements IJsonWrapper.ToJson
+  overload: LitJson.JsonData.LitJson#IJsonWrapper#ToJson*
+  implements:
+  - LitJson.IJsonWrapper.ToJson(LitJson.JsonWriter)
+  nameWithType.vb: JsonData.LitJson.IJsonWrapper.ToJson(JsonWriter)
+  name.vb: LitJson.IJsonWrapper.ToJson(JsonWriter)
+- uid: LitJson.JsonData.System#Collections#IList#Add(System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IList#Add(System.Object)
+  id: System#Collections#IList#Add(System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.Add(Object)
+  nameWithType: JsonData.IList.Add(Object)
+  fullName: LitJson.JsonData.System.Collections.IList.Add(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.Add
+    path: ../Source/JsonData.cs
+    startLine: 765
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: int IList.Add(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Function System.Collections.IList.Add(value As Object) As Integer Implements IList.Add
+  overload: LitJson.JsonData.System#Collections#IList#Add*
+  implements:
+  - System.Collections.IList.Add(System.Object)
+  nameWithType.vb: JsonData.System.Collections.IList.Add(Object)
+  name.vb: System.Collections.IList.Add(Object)
+- uid: LitJson.JsonData.System#Collections#IList#Clear
+  commentId: M:LitJson.JsonData.System#Collections#IList#Clear
+  id: System#Collections#IList#Clear
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.Clear()
+  nameWithType: JsonData.IList.Clear()
+  fullName: LitJson.JsonData.System.Collections.IList.Clear()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.Clear
+    path: ../Source/JsonData.cs
+    startLine: 770
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IList.Clear()
+    content.vb: Sub System.Collections.IList.Clear Implements IList.Clear
+  overload: LitJson.JsonData.System#Collections#IList#Clear*
+  implements:
+  - System.Collections.IList.Clear
+  nameWithType.vb: JsonData.System.Collections.IList.Clear()
+  name.vb: System.Collections.IList.Clear()
+- uid: LitJson.JsonData.System#Collections#IList#Contains(System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IList#Contains(System.Object)
+  id: System#Collections#IList#Contains(System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.Contains(Object)
+  nameWithType: JsonData.IList.Contains(Object)
+  fullName: LitJson.JsonData.System.Collections.IList.Contains(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.Contains
+    path: ../Source/JsonData.cs
+    startLine: 776
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: bool IList.Contains(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Function System.Collections.IList.Contains(value As Object) As Boolean Implements IList.Contains
+  overload: LitJson.JsonData.System#Collections#IList#Contains*
+  implements:
+  - System.Collections.IList.Contains(System.Object)
+  nameWithType.vb: JsonData.System.Collections.IList.Contains(Object)
+  name.vb: System.Collections.IList.Contains(Object)
+- uid: LitJson.JsonData.System#Collections#IList#IndexOf(System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IList#IndexOf(System.Object)
+  id: System#Collections#IList#IndexOf(System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.IndexOf(Object)
+  nameWithType: JsonData.IList.IndexOf(Object)
+  fullName: LitJson.JsonData.System.Collections.IList.IndexOf(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.IndexOf
+    path: ../Source/JsonData.cs
+    startLine: 781
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: int IList.IndexOf(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Function System.Collections.IList.IndexOf(value As Object) As Integer Implements IList.IndexOf
+  overload: LitJson.JsonData.System#Collections#IList#IndexOf*
+  implements:
+  - System.Collections.IList.IndexOf(System.Object)
+  nameWithType.vb: JsonData.System.Collections.IList.IndexOf(Object)
+  name.vb: System.Collections.IList.IndexOf(Object)
+- uid: LitJson.JsonData.System#Collections#IList#Insert(System.Int32,System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IList#Insert(System.Int32,System.Object)
+  id: System#Collections#IList#Insert(System.Int32,System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.Insert(Int32, Object)
+  nameWithType: JsonData.IList.Insert(Int32, Object)
+  fullName: LitJson.JsonData.System.Collections.IList.Insert(System.Int32, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.Insert
+    path: ../Source/JsonData.cs
+    startLine: 786
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IList.Insert(int index, object value)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: value
+      type: System.Object
+    content.vb: Sub System.Collections.IList.Insert(index As Integer, value As Object) Implements IList.Insert
+  overload: LitJson.JsonData.System#Collections#IList#Insert*
+  implements:
+  - System.Collections.IList.Insert(System.Int32,System.Object)
+  nameWithType.vb: JsonData.System.Collections.IList.Insert(Int32, Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+- uid: LitJson.JsonData.System#Collections#IList#Remove(System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#IList#Remove(System.Object)
+  id: System#Collections#IList#Remove(System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.Remove(Object)
+  nameWithType: JsonData.IList.Remove(Object)
+  fullName: LitJson.JsonData.System.Collections.IList.Remove(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.Remove
+    path: ../Source/JsonData.cs
+    startLine: 792
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IList.Remove(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Sub System.Collections.IList.Remove(value As Object) Implements IList.Remove
+  overload: LitJson.JsonData.System#Collections#IList#Remove*
+  implements:
+  - System.Collections.IList.Remove(System.Object)
+  nameWithType.vb: JsonData.System.Collections.IList.Remove(Object)
+  name.vb: System.Collections.IList.Remove(Object)
+- uid: LitJson.JsonData.System#Collections#IList#RemoveAt(System.Int32)
+  commentId: M:LitJson.JsonData.System#Collections#IList#RemoveAt(System.Int32)
+  id: System#Collections#IList#RemoveAt(System.Int32)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IList.RemoveAt(Int32)
+  nameWithType: JsonData.IList.RemoveAt(Int32)
+  fullName: LitJson.JsonData.System.Collections.IList.RemoveAt(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.IList.RemoveAt
+    path: ../Source/JsonData.cs
+    startLine: 798
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IList.RemoveAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Sub System.Collections.IList.RemoveAt(index As Integer) Implements IList.RemoveAt
+  overload: LitJson.JsonData.System#Collections#IList#RemoveAt*
+  implements:
+  - System.Collections.IList.RemoveAt(System.Int32)
+  nameWithType.vb: JsonData.System.Collections.IList.RemoveAt(Int32)
+  name.vb: System.Collections.IList.RemoveAt(Int32)
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#GetEnumerator
+  commentId: M:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#GetEnumerator
+  id: System#Collections#Specialized#IOrderedDictionary#GetEnumerator
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IOrderedDictionary.GetEnumerator()
+  nameWithType: JsonData.IOrderedDictionary.GetEnumerator()
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+    path: ../Source/JsonData.cs
+    startLine: 808
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: IDictionaryEnumerator IOrderedDictionary.GetEnumerator()
+    return:
+      type: System.Collections.IDictionaryEnumerator
+    content.vb: Function System.Collections.Specialized.IOrderedDictionary.GetEnumerator As IDictionaryEnumerator Implements IOrderedDictionary.GetEnumerator
+  overload: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#GetEnumerator*
+  implements:
+  - System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.GetEnumerator()
+  name.vb: System.Collections.Specialized.IOrderedDictionary.GetEnumerator()
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Insert(System.Int32,System.Object,System.Object)
+  commentId: M:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Insert(System.Int32,System.Object,System.Object)
+  id: System#Collections#Specialized#IOrderedDictionary#Insert(System.Int32,System.Object,System.Object)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IOrderedDictionary.Insert(Int32, Object, Object)
+  nameWithType: JsonData.IOrderedDictionary.Insert(Int32, Object, Object)
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32, System.Object, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.Specialized.IOrderedDictionary.Insert
+    path: ../Source/JsonData.cs
+    startLine: 814
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IOrderedDictionary.Insert(int idx, object key, object value)
+    parameters:
+    - id: idx
+      type: System.Int32
+    - id: key
+      type: System.Object
+    - id: value
+      type: System.Object
+    content.vb: Sub System.Collections.Specialized.IOrderedDictionary.Insert(idx As Integer, key As Object, value As Object) Implements IOrderedDictionary.Insert
+  overload: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Insert*
+  implements:
+  - System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.Insert(Int32, Object, Object)
+  name.vb: System.Collections.Specialized.IOrderedDictionary.Insert(Int32, Object, Object)
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#RemoveAt(System.Int32)
+  commentId: M:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#RemoveAt(System.Int32)
+  id: System#Collections#Specialized#IOrderedDictionary#RemoveAt(System.Int32)
+  isEii: true
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: IOrderedDictionary.RemoveAt(Int32)
+  nameWithType: JsonData.IOrderedDictionary.RemoveAt(Int32)
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: System.Collections.Specialized.IOrderedDictionary.RemoveAt
+    path: ../Source/JsonData.cs
+    startLine: 823
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: void IOrderedDictionary.RemoveAt(int idx)
+    parameters:
+    - id: idx
+      type: System.Int32
+    content.vb: Sub System.Collections.Specialized.IOrderedDictionary.RemoveAt(idx As Integer) Implements IOrderedDictionary.RemoveAt
+  overload: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#RemoveAt*
+  implements:
+  - System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.RemoveAt(Int32)
+  name.vb: System.Collections.Specialized.IOrderedDictionary.RemoveAt(Int32)
+- uid: LitJson.JsonData.Add(System.Object)
+  commentId: M:LitJson.JsonData.Add(System.Object)
+  id: Add(System.Object)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Add(Object)
+  nameWithType: JsonData.Add(Object)
+  fullName: LitJson.JsonData.Add(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Add
+    path: ../Source/JsonData.cs
+    startLine: 932
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public int Add(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Public Function Add(value As Object) As Integer
+  overload: LitJson.JsonData.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.Clear
+  commentId: M:LitJson.JsonData.Clear
+  id: Clear
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: JsonData.Clear()
+  fullName: LitJson.JsonData.Clear()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Clear
+    path: ../Source/JsonData.cs
+    startLine: 939
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: LitJson.JsonData.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.Equals(LitJson.JsonData)
+  commentId: M:LitJson.JsonData.Equals(LitJson.JsonData)
+  id: Equals(LitJson.JsonData)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Equals(JsonData)
+  nameWithType: JsonData.Equals(JsonData)
+  fullName: LitJson.JsonData.Equals(LitJson.JsonData)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Equals
+    path: ../Source/JsonData.cs
+    startLine: 951
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public bool Equals(JsonData data)
+    parameters:
+    - id: data
+      type: LitJson.JsonData
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(data As JsonData) As Boolean
+  overload: LitJson.JsonData.Equals*
+  implements:
+  - System.IEquatable{LitJson.JsonData}.Equals(LitJson.JsonData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.Equals(System.Object)
+  commentId: M:LitJson.JsonData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: JsonData.Equals(Object)
+  fullName: LitJson.JsonData.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: Equals
+    path: ../Source/JsonData.cs
+    startLine: 956
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LitJson.JsonData.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: LitJson.JsonData.GetHashCode
+  commentId: M:LitJson.JsonData.GetHashCode
+  id: GetHashCode
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: JsonData.GetHashCode()
+  fullName: LitJson.JsonData.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: GetHashCode
+    path: ../Source/JsonData.cs
+    startLine: 991
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: LitJson.JsonData.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: LitJson.JsonData.GetJsonType
+  commentId: M:LitJson.JsonData.GetJsonType
+  id: GetJsonType
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: GetJsonType()
+  nameWithType: JsonData.GetJsonType()
+  fullName: LitJson.JsonData.GetJsonType()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: GetJsonType
+    path: ../Source/JsonData.cs
+    startLine: 1000
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public JsonType GetJsonType()
+    return:
+      type: LitJson.JsonType
+    content.vb: Public Function GetJsonType As JsonType
+  overload: LitJson.JsonData.GetJsonType*
+  implements:
+  - LitJson.IJsonWrapper.GetJsonType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.SetJsonType(LitJson.JsonType)
+  commentId: M:LitJson.JsonData.SetJsonType(LitJson.JsonType)
+  id: SetJsonType(LitJson.JsonType)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: SetJsonType(JsonType)
+  nameWithType: JsonData.SetJsonType(JsonType)
+  fullName: LitJson.JsonData.SetJsonType(LitJson.JsonType)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: SetJsonType
+    path: ../Source/JsonData.cs
+    startLine: 1005
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void SetJsonType(JsonType type)
+    parameters:
+    - id: type
+      type: LitJson.JsonType
+    content.vb: Public Sub SetJsonType(type As JsonType)
+  overload: LitJson.JsonData.SetJsonType*
+  implements:
+  - LitJson.IJsonWrapper.SetJsonType(LitJson.JsonType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.ToJson
+  commentId: M:LitJson.JsonData.ToJson
+  id: ToJson
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: ToJson()
+  nameWithType: JsonData.ToJson()
+  fullName: LitJson.JsonData.ToJson()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToJson
+    path: ../Source/JsonData.cs
+    startLine: 1038
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public string ToJson()
+    return:
+      type: System.String
+    content.vb: Public Function ToJson As String
+  overload: LitJson.JsonData.ToJson*
+  implements:
+  - LitJson.IJsonWrapper.ToJson
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.ToJson(LitJson.JsonWriter)
+  commentId: M:LitJson.JsonData.ToJson(LitJson.JsonWriter)
+  id: ToJson(LitJson.JsonWriter)
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: ToJson(JsonWriter)
+  nameWithType: JsonData.ToJson(JsonWriter)
+  fullName: LitJson.JsonData.ToJson(LitJson.JsonWriter)
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToJson
+    path: ../Source/JsonData.cs
+    startLine: 1052
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public void ToJson(JsonWriter writer)
+    parameters:
+    - id: writer
+      type: LitJson.JsonWriter
+    content.vb: Public Sub ToJson(writer As JsonWriter)
+  overload: LitJson.JsonData.ToJson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: LitJson.JsonData.ToString
+  commentId: M:LitJson.JsonData.ToString
+  id: ToString
+  parent: LitJson.JsonData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: JsonData.ToString()
+  fullName: LitJson.JsonData.ToString()
+  type: Method
+  source:
+    remote:
+      path: Source/JsonData.cs
+      branch: master
+      repo: https://github.com/MacacaGames/UnityLitJson.git
+    id: ToString
+    path: ../Source/JsonData.cs
+    startLine: 1060
+  assemblies:
+  - UnityLitJson
+  namespace: LitJson
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: LitJson.JsonData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: LitJson
+  commentId: N:LitJson
+  name: LitJson
+  nameWithType: LitJson
+  fullName: LitJson
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: LitJson.IJsonWrapper
+  commentId: T:LitJson.IJsonWrapper
+  parent: LitJson
+  name: IJsonWrapper
+  nameWithType: IJsonWrapper
+  fullName: LitJson.IJsonWrapper
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections.Specialized.IOrderedDictionary
+  commentId: T:System.Collections.Specialized.IOrderedDictionary
+  parent: System.Collections.Specialized
+  isExternal: true
+  name: IOrderedDictionary
+  nameWithType: IOrderedDictionary
+  fullName: System.Collections.Specialized.IOrderedDictionary
+- uid: System.Collections.IDictionary
+  commentId: T:System.Collections.IDictionary
+  parent: System.Collections
+  isExternal: true
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: System.Collections.IDictionary
+- uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
+  isExternal: true
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.IEquatable{LitJson.JsonData}
+  commentId: T:System.IEquatable{LitJson.JsonData}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<JsonData>
+  nameWithType: IEquatable<JsonData>
+  fullName: System.IEquatable<LitJson.JsonData>
+  nameWithType.vb: IEquatable(Of JsonData)
+  fullName.vb: System.IEquatable(Of LitJson.JsonData)
+  name.vb: IEquatable(Of JsonData)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: LitJson.JsonData
+    name: JsonData
+    nameWithType: JsonData
+    fullName: LitJson.JsonData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: LitJson.JsonData
+    name: JsonData
+    nameWithType: JsonData
+    fullName: LitJson.JsonData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
+  isExternal: true
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.Count*
+  commentId: Overload:LitJson.JsonData.Count
+  name: Count
+  nameWithType: JsonData.Count
+  fullName: LitJson.JsonData.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: LitJson.JsonData.IsArray*
+  commentId: Overload:LitJson.JsonData.IsArray
+  name: IsArray
+  nameWithType: JsonData.IsArray
+  fullName: LitJson.JsonData.IsArray
+- uid: LitJson.IJsonWrapper.IsArray
+  commentId: P:LitJson.IJsonWrapper.IsArray
+  parent: LitJson.IJsonWrapper
+  name: IsArray
+  nameWithType: IJsonWrapper.IsArray
+  fullName: LitJson.IJsonWrapper.IsArray
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: LitJson.JsonData.IsBoolean*
+  commentId: Overload:LitJson.JsonData.IsBoolean
+  name: IsBoolean
+  nameWithType: JsonData.IsBoolean
+  fullName: LitJson.JsonData.IsBoolean
+- uid: LitJson.IJsonWrapper.IsBoolean
+  commentId: P:LitJson.IJsonWrapper.IsBoolean
+  parent: LitJson.IJsonWrapper
+  name: IsBoolean
+  nameWithType: IJsonWrapper.IsBoolean
+  fullName: LitJson.IJsonWrapper.IsBoolean
+- uid: LitJson.JsonData.IsReal*
+  commentId: Overload:LitJson.JsonData.IsReal
+  name: IsReal
+  nameWithType: JsonData.IsReal
+  fullName: LitJson.JsonData.IsReal
+- uid: LitJson.IJsonWrapper.IsReal
+  commentId: P:LitJson.IJsonWrapper.IsReal
+  parent: LitJson.IJsonWrapper
+  name: IsReal
+  nameWithType: IJsonWrapper.IsReal
+  fullName: LitJson.IJsonWrapper.IsReal
+- uid: LitJson.JsonData.IsNatural*
+  commentId: Overload:LitJson.JsonData.IsNatural
+  name: IsNatural
+  nameWithType: JsonData.IsNatural
+  fullName: LitJson.JsonData.IsNatural
+- uid: LitJson.IJsonWrapper.IsNatural
+  commentId: P:LitJson.IJsonWrapper.IsNatural
+  parent: LitJson.IJsonWrapper
+  name: IsNatural
+  nameWithType: IJsonWrapper.IsNatural
+  fullName: LitJson.IJsonWrapper.IsNatural
+- uid: LitJson.JsonData.IsObject*
+  commentId: Overload:LitJson.JsonData.IsObject
+  name: IsObject
+  nameWithType: JsonData.IsObject
+  fullName: LitJson.JsonData.IsObject
+- uid: LitJson.IJsonWrapper.IsObject
+  commentId: P:LitJson.IJsonWrapper.IsObject
+  parent: LitJson.IJsonWrapper
+  name: IsObject
+  nameWithType: IJsonWrapper.IsObject
+  fullName: LitJson.IJsonWrapper.IsObject
+- uid: LitJson.JsonData.IsString*
+  commentId: Overload:LitJson.JsonData.IsString
+  name: IsString
+  nameWithType: JsonData.IsString
+  fullName: LitJson.JsonData.IsString
+- uid: LitJson.IJsonWrapper.IsString
+  commentId: P:LitJson.IJsonWrapper.IsString
+  parent: LitJson.IJsonWrapper
+  name: IsString
+  nameWithType: IJsonWrapper.IsString
+  fullName: LitJson.IJsonWrapper.IsString
+- uid: LitJson.JsonData.Keys*
+  commentId: Overload:LitJson.JsonData.Keys
+  name: Keys
+  nameWithType: JsonData.Keys
+  fullName: LitJson.JsonData.Keys
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<String>
+  nameWithType: ICollection<String>
+  fullName: System.Collections.Generic.ICollection<System.String>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of System.String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: LitJson.JsonData.System#Collections#ICollection#Count*
+  commentId: Overload:LitJson.JsonData.System#Collections#ICollection#Count
+  name: ICollection.Count
+  nameWithType: JsonData.ICollection.Count
+  fullName: LitJson.JsonData.System.Collections.ICollection.Count
+  nameWithType.vb: JsonData.System.Collections.ICollection.Count
+  name.vb: System.Collections.ICollection.Count
+- uid: System.Collections.ICollection.Count
+  commentId: P:System.Collections.ICollection.Count
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: Count
+  nameWithType: ICollection.Count
+  fullName: System.Collections.ICollection.Count
+- uid: LitJson.JsonData.System#Collections#ICollection#IsSynchronized*
+  commentId: Overload:LitJson.JsonData.System#Collections#ICollection#IsSynchronized
+  name: ICollection.IsSynchronized
+  nameWithType: JsonData.ICollection.IsSynchronized
+  fullName: LitJson.JsonData.System.Collections.ICollection.IsSynchronized
+  nameWithType.vb: JsonData.System.Collections.ICollection.IsSynchronized
+  name.vb: System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.ICollection.IsSynchronized
+  commentId: P:System.Collections.ICollection.IsSynchronized
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: IsSynchronized
+  nameWithType: ICollection.IsSynchronized
+  fullName: System.Collections.ICollection.IsSynchronized
+- uid: LitJson.JsonData.System#Collections#ICollection#SyncRoot*
+  commentId: Overload:LitJson.JsonData.System#Collections#ICollection#SyncRoot
+  name: ICollection.SyncRoot
+  nameWithType: JsonData.ICollection.SyncRoot
+  fullName: LitJson.JsonData.System.Collections.ICollection.SyncRoot
+  nameWithType.vb: JsonData.System.Collections.ICollection.SyncRoot
+  name.vb: System.Collections.ICollection.SyncRoot
+- uid: System.Collections.ICollection.SyncRoot
+  commentId: P:System.Collections.ICollection.SyncRoot
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: SyncRoot
+  nameWithType: ICollection.SyncRoot
+  fullName: System.Collections.ICollection.SyncRoot
+- uid: LitJson.JsonData.System#Collections#IDictionary#IsFixedSize*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#IsFixedSize
+  name: IDictionary.IsFixedSize
+  nameWithType: JsonData.IDictionary.IsFixedSize
+  fullName: LitJson.JsonData.System.Collections.IDictionary.IsFixedSize
+  nameWithType.vb: JsonData.System.Collections.IDictionary.IsFixedSize
+  name.vb: System.Collections.IDictionary.IsFixedSize
+- uid: System.Collections.IDictionary.IsFixedSize
+  commentId: P:System.Collections.IDictionary.IsFixedSize
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: IsFixedSize
+  nameWithType: IDictionary.IsFixedSize
+  fullName: System.Collections.IDictionary.IsFixedSize
+- uid: LitJson.JsonData.System#Collections#IDictionary#IsReadOnly*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#IsReadOnly
+  name: IDictionary.IsReadOnly
+  nameWithType: JsonData.IDictionary.IsReadOnly
+  fullName: LitJson.JsonData.System.Collections.IDictionary.IsReadOnly
+  nameWithType.vb: JsonData.System.Collections.IDictionary.IsReadOnly
+  name.vb: System.Collections.IDictionary.IsReadOnly
+- uid: System.Collections.IDictionary.IsReadOnly
+  commentId: P:System.Collections.IDictionary.IsReadOnly
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: IDictionary.IsReadOnly
+  fullName: System.Collections.IDictionary.IsReadOnly
+- uid: LitJson.JsonData.System#Collections#IDictionary#Keys*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#Keys
+  name: IDictionary.Keys
+  nameWithType: JsonData.IDictionary.Keys
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Keys
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Keys
+  name.vb: System.Collections.IDictionary.Keys
+- uid: System.Collections.IDictionary.Keys
+  commentId: P:System.Collections.IDictionary.Keys
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: Keys
+  nameWithType: IDictionary.Keys
+  fullName: System.Collections.IDictionary.Keys
+- uid: LitJson.JsonData.System#Collections#IDictionary#Values*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#Values
+  name: IDictionary.Values
+  nameWithType: JsonData.IDictionary.Values
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Values
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Values
+  name.vb: System.Collections.IDictionary.Values
+- uid: System.Collections.IDictionary.Values
+  commentId: P:System.Collections.IDictionary.Values
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: Values
+  nameWithType: IDictionary.Values
+  fullName: System.Collections.IDictionary.Values
+- uid: LitJson.JsonData.System#Collections#IList#IsFixedSize*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#IsFixedSize
+  name: IList.IsFixedSize
+  nameWithType: JsonData.IList.IsFixedSize
+  fullName: LitJson.JsonData.System.Collections.IList.IsFixedSize
+  nameWithType.vb: JsonData.System.Collections.IList.IsFixedSize
+  name.vb: System.Collections.IList.IsFixedSize
+- uid: System.Collections.IList.IsFixedSize
+  commentId: P:System.Collections.IList.IsFixedSize
+  parent: System.Collections.IList
+  isExternal: true
+  name: IsFixedSize
+  nameWithType: IList.IsFixedSize
+  fullName: System.Collections.IList.IsFixedSize
+- uid: LitJson.JsonData.System#Collections#IList#IsReadOnly*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#IsReadOnly
+  name: IList.IsReadOnly
+  nameWithType: JsonData.IList.IsReadOnly
+  fullName: LitJson.JsonData.System.Collections.IList.IsReadOnly
+  nameWithType.vb: JsonData.System.Collections.IList.IsReadOnly
+  name.vb: System.Collections.IList.IsReadOnly
+- uid: System.Collections.IList.IsReadOnly
+  commentId: P:System.Collections.IList.IsReadOnly
+  parent: System.Collections.IList
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: IList.IsReadOnly
+  fullName: System.Collections.IList.IsReadOnly
+- uid: LitJson.JsonData.System#Collections#IDictionary#Item*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#Item
+  name: IDictionary.Item
+  nameWithType: JsonData.IDictionary.Item
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Item
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Item
+  name.vb: System.Collections.IDictionary.Item
+- uid: System.Collections.IDictionary.Item(System.Object)
+  commentId: P:System.Collections.IDictionary.Item(System.Object)
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IDictionary.Item[Object]
+  fullName: System.Collections.IDictionary.Item[System.Object]
+  nameWithType.vb: IDictionary.Item(Object)
+  fullName.vb: System.Collections.IDictionary.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: System.Collections.IDictionary.Item(System.Object)
+    name: Item
+    nameWithType: IDictionary.Item
+    fullName: System.Collections.IDictionary.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: System.Collections.IDictionary.Item(System.Object)
+    name: Item
+    nameWithType: IDictionary.Item
+    fullName: System.Collections.IDictionary.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Item*
+  commentId: Overload:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Item
+  name: IOrderedDictionary.Item
+  nameWithType: JsonData.IOrderedDictionary.Item
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.Item
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.Item
+  name.vb: System.Collections.Specialized.IOrderedDictionary.Item
+- uid: System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
+  commentId: P:System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
+  parent: System.Collections.Specialized.IOrderedDictionary
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: IOrderedDictionary.Item[Int32]
+  fullName: System.Collections.Specialized.IOrderedDictionary.Item[System.Int32]
+  nameWithType.vb: IOrderedDictionary.Item(Int32)
+  fullName.vb: System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
+    name: Item
+    nameWithType: IOrderedDictionary.Item
+    fullName: System.Collections.Specialized.IOrderedDictionary.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: System.Collections.Specialized.IOrderedDictionary.Item(System.Int32)
+    name: Item
+    nameWithType: IOrderedDictionary.Item
+    fullName: System.Collections.Specialized.IOrderedDictionary.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IList#Item*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#Item
+  name: IList.Item
+  nameWithType: JsonData.IList.Item
+  fullName: LitJson.JsonData.System.Collections.IList.Item
+  nameWithType.vb: JsonData.System.Collections.IList.Item
+  name.vb: System.Collections.IList.Item
+- uid: System.Collections.IList.Item(System.Int32)
+  commentId: P:System.Collections.IList.Item(System.Int32)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: IList.Item[Int32]
+  fullName: System.Collections.IList.Item[System.Int32]
+  nameWithType.vb: IList.Item(Int32)
+  fullName.vb: System.Collections.IList.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: System.Collections.IList.Item(System.Int32)
+    name: Item
+    nameWithType: IList.Item
+    fullName: System.Collections.IList.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: System.Collections.IList.Item(System.Int32)
+    name: Item
+    nameWithType: IList.Item
+    fullName: System.Collections.IList.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.Item*
+  commentId: Overload:LitJson.JsonData.Item
+  name: Item
+  nameWithType: JsonData.Item
+  fullName: LitJson.JsonData.Item
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: LitJson.JsonData
+  commentId: T:LitJson.JsonData
+  parent: LitJson
+  name: JsonData
+  nameWithType: JsonData
+  fullName: LitJson.JsonData
+- uid: LitJson.JsonData.#ctor*
+  commentId: Overload:LitJson.JsonData.#ctor
+  name: JsonData
+  nameWithType: JsonData.JsonData
+  fullName: LitJson.JsonData.JsonData
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  name: SByte
+  nameWithType: SByte
+  fullName: System.SByte
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: LitJson.JsonData.op_Implicit*
+  commentId: Overload:LitJson.JsonData.op_Implicit
+  name: Implicit
+  nameWithType: JsonData.Implicit
+  fullName: LitJson.JsonData.Implicit
+  nameWithType.vb: JsonData.Widening
+  fullName.vb: LitJson.JsonData.Widening
+  name.vb: Widening
+- uid: LitJson.JsonData.op_Explicit*
+  commentId: Overload:LitJson.JsonData.op_Explicit
+  name: Explicit
+  nameWithType: JsonData.Explicit
+  fullName: LitJson.JsonData.Explicit
+  nameWithType.vb: JsonData.Narrowing
+  fullName.vb: LitJson.JsonData.Narrowing
+  name.vb: Narrowing
+- uid: LitJson.JsonData.System#Collections#ICollection#CopyTo*
+  commentId: Overload:LitJson.JsonData.System#Collections#ICollection#CopyTo
+  name: ICollection.CopyTo
+  nameWithType: JsonData.ICollection.CopyTo
+  fullName: LitJson.JsonData.System.Collections.ICollection.CopyTo
+  nameWithType.vb: JsonData.System.Collections.ICollection.CopyTo
+  name.vb: System.Collections.ICollection.CopyTo
+- uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  commentId: M:System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: CopyTo(Array, Int32)
+  nameWithType: ICollection.CopyTo(Array, Int32)
+  fullName: System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    nameWithType: ICollection.CopyTo
+    fullName: System.Collections.ICollection.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    nameWithType: ICollection.CopyTo
+    fullName: System.Collections.ICollection.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Array
+  commentId: T:System.Array
+  parent: System
+  isExternal: true
+  name: Array
+  nameWithType: Array
+  fullName: System.Array
+- uid: LitJson.JsonData.System#Collections#IDictionary#Add*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#Add
+  name: IDictionary.Add
+  nameWithType: JsonData.IDictionary.Add
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Add
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Add
+  name.vb: System.Collections.IDictionary.Add
+- uid: System.Collections.IDictionary.Add(System.Object,System.Object)
+  commentId: M:System.Collections.IDictionary.Add(System.Object,System.Object)
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: Add(Object, Object)
+  nameWithType: IDictionary.Add(Object, Object)
+  fullName: System.Collections.IDictionary.Add(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Collections.IDictionary.Add(System.Object,System.Object)
+    name: Add
+    nameWithType: IDictionary.Add
+    fullName: System.Collections.IDictionary.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IDictionary.Add(System.Object,System.Object)
+    name: Add
+    nameWithType: IDictionary.Add
+    fullName: System.Collections.IDictionary.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IDictionary#Clear*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#Clear
+  name: IDictionary.Clear
+  nameWithType: JsonData.IDictionary.Clear
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Clear
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Clear
+  name.vb: System.Collections.IDictionary.Clear
+- uid: System.Collections.IDictionary.Clear
+  commentId: M:System.Collections.IDictionary.Clear
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: Clear()
+  nameWithType: IDictionary.Clear()
+  fullName: System.Collections.IDictionary.Clear()
+  spec.csharp:
+  - uid: System.Collections.IDictionary.Clear
+    name: Clear
+    nameWithType: IDictionary.Clear
+    fullName: System.Collections.IDictionary.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IDictionary.Clear
+    name: Clear
+    nameWithType: IDictionary.Clear
+    fullName: System.Collections.IDictionary.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IDictionary#Contains*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#Contains
+  name: IDictionary.Contains
+  nameWithType: JsonData.IDictionary.Contains
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Contains
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Contains
+  name.vb: System.Collections.IDictionary.Contains
+- uid: System.Collections.IDictionary.Contains(System.Object)
+  commentId: M:System.Collections.IDictionary.Contains(System.Object)
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: Contains(Object)
+  nameWithType: IDictionary.Contains(Object)
+  fullName: System.Collections.IDictionary.Contains(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IDictionary.Contains(System.Object)
+    name: Contains
+    nameWithType: IDictionary.Contains
+    fullName: System.Collections.IDictionary.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IDictionary.Contains(System.Object)
+    name: Contains
+    nameWithType: IDictionary.Contains
+    fullName: System.Collections.IDictionary.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IDictionary#GetEnumerator*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#GetEnumerator
+  name: IDictionary.GetEnumerator
+  nameWithType: JsonData.IDictionary.GetEnumerator
+  fullName: LitJson.JsonData.System.Collections.IDictionary.GetEnumerator
+  nameWithType.vb: JsonData.System.Collections.IDictionary.GetEnumerator
+  name.vb: System.Collections.IDictionary.GetEnumerator
+- uid: System.Collections.IDictionary.GetEnumerator
+  commentId: M:System.Collections.IDictionary.GetEnumerator
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IDictionary.GetEnumerator()
+  fullName: System.Collections.IDictionary.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IDictionary.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IDictionary.GetEnumerator
+    fullName: System.Collections.IDictionary.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IDictionary.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IDictionary.GetEnumerator
+    fullName: System.Collections.IDictionary.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IDictionaryEnumerator
+  commentId: T:System.Collections.IDictionaryEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IDictionaryEnumerator
+  nameWithType: IDictionaryEnumerator
+  fullName: System.Collections.IDictionaryEnumerator
+- uid: LitJson.JsonData.System#Collections#IDictionary#Remove*
+  commentId: Overload:LitJson.JsonData.System#Collections#IDictionary#Remove
+  name: IDictionary.Remove
+  nameWithType: JsonData.IDictionary.Remove
+  fullName: LitJson.JsonData.System.Collections.IDictionary.Remove
+  nameWithType.vb: JsonData.System.Collections.IDictionary.Remove
+  name.vb: System.Collections.IDictionary.Remove
+- uid: System.Collections.IDictionary.Remove(System.Object)
+  commentId: M:System.Collections.IDictionary.Remove(System.Object)
+  parent: System.Collections.IDictionary
+  isExternal: true
+  name: Remove(Object)
+  nameWithType: IDictionary.Remove(Object)
+  fullName: System.Collections.IDictionary.Remove(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IDictionary.Remove(System.Object)
+    name: Remove
+    nameWithType: IDictionary.Remove
+    fullName: System.Collections.IDictionary.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IDictionary.Remove(System.Object)
+    name: Remove
+    nameWithType: IDictionary.Remove
+    fullName: System.Collections.IDictionary.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IEnumerable#GetEnumerator*
+  commentId: Overload:LitJson.JsonData.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator
+  nameWithType: JsonData.IEnumerable.GetEnumerator
+  fullName: LitJson.JsonData.System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: JsonData.System.Collections.IEnumerable.GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: LitJson.JsonData.GetBoolean*
+  commentId: Overload:LitJson.JsonData.GetBoolean
+  name: GetBoolean
+  nameWithType: JsonData.GetBoolean
+  fullName: LitJson.JsonData.GetBoolean
+- uid: LitJson.IJsonWrapper.GetBoolean
+  commentId: M:LitJson.IJsonWrapper.GetBoolean
+  parent: LitJson.IJsonWrapper
+  name: GetBoolean()
+  nameWithType: IJsonWrapper.GetBoolean()
+  fullName: LitJson.IJsonWrapper.GetBoolean()
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.GetBoolean
+    name: GetBoolean
+    nameWithType: IJsonWrapper.GetBoolean
+    fullName: LitJson.IJsonWrapper.GetBoolean
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.GetBoolean
+    name: GetBoolean
+    nameWithType: IJsonWrapper.GetBoolean
+    fullName: LitJson.IJsonWrapper.GetBoolean
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.GetReal*
+  commentId: Overload:LitJson.JsonData.GetReal
+  name: GetReal
+  nameWithType: JsonData.GetReal
+  fullName: LitJson.JsonData.GetReal
+- uid: LitJson.IJsonWrapper.GetReal
+  commentId: M:LitJson.IJsonWrapper.GetReal
+  parent: LitJson.IJsonWrapper
+  name: GetReal()
+  nameWithType: IJsonWrapper.GetReal()
+  fullName: LitJson.IJsonWrapper.GetReal()
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.GetReal
+    name: GetReal
+    nameWithType: IJsonWrapper.GetReal
+    fullName: LitJson.IJsonWrapper.GetReal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.GetReal
+    name: GetReal
+    nameWithType: IJsonWrapper.GetReal
+    fullName: LitJson.IJsonWrapper.GetReal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.GetNatural*
+  commentId: Overload:LitJson.JsonData.GetNatural
+  name: GetNatural
+  nameWithType: JsonData.GetNatural
+  fullName: LitJson.JsonData.GetNatural
+- uid: LitJson.IJsonWrapper.GetNatural
+  commentId: M:LitJson.IJsonWrapper.GetNatural
+  parent: LitJson.IJsonWrapper
+  name: GetNatural()
+  nameWithType: IJsonWrapper.GetNatural()
+  fullName: LitJson.IJsonWrapper.GetNatural()
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.GetNatural
+    name: GetNatural
+    nameWithType: IJsonWrapper.GetNatural
+    fullName: LitJson.IJsonWrapper.GetNatural
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.GetNatural
+    name: GetNatural
+    nameWithType: IJsonWrapper.GetNatural
+    fullName: LitJson.IJsonWrapper.GetNatural
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.GetString*
+  commentId: Overload:LitJson.JsonData.GetString
+  name: GetString
+  nameWithType: JsonData.GetString
+  fullName: LitJson.JsonData.GetString
+- uid: LitJson.IJsonWrapper.GetString
+  commentId: M:LitJson.IJsonWrapper.GetString
+  parent: LitJson.IJsonWrapper
+  name: GetString()
+  nameWithType: IJsonWrapper.GetString()
+  fullName: LitJson.IJsonWrapper.GetString()
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.GetString
+    name: GetString
+    nameWithType: IJsonWrapper.GetString
+    fullName: LitJson.IJsonWrapper.GetString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.GetString
+    name: GetString
+    nameWithType: IJsonWrapper.GetString
+    fullName: LitJson.IJsonWrapper.GetString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.SetBoolean*
+  commentId: Overload:LitJson.JsonData.SetBoolean
+  name: SetBoolean
+  nameWithType: JsonData.SetBoolean
+  fullName: LitJson.JsonData.SetBoolean
+- uid: LitJson.IJsonWrapper.SetBoolean(System.Boolean)
+  commentId: M:LitJson.IJsonWrapper.SetBoolean(System.Boolean)
+  parent: LitJson.IJsonWrapper
+  isExternal: true
+  name: SetBoolean(Boolean)
+  nameWithType: IJsonWrapper.SetBoolean(Boolean)
+  fullName: LitJson.IJsonWrapper.SetBoolean(System.Boolean)
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.SetBoolean(System.Boolean)
+    name: SetBoolean
+    nameWithType: IJsonWrapper.SetBoolean
+    fullName: LitJson.IJsonWrapper.SetBoolean
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.SetBoolean(System.Boolean)
+    name: SetBoolean
+    nameWithType: IJsonWrapper.SetBoolean
+    fullName: LitJson.IJsonWrapper.SetBoolean
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.SetReal*
+  commentId: Overload:LitJson.JsonData.SetReal
+  name: SetReal
+  nameWithType: JsonData.SetReal
+  fullName: LitJson.JsonData.SetReal
+- uid: LitJson.IJsonWrapper.SetReal(System.Double)
+  commentId: M:LitJson.IJsonWrapper.SetReal(System.Double)
+  parent: LitJson.IJsonWrapper
+  isExternal: true
+  name: SetReal(Double)
+  nameWithType: IJsonWrapper.SetReal(Double)
+  fullName: LitJson.IJsonWrapper.SetReal(System.Double)
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.SetReal(System.Double)
+    name: SetReal
+    nameWithType: IJsonWrapper.SetReal
+    fullName: LitJson.IJsonWrapper.SetReal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.SetReal(System.Double)
+    name: SetReal
+    nameWithType: IJsonWrapper.SetReal
+    fullName: LitJson.IJsonWrapper.SetReal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.SetNatural*
+  commentId: Overload:LitJson.JsonData.SetNatural
+  name: SetNatural
+  nameWithType: JsonData.SetNatural
+  fullName: LitJson.JsonData.SetNatural
+- uid: LitJson.IJsonWrapper.SetNatural(System.Int64)
+  commentId: M:LitJson.IJsonWrapper.SetNatural(System.Int64)
+  parent: LitJson.IJsonWrapper
+  isExternal: true
+  name: SetNatural(Int64)
+  nameWithType: IJsonWrapper.SetNatural(Int64)
+  fullName: LitJson.IJsonWrapper.SetNatural(System.Int64)
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.SetNatural(System.Int64)
+    name: SetNatural
+    nameWithType: IJsonWrapper.SetNatural
+    fullName: LitJson.IJsonWrapper.SetNatural
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.SetNatural(System.Int64)
+    name: SetNatural
+    nameWithType: IJsonWrapper.SetNatural
+    fullName: LitJson.IJsonWrapper.SetNatural
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.SetString*
+  commentId: Overload:LitJson.JsonData.SetString
+  name: SetString
+  nameWithType: JsonData.SetString
+  fullName: LitJson.JsonData.SetString
+- uid: LitJson.IJsonWrapper.SetString(System.String)
+  commentId: M:LitJson.IJsonWrapper.SetString(System.String)
+  parent: LitJson.IJsonWrapper
+  isExternal: true
+  name: SetString(String)
+  nameWithType: IJsonWrapper.SetString(String)
+  fullName: LitJson.IJsonWrapper.SetString(System.String)
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.SetString(System.String)
+    name: SetString
+    nameWithType: IJsonWrapper.SetString
+    fullName: LitJson.IJsonWrapper.SetString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.SetString(System.String)
+    name: SetString
+    nameWithType: IJsonWrapper.SetString
+    fullName: LitJson.IJsonWrapper.SetString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.LitJson#IJsonWrapper#ToJson*
+  commentId: Overload:LitJson.JsonData.LitJson#IJsonWrapper#ToJson
+  name: IJsonWrapper.ToJson
+  nameWithType: JsonData.IJsonWrapper.ToJson
+  fullName: LitJson.JsonData.LitJson.IJsonWrapper.ToJson
+  nameWithType.vb: JsonData.LitJson.IJsonWrapper.ToJson
+  name.vb: LitJson.IJsonWrapper.ToJson
+- uid: LitJson.IJsonWrapper.ToJson(LitJson.JsonWriter)
+  commentId: M:LitJson.IJsonWrapper.ToJson(LitJson.JsonWriter)
+  parent: LitJson.IJsonWrapper
+  name: ToJson(JsonWriter)
+  nameWithType: IJsonWrapper.ToJson(JsonWriter)
+  fullName: LitJson.IJsonWrapper.ToJson(LitJson.JsonWriter)
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.ToJson(LitJson.JsonWriter)
+    name: ToJson
+    nameWithType: IJsonWrapper.ToJson
+    fullName: LitJson.IJsonWrapper.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.ToJson(LitJson.JsonWriter)
+    name: ToJson
+    nameWithType: IJsonWrapper.ToJson
+    fullName: LitJson.IJsonWrapper.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonWriter
+    name: JsonWriter
+    nameWithType: JsonWriter
+    fullName: LitJson.JsonWriter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonWriter
+  commentId: T:LitJson.JsonWriter
+  parent: LitJson
+  name: JsonWriter
+  nameWithType: JsonWriter
+  fullName: LitJson.JsonWriter
+- uid: LitJson.JsonData.System#Collections#IList#Add*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#Add
+  name: IList.Add
+  nameWithType: JsonData.IList.Add
+  fullName: LitJson.JsonData.System.Collections.IList.Add
+  nameWithType.vb: JsonData.System.Collections.IList.Add
+  name.vb: System.Collections.IList.Add
+- uid: System.Collections.IList.Add(System.Object)
+  commentId: M:System.Collections.IList.Add(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Add(Object)
+  nameWithType: IList.Add(Object)
+  fullName: System.Collections.IList.Add(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Add(System.Object)
+    name: Add
+    nameWithType: IList.Add
+    fullName: System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Add(System.Object)
+    name: Add
+    nameWithType: IList.Add
+    fullName: System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IList#Clear*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#Clear
+  name: IList.Clear
+  nameWithType: JsonData.IList.Clear
+  fullName: LitJson.JsonData.System.Collections.IList.Clear
+  nameWithType.vb: JsonData.System.Collections.IList.Clear
+  name.vb: System.Collections.IList.Clear
+- uid: System.Collections.IList.Clear
+  commentId: M:System.Collections.IList.Clear
+  parent: System.Collections.IList
+  isExternal: true
+  name: Clear()
+  nameWithType: IList.Clear()
+  fullName: System.Collections.IList.Clear()
+  spec.csharp:
+  - uid: System.Collections.IList.Clear
+    name: Clear
+    nameWithType: IList.Clear
+    fullName: System.Collections.IList.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Clear
+    name: Clear
+    nameWithType: IList.Clear
+    fullName: System.Collections.IList.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IList#Contains*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#Contains
+  name: IList.Contains
+  nameWithType: JsonData.IList.Contains
+  fullName: LitJson.JsonData.System.Collections.IList.Contains
+  nameWithType.vb: JsonData.System.Collections.IList.Contains
+  name.vb: System.Collections.IList.Contains
+- uid: System.Collections.IList.Contains(System.Object)
+  commentId: M:System.Collections.IList.Contains(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Contains(Object)
+  nameWithType: IList.Contains(Object)
+  fullName: System.Collections.IList.Contains(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Contains(System.Object)
+    name: Contains
+    nameWithType: IList.Contains
+    fullName: System.Collections.IList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Contains(System.Object)
+    name: Contains
+    nameWithType: IList.Contains
+    fullName: System.Collections.IList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IList#IndexOf*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#IndexOf
+  name: IList.IndexOf
+  nameWithType: JsonData.IList.IndexOf
+  fullName: LitJson.JsonData.System.Collections.IList.IndexOf
+  nameWithType.vb: JsonData.System.Collections.IList.IndexOf
+  name.vb: System.Collections.IList.IndexOf
+- uid: System.Collections.IList.IndexOf(System.Object)
+  commentId: M:System.Collections.IList.IndexOf(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: IndexOf(Object)
+  nameWithType: IList.IndexOf(Object)
+  fullName: System.Collections.IList.IndexOf(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.IndexOf(System.Object)
+    name: IndexOf
+    nameWithType: IList.IndexOf
+    fullName: System.Collections.IList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.IndexOf(System.Object)
+    name: IndexOf
+    nameWithType: IList.IndexOf
+    fullName: System.Collections.IList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IList#Insert*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#Insert
+  name: IList.Insert
+  nameWithType: JsonData.IList.Insert
+  fullName: LitJson.JsonData.System.Collections.IList.Insert
+  nameWithType.vb: JsonData.System.Collections.IList.Insert
+  name.vb: System.Collections.IList.Insert
+- uid: System.Collections.IList.Insert(System.Int32,System.Object)
+  commentId: M:System.Collections.IList.Insert(System.Int32,System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Insert(Int32, Object)
+  nameWithType: IList.Insert(Int32, Object)
+  fullName: System.Collections.IList.Insert(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Insert(System.Int32,System.Object)
+    name: Insert
+    nameWithType: IList.Insert
+    fullName: System.Collections.IList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Insert(System.Int32,System.Object)
+    name: Insert
+    nameWithType: IList.Insert
+    fullName: System.Collections.IList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IList#Remove*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#Remove
+  name: IList.Remove
+  nameWithType: JsonData.IList.Remove
+  fullName: LitJson.JsonData.System.Collections.IList.Remove
+  nameWithType.vb: JsonData.System.Collections.IList.Remove
+  name.vb: System.Collections.IList.Remove
+- uid: System.Collections.IList.Remove(System.Object)
+  commentId: M:System.Collections.IList.Remove(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Remove(Object)
+  nameWithType: IList.Remove(Object)
+  fullName: System.Collections.IList.Remove(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Remove(System.Object)
+    name: Remove
+    nameWithType: IList.Remove
+    fullName: System.Collections.IList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Remove(System.Object)
+    name: Remove
+    nameWithType: IList.Remove
+    fullName: System.Collections.IList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#IList#RemoveAt*
+  commentId: Overload:LitJson.JsonData.System#Collections#IList#RemoveAt
+  name: IList.RemoveAt
+  nameWithType: JsonData.IList.RemoveAt
+  fullName: LitJson.JsonData.System.Collections.IList.RemoveAt
+  nameWithType.vb: JsonData.System.Collections.IList.RemoveAt
+  name.vb: System.Collections.IList.RemoveAt
+- uid: System.Collections.IList.RemoveAt(System.Int32)
+  commentId: M:System.Collections.IList.RemoveAt(System.Int32)
+  parent: System.Collections.IList
+  isExternal: true
+  name: RemoveAt(Int32)
+  nameWithType: IList.RemoveAt(Int32)
+  fullName: System.Collections.IList.RemoveAt(System.Int32)
+  spec.csharp:
+  - uid: System.Collections.IList.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: IList.RemoveAt
+    fullName: System.Collections.IList.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: IList.RemoveAt
+    fullName: System.Collections.IList.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#GetEnumerator*
+  commentId: Overload:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#GetEnumerator
+  name: IOrderedDictionary.GetEnumerator
+  nameWithType: JsonData.IOrderedDictionary.GetEnumerator
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+  name.vb: System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+- uid: System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+  commentId: M:System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+  parent: System.Collections.Specialized.IOrderedDictionary
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IOrderedDictionary.GetEnumerator()
+  fullName: System.Collections.Specialized.IOrderedDictionary.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IOrderedDictionary.GetEnumerator
+    fullName: System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IOrderedDictionary.GetEnumerator
+    fullName: System.Collections.Specialized.IOrderedDictionary.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Insert*
+  commentId: Overload:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#Insert
+  name: IOrderedDictionary.Insert
+  nameWithType: JsonData.IOrderedDictionary.Insert
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.Insert
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.Insert
+  name.vb: System.Collections.Specialized.IOrderedDictionary.Insert
+- uid: System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)
+  commentId: M:System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)
+  parent: System.Collections.Specialized.IOrderedDictionary
+  isExternal: true
+  name: Insert(Int32, Object, Object)
+  nameWithType: IOrderedDictionary.Insert(Int32, Object, Object)
+  fullName: System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32, System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)
+    name: Insert
+    nameWithType: IOrderedDictionary.Insert
+    fullName: System.Collections.Specialized.IOrderedDictionary.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Specialized.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)
+    name: Insert
+    nameWithType: IOrderedDictionary.Insert
+    fullName: System.Collections.Specialized.IOrderedDictionary.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#RemoveAt*
+  commentId: Overload:LitJson.JsonData.System#Collections#Specialized#IOrderedDictionary#RemoveAt
+  name: IOrderedDictionary.RemoveAt
+  nameWithType: JsonData.IOrderedDictionary.RemoveAt
+  fullName: LitJson.JsonData.System.Collections.Specialized.IOrderedDictionary.RemoveAt
+  nameWithType.vb: JsonData.System.Collections.Specialized.IOrderedDictionary.RemoveAt
+  name.vb: System.Collections.Specialized.IOrderedDictionary.RemoveAt
+- uid: System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
+  commentId: M:System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
+  parent: System.Collections.Specialized.IOrderedDictionary
+  isExternal: true
+  name: RemoveAt(Int32)
+  nameWithType: IOrderedDictionary.RemoveAt(Int32)
+  fullName: System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
+  spec.csharp:
+  - uid: System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: IOrderedDictionary.RemoveAt
+    fullName: System.Collections.Specialized.IOrderedDictionary.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Specialized.IOrderedDictionary.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: IOrderedDictionary.RemoveAt
+    fullName: System.Collections.Specialized.IOrderedDictionary.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.Add*
+  commentId: Overload:LitJson.JsonData.Add
+  name: Add
+  nameWithType: JsonData.Add
+  fullName: LitJson.JsonData.Add
+- uid: LitJson.JsonData.Clear*
+  commentId: Overload:LitJson.JsonData.Clear
+  name: Clear
+  nameWithType: JsonData.Clear
+  fullName: LitJson.JsonData.Clear
+- uid: LitJson.JsonData.Equals*
+  commentId: Overload:LitJson.JsonData.Equals
+  name: Equals
+  nameWithType: JsonData.Equals
+  fullName: LitJson.JsonData.Equals
+- uid: System.IEquatable{LitJson.JsonData}.Equals(LitJson.JsonData)
+  commentId: M:System.IEquatable{LitJson.JsonData}.Equals(LitJson.JsonData)
+  parent: System.IEquatable{LitJson.JsonData}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(JsonData)
+  nameWithType: IEquatable<JsonData>.Equals(JsonData)
+  fullName: System.IEquatable<LitJson.JsonData>.Equals(LitJson.JsonData)
+  nameWithType.vb: IEquatable(Of JsonData).Equals(JsonData)
+  fullName.vb: System.IEquatable(Of LitJson.JsonData).Equals(LitJson.JsonData)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<JsonData>.Equals
+    fullName: System.IEquatable<LitJson.JsonData>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonData
+    name: JsonData
+    nameWithType: JsonData
+    fullName: LitJson.JsonData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of JsonData).Equals
+    fullName: System.IEquatable(Of LitJson.JsonData).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonData
+    name: JsonData
+    nameWithType: JsonData
+    fullName: LitJson.JsonData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.GetHashCode*
+  commentId: Overload:LitJson.JsonData.GetHashCode
+  name: GetHashCode
+  nameWithType: JsonData.GetHashCode
+  fullName: LitJson.JsonData.GetHashCode
+- uid: LitJson.JsonData.GetJsonType*
+  commentId: Overload:LitJson.JsonData.GetJsonType
+  name: GetJsonType
+  nameWithType: JsonData.GetJsonType
+  fullName: LitJson.JsonData.GetJsonType
+- uid: LitJson.IJsonWrapper.GetJsonType
+  commentId: M:LitJson.IJsonWrapper.GetJsonType
+  parent: LitJson.IJsonWrapper
+  name: GetJsonType()
+  nameWithType: IJsonWrapper.GetJsonType()
+  fullName: LitJson.IJsonWrapper.GetJsonType()
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.GetJsonType
+    name: GetJsonType
+    nameWithType: IJsonWrapper.GetJsonType
+    fullName: LitJson.IJsonWrapper.GetJsonType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.GetJsonType
+    name: GetJsonType
+    nameWithType: IJsonWrapper.GetJsonType
+    fullName: LitJson.IJsonWrapper.GetJsonType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonType
+  commentId: T:LitJson.JsonType
+  parent: LitJson
+  name: JsonType
+  nameWithType: JsonType
+  fullName: LitJson.JsonType
+- uid: LitJson.JsonData.SetJsonType*
+  commentId: Overload:LitJson.JsonData.SetJsonType
+  name: SetJsonType
+  nameWithType: JsonData.SetJsonType
+  fullName: LitJson.JsonData.SetJsonType
+- uid: LitJson.IJsonWrapper.SetJsonType(LitJson.JsonType)
+  commentId: M:LitJson.IJsonWrapper.SetJsonType(LitJson.JsonType)
+  parent: LitJson.IJsonWrapper
+  name: SetJsonType(JsonType)
+  nameWithType: IJsonWrapper.SetJsonType(JsonType)
+  fullName: LitJson.IJsonWrapper.SetJsonType(LitJson.JsonType)
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.SetJsonType(LitJson.JsonType)
+    name: SetJsonType
+    nameWithType: IJsonWrapper.SetJsonType
+    fullName: LitJson.IJsonWrapper.SetJsonType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonType
+    name: JsonType
+    nameWithType: JsonType
+    fullName: LitJson.JsonType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.SetJsonType(LitJson.JsonType)
+    name: SetJsonType
+    nameWithType: IJsonWrapper.SetJsonType
+    fullName: LitJson.IJsonWrapper.SetJsonType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: LitJson.JsonType
+    name: JsonType
+    nameWithType: JsonType
+    fullName: LitJson.JsonType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.ToJson*
+  commentId: Overload:LitJson.JsonData.ToJson
+  name: ToJson
+  nameWithType: JsonData.ToJson
+  fullName: LitJson.JsonData.ToJson
+- uid: LitJson.IJsonWrapper.ToJson
+  commentId: M:LitJson.IJsonWrapper.ToJson
+  parent: LitJson.IJsonWrapper
+  name: ToJson()
+  nameWithType: IJsonWrapper.ToJson()
+  fullName: LitJson.IJsonWrapper.ToJson()
+  spec.csharp:
+  - uid: LitJson.IJsonWrapper.ToJson
+    name: ToJson
+    nameWithType: IJsonWrapper.ToJson
+    fullName: LitJson.IJsonWrapper.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: LitJson.IJsonWrapper.ToJson
+    name: ToJson
+    nameWithType: IJsonWrapper.ToJson
+    fullName: LitJson.IJsonWrapper.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LitJson.JsonData.ToString*
+  commentId: Overload:LitJson.JsonData.ToString
+  name: ToString
+  nameWithType: JsonData.ToString
+  fullName: LitJson.JsonData.ToString
