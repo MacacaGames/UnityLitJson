@@ -62,16 +62,26 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="litjson">LitJSON</h1>
 
-<p>A <em>.Net</em> library to handle conversions from and to JSON (JavaScript Object
-Notation) strings. This fork has been edited specificity for use with <a href="http://unity3d.com/">Unity3D</a>.</p>
+<p>This is a forked version from <a href="https://github.com/Mervill/UnityLitJson">Mervill</a>.</p>
+<p>A <em>.Net</em> library to handle conversions from and to JSON (JavaScript Object Notation) strings. This fork has been edited specificity for use with <a href="http://unity3d.com/">Unity3D</a>.</p>
 <p>Originally created by <a href="http://lbv.github.io/litjson/">lbv</a>.</p>
 <h2 id="installation">Installation</h2>
-<p>Simply pull the repo and open the .unitypackage to import the library.</p>
+<h3 id="option-1-installation-via-openupm-recommend">Option 1: Installation via OpenUPM (Recommend)</h3>
+<pre><code class="lang-sh">openupm add com.macacagames.unitylitjson
+</code></pre>
+<h2 id="option-2-unity-package-file">Option 2: Unity Package file</h2>
+<p>Add it to your editor's manifest.json file like this:</p>
+<pre><code class="lang-json">{
+    &quot;dependencies&quot;: {
+        &quot;com.macacagames.unitylitjson&quot;: &quot;https://github.com/MacacaGames/UnityLitJson.git?path=Source&quot;,
+    }
+}
+</code></pre>
 <h2 id="licence">Licence</h2>
 <p>This is free and unencumbered software released into the public domain.</p>
 <p>For more information, please refer to <a href="http://unlicense.org/">http://unlicense.org/</a>.</p>
 <h2 id="examples">Examples</h2>
-<p>For general examples, check out <a href="https://github.com/VictorySquare/UnityLitJson/blob/master/Docs/quickstart/guide.md">/Docs/Quickstart/guide.md</a>
+<p>For general examples, check out <a href="https://macacagames.github.io/UnityLitJson/quickstart/guide.html">/Docs/Quickstart</a>
 in this repo, there is also a simple example included in the Unity package.</p>
 <h2 id="compiling">Compiling</h2>
 <p>The LitJson csproj can be used to compile a dll and run the tests.
