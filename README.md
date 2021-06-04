@@ -1,6 +1,6 @@
 LitJSON
 =======
-This is a forked version from [lbv](https://github.com/Mervill/UnityLitJson).
+This is a forked version from [Mervill](https://github.com/Mervill/UnityLitJson).
 
 A *.Net* library to handle conversions from and to JSON (JavaScript Object Notation) strings. This fork has been edited specificity for use with [Unity3D](http://unity3d.com/).
 

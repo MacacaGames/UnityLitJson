@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -60,36 +60,36 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="litjson">LitJSON</h1>
+<h1 id="litjson" sourcefile="index.md" sourcestartlinenumber="2">LitJSON</h1>
 
-<p>This is a forked version from <a href="https://github.com/Mervill/UnityLitJson">Mervill</a>.</p>
-<p>A <em>.Net</em> library to handle conversions from and to JSON (JavaScript Object Notation) strings. This fork has been edited specificity for use with <a href="http://unity3d.com/">Unity3D</a>.</p>
-<p>Originally created by <a href="http://lbv.github.io/litjson/">lbv</a>.</p>
-<h2 id="installation">Installation</h2>
-<h3 id="option-1-installation-via-openupm-recommend">Option 1: Installation via OpenUPM (Recommend)</h3>
-<pre><code class="lang-sh">openupm add com.macacagames.unitylitjson
+<p sourcefile="index.md" sourcestartlinenumber="3">This is a forked version from <a href="https://github.com/Mervill/UnityLitJson" sourcefile="index.md" sourcestartlinenumber="3">Mervill</a>.</p>
+<p sourcefile="index.md" sourcestartlinenumber="5">A <em sourcefile="index.md" sourcestartlinenumber="5">.Net</em> library to handle conversions from and to JSON (JavaScript Object Notation) strings. This fork has been edited specificity for use with <a href="http://unity3d.com/" sourcefile="index.md" sourcestartlinenumber="5">Unity3D</a>.</p>
+<p sourcefile="index.md" sourcestartlinenumber="7">Originally created by <a href="http://lbv.github.io/litjson/" sourcefile="index.md" sourcestartlinenumber="7">lbv</a>.</p>
+<h2 id="installation" sourcefile="index.md" sourcestartlinenumber="9">Installation</h2>
+<h3 id="option-1-installation-via-openupm-recommend" sourcefile="index.md" sourcestartlinenumber="10">Option 1: Installation via OpenUPM (Recommend)</h3>
+<pre><code class="lang-sh" sourcefile="index.md" sourcestartlinenumber="12">openupm add com.macacagames.unitylitjson
 </code></pre>
-<h2 id="option-2-unity-package-file">Option 2: Unity Package file</h2>
-<p>Add it to your editor's manifest.json file like this:</p>
-<pre><code class="lang-json">{
+<h2 id="option-2-unity-package-file" sourcefile="index.md" sourcestartlinenumber="16">Option 2: Unity Package file</h2>
+<p sourcefile="index.md" sourcestartlinenumber="17">Add it to your editor's manifest.json file like this:</p>
+<pre><code class="lang-json" sourcefile="index.md" sourcestartlinenumber="18">{
     &quot;dependencies&quot;: {
         &quot;com.macacagames.unitylitjson&quot;: &quot;https://github.com/MacacaGames/UnityLitJson.git?path=Source&quot;,
     }
 }
 </code></pre>
-<h2 id="licence">Licence</h2>
-<p>This is free and unencumbered software released into the public domain.</p>
-<p>For more information, please refer to <a href="http://unlicense.org/">http://unlicense.org/</a>.</p>
-<h2 id="examples">Examples</h2>
-<p>For general examples, check out <a href="https://macacagames.github.io/UnityLitJson/quickstart/guide.html">/Docs/Quickstart</a>
+<h2 id="licence" sourcefile="index.md" sourcestartlinenumber="25">Licence</h2>
+<p sourcefile="index.md" sourcestartlinenumber="27">This is free and unencumbered software released into the public domain.</p>
+<p sourcefile="index.md" sourcestartlinenumber="29">For more information, please refer to <a href="http://unlicense.org/" sourcefile="index.md" sourcestartlinenumber="29">http://unlicense.org/</a>.</p>
+<h2 id="examples" sourcefile="index.md" sourcestartlinenumber="31">Examples</h2>
+<p sourcefile="index.md" sourcestartlinenumber="33">For general examples, check out <a href="https://macacagames.github.io/UnityLitJson/quickstart/guide.html" sourcefile="index.md" sourcestartlinenumber="33">/Docs/Quickstart</a>
 in this repo, there is also a simple example included in the Unity package.</p>
-<h2 id="compiling">Compiling</h2>
-<p>The LitJson csproj can be used to compile a dll and run the tests.
+<h2 id="compiling" sourcefile="index.md" sourcestartlinenumber="36">Compiling</h2>
+<p sourcefile="index.md" sourcestartlinenumber="38">The LitJson csproj can be used to compile a dll and run the tests.
 If you intend to use the library in your Unity3D project I recommend
 you import the uncompiled source as there are some #if directives in
 Platform.cs that help make the library work on WinRT (and possibly
 other platforms in the future).</p>
-<pre><code>Compiler Directives
+<pre><code sourcefile="index.md" sourcestartlinenumber="44">Compiler Directives
 
 JSON_STANDALONE		// Compile without Unity3D dependencies.
 
@@ -100,16 +100,16 @@ JSON_WINRT			// Compile with WinRT compatibility fix. This will
 					// for WindowsRT
 
 </code></pre>
-<h2 id="tests">Tests</h2>
-<p>This library comes with a set of unit tests using the <a href="http://www.nunit.org/">NUnit</a> framework.</p>
-<h2 id="todo">TODO</h2>
-<ol>
-<li>Remove the static writer and just create a new private one each time instead (eliminates need for global lock).</li>
-<li>Add more error checks for type hinting.</li>
-<li>Add full XMLDocs to public interfaces.</li>
-<li>Try to get custom importers/exporters working recursively.</li>
-<li>README.md needs more information and examples.</li>
-<li>Fix unit tests that cause mono to crash (something with Enums I think).</li>
+<h2 id="tests" sourcefile="index.md" sourcestartlinenumber="57">Tests</h2>
+<p sourcefile="index.md" sourcestartlinenumber="59">This library comes with a set of unit tests using the <a href="http://www.nunit.org/" sourcefile="index.md" sourcestartlinenumber="59">NUnit</a> framework.</p>
+<h2 id="todo" sourcefile="index.md" sourcestartlinenumber="61">TODO</h2>
+<ol sourcefile="index.md" sourcestartlinenumber="63">
+<li sourcefile="index.md" sourcestartlinenumber="63">Remove the static writer and just create a new private one each time instead (eliminates need for global lock).</li>
+<li sourcefile="index.md" sourcestartlinenumber="64">Add more error checks for type hinting.</li>
+<li sourcefile="index.md" sourcestartlinenumber="65">Add full XMLDocs to public interfaces.</li>
+<li sourcefile="index.md" sourcestartlinenumber="66">Try to get custom importers/exporters working recursively.</li>
+<li sourcefile="index.md" sourcestartlinenumber="67">README.md needs more information and examples.</li>
+<li sourcefile="index.md" sourcestartlinenumber="68">Fix unit tests that cause mono to crash (something with Enums I think).</li>
 </ol>
 </article>
           </div>
