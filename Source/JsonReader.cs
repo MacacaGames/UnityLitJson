@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Globalization;
 
 namespace LitJson
 {
@@ -241,7 +242,7 @@ namespace LitJson
             {
 
                 double real;
-                if (double.TryParse(number, out real))
+                if (double.TryParse(number, NumberStyles.Any, CultureInfo.InvariantCulture, out real))
                 {
                     Token = JsonToken.Real;
                     Value = real;
@@ -249,21 +250,21 @@ namespace LitJson
                 }
             }
             long natural;
-            if (long.TryParse(number, out natural))
+            if (long.TryParse(number, NumberStyles.Any, CultureInfo.InvariantCulture, out natural))
             {
                 Token = JsonToken.Natural;
                 Value = natural;
                 return;
             }
             ulong unsignednatural;
-            if (ulong.TryParse(number, out unsignednatural))
+            if (ulong.TryParse(number, NumberStyles.Any, CultureInfo.InvariantCulture, out unsignednatural))
             {
                 Token = JsonToken.Natural;
                 Value = unsignednatural;
                 return;
             }
             decimal decimalreal;
-            if (Decimal.TryParse(number, out decimalreal))
+            if (Decimal.TryParse(number, NumberStyles.Any, CultureInfo.InvariantCulture, out decimalreal))
             {
                 Token = JsonToken.Real;
                 Value = decimalreal;
